@@ -1,0 +1,9 @@
+Metaxylem Elements per Fibrovascular Bundle
+1+  one to two metaxylem elements per fibrovacular bundle
+2+  three to four metaxylem elements per fibrovascular bundle
+
+Parenchyma Growth
+5+  parenchyma growth present
+6+  parenchyma growth absent
+
+Fibrovascular Bundles Centrif. Diff.

@@ -1,0 +1,23 @@
+Growth Ring Boundary
+40+  distinct growth ring boundaries
+41+  indistinct or absent growth ring boundaries
+
+Growth Ring Transition
+42+  an abrupt transition from earlywood to latewood
+43+  a gradual transition from earlywood to latewood
+
+Axial Parenchyma
+72+  axial parenchyma
+73+  diffuse parenchyma
+74+  tangentially zonate parenchyma
+75+  marginal parenchyma
+
+skip - Ray Parenchyma
+
+Ray Width
+107+  exclusively uniseriate rays
+108+  rays 2-3 seriate in part
+
+Intercellular Canals
+109+  axial resin canals
+111+  traumatic resin canals

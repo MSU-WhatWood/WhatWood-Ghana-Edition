@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chapter 8 Title" xml:space="preserve">
+    <value>Comentarios e información adicional para la identificación de las maderas</value>
+  </data>
+  <data name="Ch8 I" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Ch8T1" xml:space="preserve">
+    <value>Las limitaciones de la identificación de las maderas</value>
+  </data>
+  <data name="Ch8S1" xml:space="preserve">
+    <value>Usando la clave y las páginas de descripción de especies, estamos seguros que notaremos que la identificación exacta de una especie es raramente posible. Esto se debe, en parte, a la naturaleza de las herramientas que estamos usando en este manual; una lupa de mano es una herramienta potente para la identificación de las maderas, pero no es el método más eficaz para la identificación basada en características anatómicas. La mayor eficacia en la identificación de las maderas viene con el uso de la microscopía de luz, en un laboratorio con una colección de referencia científicamente validada (para más información sobre las colecciones de referencia, veáse más adelante). Aún en un escenario como este y con un microscopio, la identificación a nivel de especie no es todavía posible usando anatomía de las maderas en la mayoría de los casos.
+     Esta limitación, bastante profunda, no es el resultado de la falta de esfuerzo por parte de los investigadores en anatomía de las maderas, sino que más bien refleja una verdad biológica básica; las espécies son definidas por sus flores, frutos, hojas y otras características externas. Las características internas, como la anatomía de la madera, a menudo no varían de una especie a otra dentro del mismo género, y así las especies no pueden ser separadas por medio de estas características. Al momento de escribir este manual, se realizan numerosos esfuerzos en todo el mundo para usar otras técnicas científicas en la identificación exacta de especies madereras, y en algunos casos, para hacer coincidir un tronco, tabla o producto maderero específico, con un tocón dejado en el campo. La mayoría de estos métodos depende de tecnologías que hacen uso del ADN o técnicas sofisticadas de química o espectroscopia. Hasta la fecha ninguna de estas técnicas ha demostrado ser universalmente confiable, además, son costosas en dinero y tiempo, y todavía son consideradas técnicas más o menos experimentales. Cuando llegue el día en que la solución tecnológica esté disponible para asegurar la identificación de las maderas a nivel de especie, ésta probablemente no estará igualmente disponible para todos los países y regiones, y probablemente implicará análisis de laboratorio, en vez de análisis de campo.
+     Desde que se publicó la primera edición de este manual, una nueva tecnología de identificación de maderas en campo se ha desarrollado–la identificación de maderas por visión computarizada (CVWID, por sus siglas en inglés)–, en gran parte basada en la investigación y experimentación en nuestro laboratorio, aquí en Madison, WI, Estados Unidos. CVWID utiliza inteligencia artificial para evaluar y clasificar imágenes de maderas, normalmente a nivel de género. Aunque existen varios sistemas de este tipo (por ejemplo, LignoIndo en Indonesia o el sistema comercial Xylorix), el sistema más publicado, de código abierto y científicamente avalado sigue siendo nuestro sistema XyloTron. El XyloTron utiliza una cámara y lente de calidad científica, con una configuración de iluminación personalizada, para obtener imágenes e identificar las maderas, todo esto ejecutado desde un ordenador portátil. A pesar del éxito de este sistema en Ghana, Colombia, Perú y los Estados Unidos, el equipo sigue siendo costoso (aproximadamente 2,000 USD por unidad). Incluso con la invención del dispositivo de imagen para teléfonos inteligentes mucho más asequible, el XyloPhone de código abierto, estos sistemas no están, en el momento de escribir esto, ampliamente disponibles.
+     Hasta que se disponga del hardware (como el XyloTron) o del hardware y software (como el XyloPhone), las herramientas y técnicas que se enseñan en este manual, por rudimentarias que parezcan, seguirán siendo las herramientas de elección para la identificación de la madera en campo, en el futuro próximo. Usted ahora poseee un fundamento sólido en esta destreza y puede esperar que sus habilidades, si las mantiene en forma con práctica y observación cuidadosa, serán relevantes y útiles por al menos la próxima década y posiblemente por mucho más tiempo.</value>
+  </data>
+  <data name="Ch8T2" xml:space="preserve">
+    <value>La necesidad de expertos forenses científicos para combatir la tala ilegal</value>
+  </data>
+  <data name="Ch8S2" xml:space="preserve">
+    <value>La identificación de las maderas y productos madereros es el primer paso en el proceso de asegurar el comercio legal y el uso racional de los recursos forestales, pero no es el único paso. Dentro de cada país hay una necesidad crítica de uno o más centros científicos que se especialicen en la identificación forense de las maderas. Esto es, instituciones con los recursos para proveer identificaciones que alcancen los estándares suficientes para ser usadas como evidencia en un juicio. Retener un cargamento ilegal de madera es la primera parte necesaria del proceso, pero por sí sola no es suficiente para hacer cumplir la ley. Siempre se debe trabajar con las autoridades competentes y las agencias gubernamentales de cada país para asegurar que la evidencia necesaria para un decomiso o enjuiciamiento sea colectada y almacenada correctamente. Por experiencia propia, sabemos que los funcionarios en todas las instancias legales están dispuestos a ayudar a conocer los procedimientos necesarios para preservar y mantener la evidencia para un juicio. Debido a que las leyes varían substancialmente de un país a otro, aquí no se hace ningún intento de sugerir como se debe proceder. Simplemente se debe contactar a las personas relevantes de los gobiernos correspondientes y trabajar con ellas para asegurar la utilidad máxima de este manual. Solo a través de la aplicación de la ley hasta su cumplimiento, será como las leyes que protegen los recursos forestales (o los aranceles e impuestos) tendrán una contribución significativa en los bosques y en nuestra sociedad.</value>
+  </data>
+  <data name="Ch8T3" xml:space="preserve">
+    <value>El establecimiento de una colección de referencia de maderas</value>
+  </data>
+  <data name="Ch8S3" xml:space="preserve">
+    <value>En última instancia, la identificación científica de las maderas depende de un conjunto de especímenes conocidos, con los cuales pueden compararse los especímenes desconocidos. Los especímenes incluidos en este manual fueron tomados directamente de una las mejores colecciones de maderas del mundo o fueron comparados con especímenes de esa colección y considerados válidos. Como ya hemos dicho, nuestra opinión es que cada país debería tener al menos un experto en identificación de las maderas competente en proveer evidencias en caso de juicios, y esto necesariamente involucra una colección de maderas de referencia. La necesidad de una colección científica grande a nivel nacional no significa que no se pueda tener una pequeña colección de referencia propia, con unos 20 o 50 o 100 especímenes que representen las maderas más comunes. Una herramienta como esta es de gran valor en el campo de la identificación de las maderas, ya que ninguna foto puede competir con la información y detalle que se observa directamente con una lupa de mano. Si una imagen vale 1,000 palabras, un espécimen de madera vale 100,000. Si hubiera alguna manera rentable de hacerlo, cada copia de este manual incluiría un juego de especímenes de referencia para todas las especies incluidas en la clave. Llevar a cabo tal cosa habría hecho imposible todo este proyecto, por lo que corresponde a cada cual construir su propia colección de referencia. Esto se logra con paciencia y usando este manual para identificar cada espécimen que se va añadiendo a la colección, para así asegurar que solo se añadan maderas correctamente identificadas. Con las destrezas aquí adquiridas, las herramientas apropiadas, este manual y una colección de referencia en crecimiento, Ud. será capaz de llevar a cabo las tareas de identificación rápidamente y con más confianza.</value>
+  </data>
+  <data name="Ch8T4" xml:space="preserve">
+    <value>Información adicional sobre identificación de las maderas</value>
+  </data>
+  <data name="Ch8S4" xml:space="preserve">
+    <value>Además de este manual, existen numerosas referencias sobre identificación de las maderas. Muchas de ellas fueron escritas por anatomistas de madera profesionales y con énfasis en la identificación microscópica de las maderas. Estos recursos, aunque pueden sobrepasar nuestro conocimiento inicial, pueden, de todos modos, ayudarnos en nuestra tarea. Otras referencias serán más apropiadas a medida que desarrollemos nuestras destrezas en la identificación de las maderas. Es importante tener en mente que no todas las referencias son de la misma calidad; algunas referencias, aún las más conocidas, tienen errores graves. Abajo se presenta una pequeña selección de recursos con algunos comentarios francos acerca de la confiabilidad de la información en cada uno y la lengua en que están escritos.</value>
+  </data>
+  <data name="Ch8R1t" xml:space="preserve">
+    <value>DELTA Database of Commercial Timbers</value>
+  </data>
+  <data name="Ch8R1r" xml:space="preserve">
+    <value>&lt;Richter, H.G., and M.J. Dallwitz.&gt; 2000 en adelante. Commercial timbers: descriptions, illustrations, identification, and information retrieval. Versión 9 Abril 2019. ^https://delta-intkey.com|.</value>
+  </data>
+  <data name="Ch8R1d" xml:space="preserve">
+    <value>Base de datos con descripciones y sistema de identificación interactivo para especies de maderas duras de las principales regiones forestales del mundo y comunes en el comercio internacional. El paquete está diseñado principalmente para ser utilizado por investigadores de ciencias forestales y de la madera, así como por centros educativos dedicados a la enseñanza de la anatomía y la identificación de las maderas. La base de datos contiene las descripciones de más de 400 taxones (maderas comerciales) y aproximadamente 75% de los caracteres anatómicos y todos los taxones incluidos están ilustrados.</value>
+  </data>
+  <data name="Ch8R2t" xml:space="preserve">
+    <value>InsideWood</value>
+  </data>
+  <data name="Ch8R2r" xml:space="preserve">
+    <value>&lt;InsideWood.&gt; Desde 2004. Publicado en el Internet (^https://insidewood.lib.ncsu.edu|). [Inglés.]</value>
+  </data>
+  <data name="Ch8R2d" xml:space="preserve">
+    <value>Recurso tremendamente útil para la identificación de las maderas en el laboratorio, con un énfasis distintivo en la identificación usando microscopio de luz. Este recurso incorpora (usualmente) una caracterización anatómica completa de cada especie en la base de datos, permite una búsqueda rápida y muchas de las especies que incluye están ilustradas con una variedad de fotografías. A pesar del énfasis en microscopía, muchas de las especies en esta base de datos poseen una o más imágenes con aumento similar a las de este manual. InsideWood es actualizado, mejorado y mantenido regularmente, por lo cual continua mejorando como recurso. Como un recurso de internet, no es muy adecuado para el trabajo de campo si internet y navegadores portátiles no están disponibles.</value>
+  </data>
+  <data name="Ch8R3t" xml:space="preserve">
+    <value>Libros por Hoadley</value>
+  </data>
+  <data name="Ch8R3r" xml:space="preserve">
+    <value>&lt;Hoadley, R.B.&gt; 2000. [Understanding Wood: A Craftsman’s Guide to Wood Technology.] 2nd Ed. Taunton Press, Newtown, CT. [Inglés.]
+&lt;Hoadley, R.B.&gt; 1990. [Identifying Wood: Accurate Results with Simple Tools.] Taunton Press, Newtown, CT. [Inglés.]</value>
+  </data>
+  <data name="Ch8R3d" xml:space="preserve">
+    <value>Estos libros ofrecen información básica sobre la estructura, propiedades e identificación de las maderas, con un mayor énfasis en las especies de Norteamérica. La información es presentada claramente con ilustraciones de alta calidad, pero enfatiza observaciones microscópicas en vez de observaciones con lupa de mano para la identificación de las maderas.</value>
+  </data>
+  <data name="Ch8R4t" xml:space="preserve">
+    <value>Manual de Tecnología de la Madera</value>
+  </data>
+  <data name="Ch8R4r" xml:space="preserve">
+    <value>&lt;Panshin, A.J. and C. deZeeuw.&gt; 1980. [Textbook of Wood Technology.] 4th Ed. McGraw-Hill, NY. [Inglés.]</value>
+  </data>
+  <data name="Ch8R4d" xml:space="preserve">
+    <value>Este es un libro famoso, actualmente agotado, escrito para el nivel universitario, y es útil para entender muchos aspectos de la tecnología de las maderas, incluyendo información detallada sobre identificación de las maderas de especies de Norteamérica. Las claves para identificación en este libro no abarcan las maderas de Centroamérica, y son de consistencia y fiabilidad cuestionables para las especies incluidas. A pesar de la deficiencia de las claves, los capítulos iniciales que revisan la literatura científica sobre tecnología de las maderas son útiles y relativamente actualizados en relación al año de publicación.</value>
+  </data>
+  <data name="abrupt transition" xml:space="preserve">
+    <value>abrupta (transición)</value>
+  </data>
+  <data name="aliform parenchyma" xml:space="preserve">
+    <value>aliforme (parénquima)</value>
+  </data>
+  <data name="apotracheal parenchyma" xml:space="preserve">
+    <value>apotraqueal (parénquima)</value>
+  </data>
+  <data name="axial system" xml:space="preserve">
+    <value>axial (sistema)</value>
+  </data>
+  <data name="banded parenchyma" xml:space="preserve">
+    <value>bandeado (parénquima)</value>
+  </data>
+  <data name="cells" xml:space="preserve">
+    <value>células</value>
+  </data>
+  <data name="clusters (vessel arrangement)" xml:space="preserve">
+    <value>vasos en agrupación racemiforme</value>
+  </data>
+  <data name="color" xml:space="preserve">
+    <value>color</value>
+  </data>
+  <data name="confluent parenchyma" xml:space="preserve">
+    <value>confluente (parénquima)</value>
+  </data>
+  <data name="dendritic (vessel arrangement)" xml:space="preserve">
+    <value>dendrítica (disposición de vasos)</value>
+  </data>
+  <data name="density" xml:space="preserve">
+    <value>densidad</value>
+  </data>
+  <data name="diffuse (parenchyma)" xml:space="preserve">
+    <value>difuso (parénquima)</value>
+  </data>
+  <data name="diffuse-porous" xml:space="preserve">
+    <value>difusa (porosidad)</value>
+  </data>
+  <data name="diffuse-in-aggregates parenchyma" xml:space="preserve">
+    <value>difuso-agregado (parénquima)</value>
+  </data>
+  <data name="earlywood" xml:space="preserve">
+    <value>leño temprano</value>
+  </data>
+  <data name="echelon (vessel arrangement)" xml:space="preserve">
+    <value>radial-oblicua (disposición de vasos)</value>
+  </data>
+  <data name="fibers" xml:space="preserve">
+    <value>fibras</value>
+  </data>
+  <data name="fluorescence" xml:space="preserve">
+    <value>fluorescencia</value>
+  </data>
+  <data name="genus" xml:space="preserve">
+    <value>género</value>
+  </data>
+  <data name="gradual transition" xml:space="preserve">
+    <value>gradual (transición)</value>
+  </data>
+  <data name="growth rings" xml:space="preserve">
+    <value>anillos de crecimiento</value>
+  </data>
+  <data name="hardness" xml:space="preserve">
+    <value>dureza</value>
+  </data>
+  <data name="hardwood" xml:space="preserve">
+    <value>madera dura</value>
+  </data>
+  <data name="heartwood" xml:space="preserve">
+    <value>duramen</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>clave</value>
+  </data>
+  <data name="latewood" xml:space="preserve">
+    <value>leño tardío</value>
+  </data>
+  <data name="lozenge aliform parenchyma" xml:space="preserve">
+    <value>aliforme rómbico (parénquima)</value>
+  </data>
+  <data name="luster" xml:space="preserve">
+    <value>brillo</value>
+  </data>
+  <data name="marginal parenchyma" xml:space="preserve">
+    <value>marginal (parénquima)</value>
+  </data>
+  <data name="multiples (vessel)" xml:space="preserve">
+    <value>múltiples (vasos)</value>
+  </data>
+  <data name="odor" xml:space="preserve">
+    <value>olor</value>
+  </data>
+  <data name="paratracheal" xml:space="preserve">
+    <value>paratraqueal (parénquima)</value>
+  </data>
+  <data name="parenchyma (axial)" xml:space="preserve">
+    <value>parénquima axial</value>
+  </data>
+  <data name="parenchyma (cell type)" xml:space="preserve">
+    <value>parénquima (tipo de célula)</value>
+  </data>
+  <data name="pith" xml:space="preserve">
+    <value>médula</value>
+  </data>
+  <data name="pores (see vessels)" xml:space="preserve">
+    <value>poros (ver vasos)</value>
+  </data>
+  <data name="radial canals" xml:space="preserve">
+    <value>canales radiales</value>
+  </data>
+  <data name="radial plane of section" xml:space="preserve">
+    <value>radial (superficie)</value>
+  </data>
+  <data name="radial system" xml:space="preserve">
+    <value>radial (sistema)</value>
+  </data>
+  <data name="radially aligned (vessel arrangement)" xml:space="preserve">
+    <value>radial-oblicua (disposición de vasos)</value>
+  </data>
+  <data name="rays" xml:space="preserve">
+    <value>radios</value>
+  </data>
+  <data name="resin canals" xml:space="preserve">
+    <value>canales resiníferos</value>
+  </data>
+  <data name="ring porous" xml:space="preserve">
+    <value>porosidad circular</value>
+  </data>
+  <data name="ripple marks (see storied rays)" xml:space="preserve">
+    <value>rizaduras (ver estratificación)</value>
+  </data>
+  <data name="sapwood" xml:space="preserve">
+    <value>albura</value>
+  </data>
+  <data name="semi-ring-porous" xml:space="preserve">
+    <value>porosidad semicircular</value>
+  </data>
+  <data name="softwood" xml:space="preserve">
+    <value>madera blanda</value>
+  </data>
+  <data name="solitary (vessels)" xml:space="preserve">
+    <value>solitarios (vasos)</value>
+  </data>
+  <data name="specific epithet" xml:space="preserve">
+    <value>epiteto específico</value>
+  </data>
+  <data name="storied rays" xml:space="preserve">
+    <value>estratificación, estratificados (radios)</value>
+  </data>
+  <data name="systems (tissue)" xml:space="preserve">
+    <value>sistemas (de células)</value>
+  </data>
+  <data name="tangential plane of section" xml:space="preserve">
+    <value>tangencial (superficie)</value>
+  </data>
+  <data name="tracheids" xml:space="preserve">
+    <value>traqueidas</value>
+  </data>
+  <data name="transverse plane of section" xml:space="preserve">
+    <value>transversal (superficie)</value>
+  </data>
+  <data name="tyloses" xml:space="preserve">
+    <value>tílides</value>
+  </data>
+  <data name="vasicentric parenchyma" xml:space="preserve">
+    <value>vasicéntrico (parénquima)</value>
+  </data>
+  <data name="vessel arrangement" xml:space="preserve">
+    <value>disposición de vasos</value>
+  </data>
+  <data name="vessels (or pores)" xml:space="preserve">
+    <value>vasos</value>
+  </data>
+  <data name="winged aliform parenchyma" xml:space="preserve">
+    <value>aliforme alado (parénquima)</value>
+  </data>
+  <data name="Chapter" xml:space="preserve">
+    <value>Capítulo</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="Figure" xml:space="preserve">
+    <value>Figura</value>
+  </data>
+  <data name="Ch." xml:space="preserve">
+    <value>Cap.</value>
+  </data>
+  <data name="Fig." xml:space="preserve">
+    <value>Fig.</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Término</value>
+  </data>
+  <data name="Ch8R2riOS" xml:space="preserve">
+    <value>&lt;InsideWood.&gt; Desde 2004. Publicado en el Internet</value>
+  </data>
+  <data name="Ch8R2riOS1" xml:space="preserve">
+    <value>(^https://insidewood.lib.ncsu.edu|). [Inglés.]</value>
+  </data>
+</root>

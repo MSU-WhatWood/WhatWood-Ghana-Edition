@@ -1,0 +1,737 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="studyFC" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="Background Title" xml:space="preserve">
+    <value>Background, Objective, and Acknowledgments</value>
+  </data>
+  <data name="Chapter 1" xml:space="preserve">
+    <value>Chapter 1 </value>
+  </data>
+  <data name="Chapter 1 Title" xml:space="preserve">
+    <value>Wood identification and pattern recognition</value>
+  </data>
+  <data name="Chapter 2" xml:space="preserve">
+    <value>Chapter 2 </value>
+  </data>
+  <data name="Chapter 2 Title" xml:space="preserve">
+    <value>Basic wood biology - anatomy for identification</value>
+  </data>
+  <data name="Chapter 3" xml:space="preserve">
+    <value>Chapter 3 </value>
+  </data>
+  <data name="Chapter 3 Title" xml:space="preserve">
+    <value>Correct use of a hand lens</value>
+  </data>
+  <data name="Chapter 4" xml:space="preserve">
+    <value>Chapter 4 </value>
+  </data>
+  <data name="Chapter 4 Title" xml:space="preserve">
+    <value>Wood specimen preparation for hand lens observation</value>
+  </data>
+  <data name="Chapter 5" xml:space="preserve">
+    <value>Chapter 5 </value>
+  </data>
+  <data name="Chapter 5 Title" xml:space="preserve">
+    <value>Basic characters used in the identification of wood with a hand lens</value>
+  </data>
+  <data name="Chapter 8" xml:space="preserve">
+    <value>Chapter 8 </value>
+  </data>
+  <data name="Chapter 8 Title" xml:space="preserve">
+    <value>Additional information about wood identification</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Index of local and trade names</value>
+  </data>
+  <data name="Table of Contents" xml:space="preserve">
+    <value>Table of Contents</value>
+  </data>
+  <data name="W" xml:space="preserve">
+    <value>W</value>
+  </data>
+  <data name="Ch1S0" xml:space="preserve">
+    <value>ood identification is a combination of art and science. Whereas the bulk of the wood identification section of this manual focuses on the scientific characteristics used to make accurate field identifications of wood, the contribution of the artistic component to the identification process should be neither overlooked nor understated. There is nothing specific you must do to train yourself in the artistic aspects of wood identification; your mind will do this automatically. The scientific aspects, on the other hand, are not as easy as the artistic portion of the process and will come only with diligent study, practice, and focus.
+     Wood identification is a process of pattern recognition. The patterns you will learn to recognize are patterns of wood structure; that is, specific cells in specific arrangements, many of which have specific terminology associated with them. At first, the terminology may be daunting, but with practice, the terms will take on meaning.
+     The process of identifying a wood specimen is a microcosm of the process of learning to identify any object. It is very similar to learning to identify anything—wood, birds, chairs, people. All these identifications are governed by the same processes of cognition resulting in recognition of a pattern (Fig. 1.1). Identification begins with careful observation, proceeds to mental comparison with similar woods, and then makes reference to a formal means of confirming an identification (e.g., reference to images in this manual or a small collection of correctly identified specimens).</value>
+  </data>
+  <data name="Ch1Cap0" xml:space="preserve">
+    <value>Figure 1.1—We use pattern recognition in all aspects of our daily lives. All three of these objects are chairs, despite the differences in materials and design.</value>
+  </data>
+  <data name="Ch1S1" xml:space="preserve">
+    <value>     To be able to gather information about the characters in a piece of wood, you must understand the basic biology of wood (&lt;Chapter 2&gt;); use the correct tools (&lt;Chapter 3&gt;); be able to prepare the wood for observation (&lt;Chapter 4&gt;); and make careful observations of wood characters (defined and illustrated in &lt;Chapter 5&gt;). These characters are employed in an identification key (&lt;Chapter 6 - Key tab&gt;), and then from the key, the user is directed to species pages that provide more detailed information for confirming an identification (&lt;Chapter 7 - Species tab&gt;). Following the species description pages, the manual concludes with a reprise of the principles and process of identification, including a commentary on the limits of wood identification, a discussion on the need for scientific forensic expertise to combat illegal logging, a discussion on the formation of a reference wood collection, and additional information available to users in the robust and fascinating field of scientific wood identification (&lt;Chapter 8&gt;).
+     Before the topics of using a hand lens, preparing wood for observation, and understanding the characters used in wood identification can be tackled, a general introduction to the biology of wood is needed. The woods in commercial trade in Ghana come almost exclusively from trees, so the discussion of wood biology is restricted to trees here, though much of what is presented is also true of shrubs and lianas.
+     The treatments of wood structure and wood identification in this manual are fairly rigorous and will provide the foundation necessary to identify not just the common woods found in Ghana but also tropical African woods. Additional references for wood identification are presented in &lt;Chapter 8&gt;. Therefore, if you wish to extend your knowledge of wood identification, the fundamentals in this manual will set you on a firm path.</value>
+  </data>
+  <data name="Chapter 1 Title short" xml:space="preserve">
+    <value>Wood ID and pattern recognition</value>
+  </data>
+  <data name="Chapter 2 Title short" xml:space="preserve">
+    <value>Basic wood biology—Anatomy for ID</value>
+  </data>
+  <data name="B" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="Ch2S0" xml:space="preserve">
+    <value>t is not a simple matter to organize the gross structure and biology of wood into an easy-to-understand text. It may be necessary to move back and forth between some concepts in this chapter in an effort to present a unified concept of wood structure for wood identification. Some sections of this chapter will be difficult to understand fully the first time through; if you read it a second time after thinking about the material, the once-unfamiliar concepts will be clearer.</value>
+  </data>
+  <data name="Ch2T1" xml:space="preserve">
+    <value>2.1 Wood as a cellular material</value>
+  </data>
+  <data name="Ch2S1" xml:space="preserve">
+    <value>Wood, like all living or once-living materials, is made from millions and millions of interconnected cells that form a larger structure, in much the same way your heart or liver is made of many different cells. Cells are the basic building blocks of larger organisms, and most of the identification sections of this manual focus on understanding different types, shapes, orientations, and groups of cells in wood. If the cellular basis of life is an unfamiliar concept, don’t worry. The biological details of cells are not strictly necessary for wood identification, and what is necessary to understand is subsequently presented. It is our experience that most people find wood easier to understand and observe if they understand its origin as a biological material.</value>
+  </data>
+  <data name="Ch2T2" xml:space="preserve">
+    <value>2.2 Two systems of cells in wood</value>
+  </data>
+  <data name="Ch2S2" xml:space="preserve">
+    <value>Wood is made of two interlocking systems of cells, the axial system and the radial system (Fig. 2.1). The &lt;axial system&gt; is all the cells running up and down the trunk of the tree or along the grain of a board. The &lt;radial system&gt; is made up of rays, groups of cells running from the center of the tree out toward the bark.</value>
+  </data>
+  <data name="Ch2S2c" xml:space="preserve">
+    <value>Rays and the radial system in general are less familiar to the casual observer of wood, but are critical to understand and identify wood, as they are wood’s defining feature. If a wood-like material lacks rays, it is not wood. For example, palm and bamboo lack rays, and though physically they are similar to wood, anatomically and botanically they are not wood. These facts are the basic structural principles of wood, and you can always come back to these basic facts to help yourself understand wood structure.</value>
+  </data>
+  <data name="Ch2T3" xml:space="preserve">
+    <value>2.3 Functions of wood in a tree</value>
+  </data>
+  <data name="Ch2S3" xml:space="preserve">
+    <value>Wood performs three major functions in the living tree, and by understanding these functions and the roles they play in the tree, we can better organize some of the anatomical details of wood. Common sense, a small dose of biology, and careful observation of wood will allow you to integrate the structure of wood with its function and remember more easily the names of cells and the patterns they form.
+     The most important function of wood to a living tree is the conduction of water from the roots up the trunk, along the branches, and out to leaves. If a tree fails at this task, it dies quickly. In wood, there are special types of cells that perform the conductive function, and it can be helpful to remember the conductive function of wood when learning to tell apart the various patterns of wood structure that we will see in this manual.
+     When most people are asked about the functions of wood, the first they think of is mechanical support, the strength of wood. Holding aloft the stem, branches, leaves, flowers, and fruits is indeed an important task for wood. All cells in wood play some role in its mechanical strength, but in some woods, there are cells specifically designated for a mechanical function. This is much like your own body; even though your muscles, tendons, and ligaments are involved in supporting your body, the most important structural feature for mechanical support in a human is the skeleton.
+     The least obvious of the three functions of wood is the storage and synthesis of biochemicals. In the context of wood identification, storage is critically important because it is the storage function that gives wood its characteristic colors and odors. Color and odor occur as a function of the accumulation of chemicals in the central part of the trunk, whereas the outer layer of wood lacks them.</value>
+  </data>
+  <data name="Ch2Cap1" xml:space="preserve">
+    <value>Figure 2.1—Axial and radial systems in wood. The diagram on the left shows a simplification of the axial and radial systems. The photograph on the right shows a decayed stump in which much of the axial system has been removed by fungi. The card-like tabs protruding are the rays of the radial system.</value>
+  </data>
+  <data name="Ch2T4" xml:space="preserve">
+    <value>2.4 Heartwood, sapwood, and pith</value>
+  </data>
+  <data name="Ch2S4" xml:space="preserve">
+    <value>A cut stump or a disc from a tree (Fig. 2.2) shows two basic domains in most woods: the central typically darkly colored (and sometimes odiferous) area called &lt;heartwood&gt; and the typically lighter colored outer strip of wood under the bark, the &lt;sapwood&gt;.</value>
+  </data>
+  <data name="Ch2Cap2" xml:space="preserve">
+    <value>Figure 2.2—The end grain of a log. Bark surrounds the log. Inside this is the wood. The light colored wood is sapwood, the dark colored wood is heartwood. The small dot representing the center of the tree is the pith.</value>
+  </data>
+  <data name="Ch2S4c" xml:space="preserve">
+    <value>In a living tree, water is conducted only in the sapwood; the heartwood does not participate in this function. Both heartwood and sapwood are involved in the mechanical support of the tree. For commercial timbers, generally only the heartwood is of value and the sapwood is not desirable. There is no appreciable structural difference between heartwood and sapwood; the difference is one of accumulated biochemicals in the heartwood. We can see that the tree, in addition to using different cells for different functions, also separates some functions in the wood (storage and conduction) at a level that can be easily seen with the naked eye. The center of the tree is called the &lt;pith&gt;; this is the tissue formed before the first wood was made by the tree.</value>
+  </data>
+  <data name="Ch2T5" xml:space="preserve">
+    <value>2.5 Growth rings</value>
+  </data>
+  <data name="Ch2S5" xml:space="preserve">
+    <value>Another way in which many (but not all) trees separate the three functions of wood is by forming discrete layers of wood with multiple components, each emphasizing a different function. These discrete units of wood are called growth rings (Fig. 2.3), and they represent the basic building blocks of wood structure that span the microscopic, cellular nature of wood and what can be seen with the naked eye.</value>
+  </data>
+  <data name="Ch2Cap3" xml:space="preserve">
+    <value>Figure 2.3—Growth rings in a softwood and a hardwood. Although the structure of these two woods is quite distinct, both have growth rings and the growth rings can be divided into earlywood and latewood.</value>
+  </data>
+  <data name="Ch2S5c" xml:space="preserve">
+    <value>For those trees that form them, a growth ring is all the wood formed during one period of growth (whether that be the rainy season, the growing season, the time between flowerings, etc.) that can be distinguished by some anatomical characteristic from the wood formed during a different growth period. When you look at the end grain of a board or the cut end of a log or a stump, the concentric circles you can see are most likely growth rings. The portion of a growth ring formed at the beginning of the growing season is known as &lt;earlywood&gt;. It is found closer to the pith and can be specialized for the conductive function of wood. The portion of the growth ring formed later in the season is called &lt;latewood&gt;. It is found toward the outside of the tree and can be specialized for mechanical support. In most woods, there is no obvious separation of the storage function between the earlywood and latewood. Much more will be said about earlywood and latewood in Chapter 5, when the various kinds of growth rings are explored as sources of characters for identification. One last comment must be made here. The rays of the radial system appear as lines perpendicular to the growth rings when the end grain of a board or a stump is examined.</value>
+  </data>
+  <data name="Ch2T6" xml:space="preserve">
+    <value>2.6 The planes of section</value>
+  </data>
+  <data name="Ch2S6" xml:space="preserve">
+    <value>The relationship between the cells of the axial system and the rays of the radial system, the round shape of a tree trunk, and the concentric nature of growth rings around the trunk combine to give us three primary ways to view a piece of wood. These three views are known as planes of section, and understanding them is one of the most difficult aspects of, but also absolutely necessary for, wood identification. Refer to Figure 2.4 as you read the following paragraphs.</value>
+  </data>
+  <data name="Ch2Cap4" xml:space="preserve">
+    <value>Figure 2.4—The planes of section illustrated three different ways. On the left is a photograph of a small log that has been cut across the grain to expose the transverse surface and cut along the grain to expose the radial and tangential surfaces. On the upper right is an illustration showing the relationship between radial and tangential planes in a simple cylinder. On the bottom right, a piece of apple pie shows the three planes of section. The top and bottom of the piece of pie represent transverse surfaces, and the cut sides represent radial surfaces. The curved outer crust of the pie represents the tangential surface.</value>
+  </data>
+  <data name="Ch2S6c" xml:space="preserve">
+    <value>     There are two fundamental ways to cut wood: across the grain and along the grain. When we cut wood, whether to view it with a hand lens or to produce a board, the easiest cut to understand is across the grain. This is the transverse cut that loggers make when they fell a tree. This cut is perpendicular to the trunk and thus across the grain of the wood—across the axial system. The surface you see once this cut is made is the &lt;transverse plane of section&gt; or transverse surface, also known as the end-grain of the wood. On the transverse surface, we can see the curving nature of the growth rings and the way in which the rays of the radial system run perpendicular to that curvature; the rays appear as straight lines running from the center of the tree out toward the bark. To understand the other two planes of section, we must understand the relationship between rays, growth rings, and the round form of a tree trunk.
+     The second fundamental way to cut wood is along the grain; doing this produces a longitudinal cut and exposes a longitudinal surface. Although it is possible to cut along the grain in any orientation with respect to the rays and growth rings, the structure of wood shows us that there are two basic ways to cut it, either parallel to the rays or perpendicular to them. Because the rays and growth rings are perpendicular to each other, we can cut perpendicular to the growth rings or parallel to them. Not all woods, however, have obvious growth rings, so we will orient ourselves by speaking of the cut in reference to the direction the rays are oriented.
+     When we cut along the grain and parallel to the rays, we produce a radial surface or &lt;radial plane of section&gt;. This exposes the rays as lines running across the surface and is rarely used in the hand lens identification of wood. If a round piece of firewood is split exactly in half, from one side to the other through the center of the tree, the flat surface is a radial surface.
+     More important for our purposes is the longitudinal cut perpendicular to the rays—the &lt;tangential plane of section&gt;, or tangential surface. This exposes the cut ends of the rays and allows us to understand the size, spacing, and arrangement of the rays. This is the view of wood we would have if we could walk up to a standing tree and tear away the bark to view the wood.
+     We can use two analogies to clarify these ideas: geometry and apple pie (Fig. 2.4). In the geometry example, we draw a circle. Any line from the center of the circle to the edge of the circle is a radius of that circle. The radius in geometry is the ray in wood (and indeed is the source of the term “ray”). A line that touches a circle at one point is called a tangent line, and any radius of a circle that intersects with a tangent line is perpendicular to it at that point. The tangent line is parallel to the edge of the circle at that point. The edge of the circle represents a growth ring, the radius a ray, and thus if we are perpendicular to the ray, we are parallel to the growth ring. By extending this two-dimensional circle geometry to a three-dimensional cylinder and extending either the radius or the tangent line up and down the cylinder, we produce a radial or tangential plane of section, respectively.
+     The second analogy is perhaps more accessible. If we start with a freshly baked, delicious apple pie, we have a round object. When we cut the pie to share it with our family, we make cuts from the edge of the pie into and across the center until we have a number of wedge-shaped pie pieces. Each pie piece shows all three planes of section. The top and bottom crusts of the pie are the transverse surfaces. The exposed apple filling along the two cut edges are radial surfaces, and the outer, curved portion of crust that was against the pie pan is a curving tangential surface.
+     We identify people we know mostly by facial characteristics, and hand-lens wood identification uses primarily features on the transverse surface; thus it can be said to be the “face” of wood. For this reason, any reference to the appearance of a character will be on the transverse surface unless otherwise stated. We will do little or nothing with the radial and tangential surfaces. One way to perfect your understanding of the planes of section is to make careful three-dimensional drawings of the relations between the planes without looking at the figures. When you can explain the planes of section to someone else, your understanding of the material is complete.</value>
+  </data>
+  <data name="Ch2T7" xml:space="preserve">
+    <value>2.7 Softwoods and hardwoods</value>
+  </data>
+  <data name="Ch2S7" xml:space="preserve">
+    <value>The topics we have covered thus far in this chapter are true of all woods in the manual, regardless of species or origin. The remainder of the chapter is devoted to drawing some fundamental distinctions between different kinds of woods and understanding the anatomical and cellular bases for their differences.
+     There are two fundamental types of wood, depending on the type of tree that made the wood: softwoods and hardwoods (Fig. 2.5). Softwoods come from needle-leaved and cone-bearing trees, such as pines, spruces, firs, cedars, and podocarps. Hardwoods come from broad-leaved and flower-bearing trees, such as emire, mansonia, ofram, and wawa. The distinction between hardwoods and softwoods is thus a botanical one, and in the forest, this can most easily be seen by differences in external characteristics such as leaf shape, the nature of the reproductive structures (cones vs. flowers), and the architecture of the tree itself.</value>
+  </data>
+  <data name="Ch2Cap5" xml:space="preserve">
+    <value>Figure 2.5—Two examples of the transverse surface of softwoods, and two examples of hardwoods. On the left, top and bottom, are two softwoods, as well as a silhouette of a generic softwood tree. On the right, top and bottom, are two hardwoods, as well as a generic hardwood silhouette.</value>
+  </data>
+  <data name="Ch2S7c" xml:space="preserve">
+    <value>In addition to these external features, the cells that comprise the wood of softwoods and hardwoods are quite different structurally. Thus, hardwoods and softwoods are easily distinguishable from each other in the process of wood identification.
+     Though softwoods and hardwoods are structurally distinct (as will be explained in detail below), both are still wood and thus serve the same three functions for the tree. They have axial and radial systems, heartwood and sapwood, and growth rings and can be cut to produce transverse, radial, and tangential planes of section. Many species of both softwoods and hardwoods divide the labor of the three functions according to the kinds of cells in each and the ways in which the growth rings are formed by the tree. Cells in wood are either dead at functional maturity (one type of cell in softwoods, two types of cells in hardwoods) or alive at functional maturity. In both softwoods and hardwoods, the living cells are called parenchyma cells. Parenchyma cells can be a part of the axial system of both softwoods and hardwoods and make up virtually all the cells in the radial system (that is, rays are composed of parenchyma cells).</value>
+  </data>
+  <data name="Ch2T8" xml:space="preserve">
+    <value>2.7.1 Specific cellular anatomy of softwoods</value>
+  </data>
+  <data name="Ch2S8" xml:space="preserve">
+    <value>The cellular anatomy of softwoods is simple compared with that of hardwoods (Fig. 2.6).</value>
+  </data>
+  <data name="Ch2Cap6" xml:space="preserve">
+    <value>Figure 2.6—Anatomical differences between softwoods (top) and hardwoods (bottom). Softwoods are composed mostly of tracheids, which can be thin-walled in the earlywood and thick-walled in the latewood, and rays running vertically in the image on the right. The illustrations on the left show more detail and are drawn at a higher magnification than the hand-lens view of the transverse surface on the right. Shown in both images are resin canals. Hardwoods are structurally more complex than softwoods, with vessels, fibers, axial parenchyma, and rays. The vessels are the dark holes scattered throughout the wood. The rays are the lines running vertically in the image. The axial parenchyma in this wood appears as light-colored, round halos around the vessels. The individual fibers are too small to be seen, but together form the brown tissue in which the other cells are embedded. Note that in this hardwood, there is no clear distinction between earlywood and latewood. This is discussed in more detail in Chapter 5.</value>
+  </data>
+  <data name="Ch2S8c" xml:space="preserve">
+    <value>The axial system is formed predominantly of one kind of cell, the &lt;tracheid&gt;, which serves the tree both in the conduction of water and in mechanical support, and is dead at functional maturity. Viewed with a hand lens, tracheids appear as small boxes or rectangles. In species with obvious growth rings, the earlywood tracheids are typically thin-walled and the open spaces in the cells, the lumina, can be seen as dark centers. In such species, the cell walls of the latewood are much thicker, and often the lumina of the cells cannot be seen. The second and less prevalent cell type in the axial system of softwoods is axial parenchyma, which appear as either scattered solitary cells or forming special structures called resin canals. Resin canals are discussed later as an important character for the identification of softwoods. The radial system, as in all woods, is composed of ray parenchyma cells. It is not possible to see individual softwood ray parenchyma cells with a hand lens, but the rays they compose are faintly visible as straight lines running perpendicular to the growth rings. Rays in softwoods are generally only one cell wide, and this is why they appear only faintly.</value>
+  </data>
+  <data name="Ch2T9" xml:space="preserve">
+    <value>2.7.2 Specific cellular anatomy of hardwoods</value>
+  </data>
+  <data name="Ch2S9" xml:space="preserve">
+    <value>The cellular wood anatomy of hardwoods is more complex than that of softwoods (Fig. 2.6) because there are three main cell types in the axial system: vessels, axial parenchyma, and fibers.
+     &lt;Vessels&gt; are the characteristic cell type of hardwoods; all hardwoods in the manual have vessels, and no softwoods in the manual have them. Thus, the presence of vessels is definitive proof that a wood is a hardwood. Vessels are dead cells specialized for water conduction and are generally much larger and rounder than tracheids in softwoods. They appear as round pipes or holes in the wood, and understanding the variation in their structure, size, distribution, and relative proportions is a major component of hardwood identification.
+     &lt;Axial parenchyma&gt; cells in hardwoods are, as with all parenchyma cells, living cells when functioning in the tree. Axial parenchyma in hardwoods is much more common, and its distribution much more complex, than in softwoods. Axial parenchyma is generally visible with a hand lens when it occurs in groups of many parenchyma cells. It is generally seen as a lighter colored tissue compared with the other cells in the wood. Hardwoods present a great range of axial parenchyma patterns and abundance, ranging from barely visible with a microscope to easily seen with the naked eye. Along with variations in vessel characteristics, the amount, distribution, and type of axial parenchyma present in a wood is one of the major sets of characters used in hardwood identification.
+     &lt;Fibers&gt; are dead, thick-walled cells and are not usually individually visible with a hand lens, but in any given hardwood, groups of fibers usually form a large percentage of the visible cells. Though it is an awkward way to describe their appearance, fibers are most easily seen and understood by subtraction; if you are looking at cells of the axial system that are not vessels or axial parenchyma, they are fibers.
+     The radial system of hardwoods is composed of &lt;ray parenchyma&gt;, and as with softwoods, it is usually not possible to discern individual ray parenchyma cells. Unlike softwoods, hardwoods have a tremendous variety of ray widths, ranging from rays one cell wide and barely visible (as in softwoods) to rays more than 60 cells wide and easily seen at a distance with the naked eye.</value>
+  </data>
+  <data name="Ch2T10" xml:space="preserve">
+    <value>2.8 Understanding scientific names</value>
+  </data>
+  <data name="Ch2S10" xml:space="preserve">
+    <value>This manual will reference woods using the species’ scientific names, rather than their local or trade names, though they will be included when available. The reason for this is that the same species can have one or more local or trade names in every region in which it grows. It would be confusing to use all the local names from all regions every time we refer to a species. Adding to the confusion, the same local name can be applied to completely different woods in other regions. The confusion this would create would easily exceed the burden of learning to use scientific names.
+     Scientific names are made of two words, a genus name and a specific epithet. Both the genus and the specific epithet are italicized or underlined when printed. The genus name is the first word of the two and is always capitalized. The specific epithet is the second word of the two and is not capitalized. Scientific names give you information about the species in question in much the same way that your name gives others information about you and your relations. For example, the name Kofi Bonsu: Bonsu is the surname, and because of traditions in Ghana, this gives you information about the surname of the father. Kofi is the given name, and this distinguishes him from other members of his family, none of whom are named Kofi. In scientific names, the genus name (or genus) is like the surname; it designates the group to which the species most closely belongs. The specific epithet is like a given name (first name), distinguishing that species from all others in the genus.
+     For African mahogany, the scientific name is [Khaya ivorensis]. The word [Khaya] is the genus name, and the word [ivorensis] is the specific epithet. Three other species in the genus [Khaya, K. anthotheca, K. grandifolia], and [K. senegalensis], appear in this manual. Note that the genus was abbreviated by placing a period after the first letter and omitting the rest of the word. This is done only after the genus has been spelled out already and is a convention that saves space. Note also that it did not say “There are three other species in the genus [Khaya, anthotheca, grandofolia], and [senegalensis].” Although it would have been clear that the subject was a species of [Khaya], in other cases, such a shortcut might lead to confusion in much the same way as using only the given name, Kofi, which is not specific enough to distinguish him from all the other people with that given name. If the surname were a common name such as Smith, there would probably be hundreds or thousands of other people named Kofi Smith in the world. Such confusion is prevented in scientific names by a simple rule; the same combination of genus name and specific epithet may not be used to refer to more than one species. Thus, there is only one [Khaya ivorensis] in the world, and its scientific name can never be confused with that of any other species.
+     Learning to use scientific names correctly empowers you to communicate precisely. Sometimes the group to which a wood belongs is between the level of species and genus. This is common in genera (the plural of genus) with many species or in genera in which the wood of different species is dramatically different. For example, the genus [Celtis] has many species scattered across West Africa and different groups of species have different anatomical characteristics. [Celtis zenkeri] is a species that belongs to the red (Esa-kokoo) group. Its identity could be reported as [Celtis] sp., red (Esa-kokoo) group, because though it can be determined that it is not a member of the white Celtis (Esa-fufuo) group, the exact species within the red Celtis (Esa-kokoo) group cannot be determined. There is no special or convenient scientific word to use, so the scientific name is combined with additional information written in plain language to indicate the proper level of specificity in the identification.</value>
+  </data>
+  <data name="A" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Ch3S0" xml:space="preserve">
+    <value> hand lens is a powerful tool for the identification of wood, but like all tools, it must be used correctly to take full advantage of its powers. The hand lens has two main parts (Fig. 3.1), a lens that magnifies the object of interest (generally we use 10× or 14× lenses in wood identification; a 14× lens is recommended for use with this manual) and a housing to hold and protect the lens.</value>
+    <comment>@MutedRule(WhiteSpaceLead)</comment>
+  </data>
+  <data name="Ch3S0c" xml:space="preserve">
+    <value>Unlike a microscope that is able to focus at different distances depending on the specimen and the configuration of the various lenses, thus requiring much adjusting, a hand lens has a fixed focal length. There is only one distance between the lens and the object that will produce a sharp image. This distance is easily found by examining a coin or other familiar object with the lens but is generally only 1–4 cm between the lens and the specimen. Most hand lenses have no “front” or “back” to them; you can look through either side of the lens at a specimen.
+     Because there is only one distance between the lens and the object that will produce a good image, the remaining variable is the distance between the lens and your eye. For the best results, the hand lens should be placed as close to your eye as possible (Fig. 3.2); it is common for your eyelashes to brush against the lens when it is used correctly.</value>
+  </data>
+  <data name="Ch3Cap1" xml:space="preserve">
+    <value>Fig. 3.1—A hand lens has two main parts, the lens and the housing.</value>
+  </data>
+  <data name="Ch3Cap2" xml:space="preserve">
+    <value>Figure 3.2—Using a hand lens to observe a wood specimen. On the left, the distance between the lens and the observer’s eye is much too great, but the distance between the lens and wood specimen is correct. The top photo in the center shows the correct distance between the lens and the wood specimen. The bottom photo in the center shows the correct distance between the lens and the eye. The photograph on the right shows the correct distances between the lens, the specimen, and the eye.</value>
+  </data>
+  <data name="Ch3S0c1" xml:space="preserve">
+    <value>Many people find this unnatural at first, but it is essential that this close distance be used. Before trying to look at a specimen of wood, use the lens to examine common objects: the cloth of a shirt, the print in this manual, a fingernail, or other things of interest. Force yourself to keep the lens close to your eye, and practice adjusting the distance between the lens and the object. At first, it will probably be helpful to close your other eye, but after a few minutes of examining common objects, practice using the lens with both eyes open. Although this can be difficult for many people, it is a good skill to practice because it will reduce eye strain.
+     It can be difficult to ensure that enough light reaches the specimen when using a hand lens; your hands and head will block light and shade the specimen (Fig. 3.3), making it hard to observe details.</value>
+  </data>
+  <data name="Ch3Cap3" xml:space="preserve">
+    <value>Figure 3.3—On the left, the observer’s head is blocking the light, and the specimen cannot be observed properly. On the right, the observer is allowing light to fall on the specimen to ensure accurate observation.</value>
+  </data>
+  <data name="Ch3S0c2" xml:space="preserve">
+    <value>It is tempting to move the lens away from your eye at this point so that more light falls on the object. Do not do this. Instead, you must reorient your body so that light falls on the specimen. Sometimes this process of finding sufficient lighting requires you to turn to a different angle, bend at the waist, or take other action to find ample light. If you are identifying wood in the field, it may be necessary to remove a small specimen and move out from the shade of the structure into the direct sunlight. Although this may seem like a minor point, taking pains to secure good lighting has several benefits. First, it allows the hand lens to perform to its full capacity as a tool. Second, it ensures that the object, ultimately an unknown wood specimen, can be observed in sufficient detail to permit identification. Last, it reduces eye strain, allowing you to gain more experience and practice wood identification more comfortably.</value>
+  </data>
+  <data name="T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Ch4S0" xml:space="preserve">
+    <value>he single most difficult physical skill involved in wood identification is producing a smoothly prepared surface for observing anatomical features. This skill must be practiced patiently; it takes time to become proficient at this task. Producing a cleanly cut surface is also the only appreciably dangerous aspect of wood identification with a hand lens; the tools used to cut the wood are necessarily sharp, and injuries from minor cuts to major lacerations can result from carelessness, fatigue, or poor technique. Safety must always be the first priority, followed closely by the secondary importance of making a serviceable cut of the wood. Because this skill is both necessary and inherently dangerous, patience and prudence must be exercised while learning. Before trying to cut a specimen of wood with these techniques, please read and understand this entire chapter.</value>
+  </data>
+  <data name="Ch4T1" xml:space="preserve">
+    <value>4.1 The principles of cutting</value>
+  </data>
+  <data name="Ch4S1" xml:space="preserve">
+    <value>A few basic principles apply to cutting any material, and you are probably already familiar with them from everyday experience. The first and most important principle is the idea of drawing the edge of your cutting tool across the surface you intend to cut. One of the easiest ways to think about this is in terms of slicing a tomato (Fig. 4.1): if you try to push the edge of a knife straight through the tomato, even the sharpest knife will crush the tomato rather than make a nice slice (Fig. 4.1a). If you saw back and forth many times with the knife edge as you slice the tomato, you produce ragged and uneven slices (Fig. 4.1b,c). The best technique is to draw the edge of the knife a single time through the tomato as the downward motion is applied (Fig. 4.1d). This gives you the maximum cutting ability of the edge of the knife and produces clean, even slices (Fig. 4.1e). If you place the edge of the same knife on your thumb with slight pressure, it will not cut you (Fig. 4.1f ). If you slide the edge of the knife along your thumb under the same pressure, you will be cut. When we cut wood to view it with a hand lens, we must draw the edge of the cutting tool across the area we are preparing; no other technique will suffice.</value>
+  </data>
+  <data name="Ch4Cap1" xml:space="preserve">
+    <value>Figure 4.1—Slicing a tomato illustrates the principles of cutting wood: (a) Pushing a sharp knife downward through a tomato crushes it. (b) Sawing back and forth through the tomato makes uneven slices (c). (d) Passing the knife through the tomato with one even stroke maximizes the cutting ability of the blade and produces clean slices (e). (f ) Pushing the blade into the thumb does not cut the skin.</value>
+  </data>
+  <data name="Ch4S1c" xml:space="preserve">
+    <value>     A second principle of cutting has to do with the relationships between the blade and the material to be cut. Harder materials generally require a steeper cutting angle than softer materials (Fig. 4.2).</value>
+  </data>
+  <data name="Ch4Cap2" xml:space="preserve">
+    <value>Figure 4.2—Illustrations of cutting angles for hard, dense woods and softer woods. On the left, the angle of the knife to the wood is high because the wood is dense and the thicker blade is needed. On the right, the angle of the knife is low because the wood is light and soft and the thinner, sharper blade is needed.</value>
+  </data>
+  <data name="Ch4S1c1" xml:space="preserve">
+    <value>Harder materials generally require sturdier blades to cut them as well. For example, you can shave hair with a thin razor, but to cut copper wire, you need much thicker wire cutters. To prepare wood for observation with a hand lens, there are two basic cutting tools, the utility knife and the razor blade (Fig. 4.3); the utility knife is used for most woods.</value>
+  </data>
+  <data name="Ch4Cap3" xml:space="preserve">
+    <value>Figure 4.3—Two basic tools for cutting wood. Utility knives (left) are the preferred tool and will make clean cuts of all but the softest woods. Razor blades (right) make clean cuts of softer woods, but their edge is too fragile to cut denser woods.</value>
+  </data>
+  <data name="Ch4S1c2" xml:space="preserve">
+    <value>The harder the wood, the steeper the cutting angle, and the softer the wood, the shallower the angle (Fig. 4.2). With very soft woods, the cutting angle needed is smaller than the bevel angle on the edge of the utility knife, and thus we switch to a thinner blade, the razor blade. This thinner blade and sharper edge allows a shallower cutting angle and produces a better surface on the specimen. For most of the woods in this manual, a razor blade would not be strong enough to cut them and the utility knife is the better tool.</value>
+  </data>
+  <data name="Ch4T2" xml:space="preserve">
+    <value>4.2 Holding the knife</value>
+  </data>
+  <data name="Ch4S2" xml:space="preserve">
+    <value>To cut wood safely and effectively, it is necessary to hold the knife correctly. The safest and most powerful method of cutting wood might contradict what you have been told about using a knife. Most people are taught to cut away from themselves, to minimize the chances of a laceration. For surfacing wood specimens, you will cut toward yourself, but you will do it in a controlled and failsafe way that, if done correctly, makes it impossible to cut yourself. This is accomplished by using the correct knife grip (Fig. 4.4). Begin with an open hand, thumb extended, fingers held loosely together. Lay the knife in the palm of your hand such that the base of the blade (where it joins the handle) dis close to but not in contact with the web of skin between your thumb and index finger, with the edge of the blade facing your thumb (Fig. 4.4a,b). If the edge is extended too far from your hand, you will lose the force needed to make a good cut (Fig. 4.4c); if the edge of the blade is touching your skin, you will cut yourself badly (Fig. 4.4d). Now, taking care that the knife does not shift either closer to or farther from the web of skin between the index finger and the thumb, close your fingers firmly over the handle of the knife. Wrap your thumb loosely over your fingers.</value>
+  </data>
+  <data name="Ch4Cap4" xml:space="preserve">
+    <value>Figure 4.4—Holding the utility knife safely. (a) Begin with an open hand, and orient the utility knife as shown. (b) Close the fingers and wrap the thumb over the fingers; this is the basic grip. Note that the base of the blade is not touching the web of skin between the index finger and the thumb (arrow). (c) The distance between the blade and the hand is much too large, and it will be difficult to have the strength to make a clean cut of a wood specimen. (d) The blade of the knife is in contact with the skin between the index finger and the thumb (arrow) and will cut the skin.</value>
+  </data>
+  <data name="Ch4S2c" xml:space="preserve">
+    <value>This is the basic grip (Fig. 4.4b). When it is time to cut a specimen, you will use your thumb as a fulcrum to pull the knife through the specimen by closing your fist tightly.
+     &lt;*DO NOT try to cut a wood specimen yet*&gt;</value>
+  </data>
+  <data name="Ch4T3" xml:space="preserve">
+    <value>4.3 Holding the specimen</value>
+  </data>
+  <data name="Ch4S3" xml:space="preserve">
+    <value>With the knife occupying your dominant hand, your other hand must hold the specimen. There are two simple rules for holding the specimen. First, you must grip the specimen quite firmly, as it takes considerable force to produce a cleanly cut surface on a wood specimen. Too loose a grip, and the specimen will sail from your grasp and you might cut yourself. Second, keep all parts of your hand away from the path of the blade; do not in any way hold the specimen near the area you intend to cut (Fig. 4.5).</value>
+  </data>
+  <data name="Ch4Cap5" xml:space="preserve">
+    <value>Figure 4.5—The correct grip for holding a specimen for cutting (left). Note that the fingers and thumb are below the top of the specimen and will not be cut. On the right, the specimen is held with the fingers and thumbs in a way that will result in injury when the specimen is cut.</value>
+  </data>
+  <data name="Ch4S3c" xml:space="preserve">
+    <value>All body parts must be well away from the cutting area or shielded on the leeward side of the specimen to have a safe and effective grasp on the specimen.
+     &lt;*DO NOT try to cut a wood specimen yet*&gt;</value>
+  </data>
+  <data name="Ch4T4" xml:space="preserve">
+    <value>4.4 Choosing a specimen</value>
+  </data>
+  <data name="Ch4S4" xml:space="preserve">
+    <value>When working in the field, you will probably not have much control over the size and shape of wood specimen you must identify, but when you are practicing these techniques, wise choice of specimens is critical. Select a specimen that is approximately the length and width of your hand. The thickness of the specimen should be between 1 and 3 cm; any thinner and it may flex or break, any thicker and it will be difficult to hold firmly.
+     &lt;*DO NOT try to cut a wood specimen yet*&gt;</value>
+  </data>
+  <data name="Ch4T5" xml:space="preserve">
+    <value>4.5 Orienting the specimen</value>
+  </data>
+  <data name="Ch4S5" xml:space="preserve">
+    <value>In addition to questions of knife angle outlined in the section on the principles of cutting, you must also orient the edge of the knife relative to the specimen to produce a precise plane of section. If you are cutting a transverse surface, the edge of the knife must cut through the specimen perpendicular to the axial system, not merely perpendicular to the surface of the specimen (Fig. 4.6a,b); if you are out of plane by more than one or two degrees, the anatomy of the wood will take a stretched appearance and not be interpretable (Fig. 4.6c,d). Likewise, if you are making a tangential surface, the edge of the knife must be perpendicular to the rays as seen on the transverse surface, and the edge must cut evenly along the grain (and not across at an angle). In either case, careful orientation of the specimen and the knife is critical.
+     Consider a section of plastic pipe: if you make a true transverse cut through the pipe, the end of the pipe will appear as a perfect circle, but if you cut at some angle through the pipe, the opening in the end of the pipe will be elliptical (Fig. 4.6e).</value>
+  </data>
+  <data name="Ch4Cap6" xml:space="preserve">
+    <value>Figure 4.6—When cutting a transverse surface for observation with a hand lens, the cut must be oriented relative to the cells of the axial system, not relative to the surface of the specimen (a). A good cut is perpendicular to the axial system and produces a surface in which the anatomical features appear normal (b). Cutting at an angle to the axial system produces a surface in which the anatomical features appear stretched (d). A perpendicular (left) and angled (right) cut through a pipe (e). The perpendicular cut produces an accurate representation of the circular shape of the pipe, whereas the angled cut produces an oval representation.</value>
+  </data>
+  <data name="Ch4S5c" xml:space="preserve">
+    <value>Because the cells in wood are essentially tiny pipes, the orientation of the knife edge relative to the structure of the wood is critical.
+     It is important to note that your job is to orient the knife edge relative to the direction of the cells in the wood, not relative to the cut surfaces of your block. It is common for wood specimens to be cut imperfectly; what appears with your naked eye as a transverse surface may in fact be 5 or 10 degrees out of plane.
+     &lt;*DO NOT try to cut a wood specimen yet*&gt;</value>
+  </data>
+  <data name="Ch4T6" xml:space="preserve">
+    <value>4.6 Making the cut</value>
+  </data>
+  <data name="Ch4S6" xml:space="preserve">
+    <value>If you have followed the critical directions for holding the knife and the specimen, which you must, you now need only be mindful of the position of your thumb on the knife hand. It should be pressed to the near side of the wood specimen, well below the top of the specimen so that it is physically impossible for you to slip and cut yourself.
+     Review the instructions for holding the knife and the comments about the primacy of safety before continuing.
+     You now have a knife, a wood specimen, and an initial sense of what you are trying to accomplish, and you know where to put your fingers so that you end the day with as many as you began it. The next question is where on the block should you cut? Because you are using your thumb as a fulcrum for the cutting motion and protecting it away from the path of the knife, the best way to maximize the force in your cut is to cut the corner nearest your thumb. This is true for all three planes of section. By keeping the blade closer to your thumb, your hand doesn’t need to stretch far and you can have maximum leverage. To cut, you draw the edge of the knife through the wood, starting your cut with the base of the blade at the farthest point from your thumb, and pulling the knife toward your hand by firmly making a fist (Fig. 4.7).</value>
+  </data>
+  <data name="Ch4Cap7" xml:space="preserve">
+    <value>Figure 4.7—Safely making the cut. (a) The grip of the specimen and knife and the placement of fingers and thumbs. (b–d) The progress of the knife through the specimen. The cut begins at the base of the knife (a, b) and the knife is pulled through the specimen, drawing the edge along the wood as the cut is made. Note that at the end of the cut, the tip of the blade is all that is in contact with the wood (d). In all images, the thumb of the knife hand is below the top surface of the specimen (shown clearly in a).</value>
+  </data>
+  <data name="Ch4S6c" xml:space="preserve">
+    <value>The exposed portion of a utility knife blade is approximately 2 cm long, so your total cutting motion as you draw the knife through the wood will only be maybe 3–4 cm in length, because of the angle of the blade and the way you pull it through the specimen. This is not a large motion, and it should be done smoothly and confidently. You will make a comparatively small surface, especially at first. This is acceptable because the surface is meant to be viewed with your hand lens, and this will make the area seem much larger.
+     The first few times you try this, you will almost certainly fail. As long as your failure does not involve blood, it is actually a success, as failure is a part of the learning process. If your knife angle is too steep, the blade will bury in the specimen. If it is too shallow, the edge of the knife will not bite into the wood. Practice thoughtfully, rereading the chapter as needed to understand what went wrong. If the edge of the utility knife begins to feel dull, replace it. As your technique improves, blades will last longer, but in the beginning you will use several blades in a few hours of cutting and observing wood.
+     At first you may lack the physical strength needed to make clean cuts of wood, but this will come with practice as you exercise those muscles. Physical strength is far less important than good technique, but your strength will increase with practice. If either of your hands are feeling weak or beginning to fatigue, stop practicing and allow your strength to return before you continue; shaking your hands to loosen them can be helpful. Controlling the progress of the blade through the wood depends on technique, but fatigue can cause sloppy technique and result in injury. You must not cut if your hands are tired.
+     &lt;*You are almost ready to try to cut a specimen; read the section on inspecting the cut first*&gt;</value>
+  </data>
+  <data name="Ch4T7" xml:space="preserve">
+    <value>4.7 Inspecting the cut</value>
+  </data>
+  <data name="Ch4S7" xml:space="preserve">
+    <value>Now you have made a cut. Specifically, you have exposed one of the planes of section of the wood, the transverse surface. Inspect it with your hand lens (Fig. 4.8).</value>
+  </data>
+  <data name="Ch4Cap8" xml:space="preserve">
+    <value>Figure 4.8—Cuts of different quality. The left image shows the specimen cut with a sharp table saw. The middle image shows the specimen cut cleanly with a utility knife. The right image shows the specimen prepared in a laboratory, resulting in a research-quality image.</value>
+  </data>
+  <data name="Ch4S7c" xml:space="preserve">
+    <value>Pay special attention to the plane you produced and its orientation with respect to the cells; the cells of the axial system should be nearly perpendicular to your cut. If they are not, you must make a new cut, taking special care to orient the edge of the blade at the angle that will produce a true transverse plane. For a tangential plane of section, your cut surface must be perpendicular to the rays as seen on the transverse surface. It must follow the cells of the axial system and it must cut along rather than across the grain.
+     &lt;*Now you may, applying the techniques detailed here and with safety foremost in your mind, cut a transverse surface on your practice specimen*&gt;
+     After the transverse surface is prepared, note the orientation of the rays and determine if that corner offers a tangential surface. If it does not, re-orient the specimen and prepare a transverse surface on another corner that will allow a tangential surface. Again, focus on safety then prepare the tangential surface.</value>
+  </data>
+  <data name="Ch4T8" xml:space="preserve">
+    <value>4.8 Cutting with a razor blade</value>
+  </data>
+  <data name="Ch4S8" xml:space="preserve">
+    <value>For soft or low-density woods, a utility knife is the wrong tool for the job and you will need to use a razor blade. The basic principles of cutting and the safety rules are the same for this tool as for a utility knife. You will hold the specimen the same way as well. The only differences are in how to hold the razor blade and the direction of the cutting motion. Razor blades are not strong implements, and when using them, you do not need the force used with a utility knife. Simply pinch the razor blade firmly between your thumb and forefinger, and push (donʼt pull) the blade from the corner of the specimen across the wood to produce a clean surface. Focus on safety, and allow the blade (rather than brute force) to cut the specimen.</value>
+  </data>
+  <data name="Chapter 5 Title short" xml:space="preserve">
+    <value>Basic characters used in the ID of wood with a hand lens</value>
+  </data>
+  <data name="Chapter 5 T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Ch5S0" xml:space="preserve">
+    <value>he characters presented in this chapter represent the minimal set of terms and concepts necessary to build skill and proficiency in wood identification with a hand lens. This list is not exhaustive, nor does it completely agree with the characters used by other authors, in other references, or in traditional microscopic wood anatomy. The ways in which these characters and definitions deviate from other authors are not important for our purposes, but it is important to note that if you also use other wood identification references, you must compare those authors’ definitions of characters to those you learn here. The approach of this manual was chosen based on experience teaching hand lens wood identification at various workshops in Central America, Africa, Asia, and the United States. The intent here is to streamline the learning process and have you working with real wood specimens as quickly as possible. As you use this manual in the field, you will without doubt come across characters from species not covered here. Make note of what you see and compare it with the characters outlined below. If, after careful study and observation, you are certain you have found something not described here, that is excellent! This means you have learned not only the meaning of the characters here but have also gained wisdom sufficient to understand that you are seeing something new.</value>
+  </data>
+  <data name="Ch5T12" xml:space="preserve">
+    <value>5.2 Nonanatomical characters in wood identification</value>
+  </data>
+  <data name="Ch5S12" xml:space="preserve">
+    <value>The characters used in wood identification are primarily anatomical ones, though there are some nonanatomical features that will be referenced in the identification key (Chapter 6 - Key tab) and the species description pages (Chapter 7 - Species tab). These nonanatomical characters include color, luster, odor, density and hardness, regularity of grain, and fluorescence.</value>
+  </data>
+  <data name="Ch5T13" xml:space="preserve">
+    <value>5.2.1 Color</value>
+  </data>
+  <data name="Ch5S13" xml:space="preserve">
+    <value>Color in wood usually refers to the heartwood color (Fig. 5.11) and is a difficult topic to discuss for several reasons.</value>
+  </data>
+  <data name="Ch5Cap11" xml:space="preserve">
+    <value>Figure 5.11—Heartwood color is derived from chemicals deposited by the tree as it matures. The top image shows the heartwood–sapwood transition; the sapwood is more yellow in color and the heartwood reddish. The bottom image shows a heartwood– sapwood transition in another wood; the sapwood is whitish and the heartwood a rich brown.</value>
+  </data>
+  <data name="Ch5S13c" xml:space="preserve">
+    <value>The heartwood color in a freshly felled log may be quite different from the color of the heartwood once the wood has been dried and processed. Many woods change color with time and exposure to light (e.g., African ebony, [Diospyros]; and Avodire, [Turraeanthus]) even after they are dried and processed. There can also be significant natural biological variability (a wide range of colors) in the color of a given species or timber. Some species have characteristic streaks of color throughout the heartwood that are not always present in small specimens. A further complication is that people see colors differently, and words to describe color often mean different things to different people. For these reasons, the information presented about the color of woods should be interpreted loosely.</value>
+  </data>
+  <data name="Ch5T14" xml:space="preserve">
+    <value>5.2.2 Luster</value>
+  </data>
+  <data name="Ch5S14" xml:space="preserve">
+    <value>Luster is a property of some woods that, as with color, can be difficult to define and describe. Luster can be defined as a special way in which light reflects from the surface of a block of wood and makes it appear somewhat shiny or silky. It can be nearly impossible to capture photographs of luster in wood, and the appearance of luster also depends on the form of the wood. If the wood is in log form or is roughcut by a sawmill, even species with luster will not show this character. Smooth, planed, or sanded boards will generally show luster if they are a species that has this character. Some common timbers with luster are [Khaya] (African Mahogany), [Carapa] (Kwakuobese), [Diospyros] (Ebony), and [Pterocarpus] (African Rosewood). Common timbers that lack luster are [Bombax], [Cordia], and [Pinus]. The best way to learn to identify luster in wood is to see many specimens of species that have luster and compare them with species that lack it.</value>
+  </data>
+  <data name="Ch5T15" xml:space="preserve">
+    <value>5.2.3 Odor</value>
+  </data>
+  <data name="Ch5S15" xml:space="preserve">
+    <value>Odor in wood is another nonanatomical character that can be both valuable and difficult to describe. As with color, different people will perceive the odor of the same wood differently, and there can be significant variability in the strength of the odor of wood. Generally speaking, odor is not a strong character and should only be used at the end of an identification when all anatomical characters have been observed and compared with the images in the species description pages (Chapter 7 - Species tab).</value>
+  </data>
+  <data name="Ch5T16" xml:space="preserve">
+    <value>5.2.4 Density and hardness</value>
+  </data>
+  <data name="Ch5S16" xml:space="preserve">
+    <value>Density and hardness are related physical properties of wood and have strong influences on the mechanical properties. Density describes the weight or mass of a specimen compared with its volume, and hardness gives information about how easy or difficult it is to cut or dent the wood. The apparent density of a piece of wood is affected by the amount of moisture in the specimen; wood left out in the rain will soak up water and seem denser than wood of the same species that has been properly dried. For this reason, density is best used as a character only when it is clearly quite high or quite low. Most woods are of a medium or average density, and in such species, density is not a useful character. The same thing is true of hardness; if the wood is easy to dent with your fingernail, it is soft. If you cannot dent it with your fingernail, it is hard. Remember that hardness or softness are physical properties of the wood and have nothing to do with whether the wood is a softwood or a hardwood, terms that refer to the botanical origin of the wood and the kinds of cells you will see in them. There are hardwoods in this manual that are low density and soft and several softwoods that are high density and hard. For example, species of [Pinus] in the manual have high-density hard woods, but are softwoods, and [Gmelina] is a hardwood but is soft. For both density and hardness, evaluation of these properties is only meaningful for sound wood. Wood that is decayed or otherwise damaged may seem lighter or softer than the species would normally be.</value>
+  </data>
+  <data name="Ch5T17" xml:space="preserve">
+    <value>5.2.5 Regularity of grain</value>
+  </data>
+  <data name="Ch5S17" xml:space="preserve">
+    <value>Regularity of grain refers to whether the cells of the axial system of the wood are wavy, interlocked, or straight. Wavy grain occurs when the cells of the axial system run up and down the trunk of the tree with gradual back-and-forth undulations of maybe 1–2 cm. Interlocked grain is formed when the cells of the axial system do not run perfectly straight up and down the tree but rather grow curving up the tree to the right for several years, then curve up the tree to the left for several years, then back to the right. This alternating pattern of curvature up the trunk produces wood that can be quite attractive (especially in species with luster, such as [Khaya], where interlocked grain is common) but is also difficult to process and sometimes problematic to prepare for hand lens observation because the angle of the grain in one part of specimen is often quite different from the angle in a different part. Straight-grained wood is neither wavy nor interlocked; the cells of the axial system are straight and run up and down the trunk nearly vertically. The regularity of grain is generally not a strong character in wood identification but can affect strength properties of timbers.</value>
+  </data>
+  <data name="Ch5T18" xml:space="preserve">
+    <value>5.2.6 Fluorescence</value>
+  </data>
+  <data name="Ch5S18" xml:space="preserve">
+    <value>A last nonanatomical character is fluorescence. If you shine a UV lamp (either a small portable light or a larger laboratory model) on freshly sanded or cut surfaces, some woods fluoresce. That is, the slightly purple or invisible UV light is taken up by the specimen, and a different color (usually a yellow-green color) is emitted by the wood. This is most easily seen in dark conditions. Also, some woods have extractives that are fluorescent only when they are dissolved in water. For these woods, a few chips of wood are placed in a small glass vial with 5–10 mL of water and then the UV light is directed into the vial. Water extract fluorescence is usually a bluish color. Most woods lack both surface and water extract fluorescence, so these can be powerful characters for confirming an identification once an initial determination is made based on wood anatomical features, but it can be difficult to assess in the field. Exposure to the weather elements can render a normally fluorescent wood no longer fluorescent, and some decay fungi produce yellow-fluorescent compounds in nonfluorescent woods.</value>
+  </data>
+  <data name="Ch5T19" xml:space="preserve">
+    <value>5.2.7 Summary of nonanatomical characters</value>
+  </data>
+  <data name="Ch5S19" xml:space="preserve">
+    <value>With practice and experience, all the nonanatomical features discussed here will play a part in your identification of a wood specimen. Because nonanatomical features are generally much weaker than anatomical ones, you will tend to use them either as secondary confirmations (as discussed in the species description pages of Chapter 7 - Species tab) or as an automatic part of pattern recognition, where you do not specifically ask yourself “Does this specimen have luster?” but rather notice automatically whether or not it has this characteristic. That is to say, nonanatomical characters are often some of the first characters that will form a part of the artistic aspect of wood identification.</value>
+  </data>
+  <data name="Ch5T1" xml:space="preserve">
+    <value>5.1 Anatomical characters in wood identification</value>
+  </data>
+  <data name="Ch5S1" xml:space="preserve">
+    <value>The identification portions of this manual focus on the use of anatomical characteristics to identify unknown wood specimens. With the basic biology of wood familiar to you from the section on wood biology, we will now revisit the cells and structures and define them as characters for identification. In each case, we will be thinking of the structures as either being present or absent in a specimen. This process requires constant observation and questioning: is the character present or absent, or is it impossible to tell? The difference between understanding wood anatomy as a biological field and interpreting that anatomy as characters for identification is a subtle but important one. In Chapter 2 we discussed anatomy in order to understand where the structures in wood come from and what they do in a tree. Now we will define them as observable characters and, as with understanding the pattern of characteristics that define a chair, we will build an understanding of anatomy based on fairly rigid definitions for identification.
+     Not all images throughout the manual are perfect; some show marks left by the knives that cut them or the sander that smoothed them for photography. Rather than try to explain away the difference between perfect images and surfaces you can produce in the real world, more realistic photos of wood are shown in this manual. In many of the images presented, the notation “M” describes the artifacts of preparation in addition to the anatomical features. As you become proficient in the preparation and observation of wood specimens, you will train your mind to ignore artifacts such as knife marks, but in the initial phases of learning these skills, knife marks can appear to the untrained eye as actual anatomical structures.
+     The first question to ask yourself when confronting an unknown wood specimen is whether it is a softwood or hardwood. Softwoods are defined anatomically by the absence of vessels (pores) and hardwoods by the presence of pores (Fig. 5.1).</value>
+  </data>
+  <data name="Ch5Cap1" xml:space="preserve">
+    <value>Figure 5.1—Distinguishing softwoods from hardwoods based on the absence or presence of vessels. In the softwood on the left, there are no vessels but several resin canals are circled. In the hardwood on the right, several vessels are circled. Note that the general appearance, number, and distribution of vessels and resin canals are quite different. With practice, you will automatically recognize the characteristics that distinguish vessels from resin canals.</value>
+  </data>
+  <data name="Ch5T2" xml:space="preserve">
+    <value>5.1.1 Softwoods</value>
+  </data>
+  <data name="Ch5S2" xml:space="preserve">
+    <value>For the softwoods treated in this manual, only two anatomical features can be observed with a hand lens—the presence or absence of resin canals and the characteristics of the transition within the growth rings. Both of these features are seen on the transverse surface, so there is no need to produce a tangential surface on a softwood specimen.</value>
+  </data>
+  <data name="Ch5T3" xml:space="preserve">
+    <value>Resin canals</value>
+  </data>
+  <data name="Ch5S3" xml:space="preserve">
+    <value>Resin canals are the structures that produce pitch or resin and are found in the wood of [Pinus, Picea, Larix], and [Pseudotsuga]. When you are first learning wood identification, resin canals can look much like vessels in hardwoods (Fig. 5.1), but there are two easy ways to differentiate them. First, resin canals, if present at all, are usually found in the latewood or in the area between the earlywood and the latewood. Vessels in hardwoods will be found in all portions of the growth ring. Second, even in softwoods with many resin canals, there are still far fewer resin canals in a hand lens view than there are vessels in most hardwoods. With some practice, especially comparing a softwood with resin canals and a hardwood side by side, these specific differences will not be important; you will recognize the pattern of a softwood—with or without resin canals—and you will not confuse resin canals with vessels.</value>
+  </data>
+  <data name="Ch5T4" xml:space="preserve">
+    <value>Growth ring transitions</value>
+  </data>
+  <data name="Ch5S4" xml:space="preserve">
+    <value>In the growth rings of softwoods, the transition from earlywood to latewood can be abrupt, gradual, or absent (Fig. 5.2a–c). In woods with abrupt transition, there is a clearly visible zone where the tracheid cell wall thickness changes from thin-walled earlywood cells to thick-walled latewood cells (Fig. 5.2a). A gradual transition from earlywood to latewood is one in which the tracheid cell wall thickness becomes slightly greater toward the latewood but with no clear line where the earlywood ends and the latewood begins (Fig. 5.2b). No transition between earlywood and latewood is comparatively rare in softwoods, but it is generally seen in tropical species that lack obvious growth rings (Fig. 5.2c).</value>
+  </data>
+  <data name="Ch5Cap2" xml:space="preserve">
+    <value>Figure 5.2—Growth ring classifications in softwoods (a–c) and hardwoods (d–f). (a) Abrupt transition within a growth ring from the earlywood to latewood is the most common transition type in the softwoods in this manual. Note how the earlywood appears lighter in color than the latewood, and how the change from earlywood to latewood happens at a distinct place in the growth ring. (b) Gradual transition from earlywood to latewood results in a subtler pattern. (c) No transition within a growth ring is not seen in any of the softwoods in this manual. (d) Ring-porous hardwoods show an abrupt change in vessel diameter at the boundary between the earlywood and the latewood. (e) Semi-ring-porous hardwoods show a gradual reduction of vessel diameter from earlywood to latewood. (f) Diffuse-porous hardwoods, the most common type of growth ring transition in the woods in this manual, show no clear change in vessel size or distribution from the earlywood to the latewood and sometimes lack obvious growth rings altogether.</value>
+  </data>
+  <data name="Ch5T5" xml:space="preserve">
+    <value>5.1.2 Hardwoods</value>
+  </data>
+  <data name="Ch5S5" xml:space="preserve">
+    <value>As mentioned earlier, the anatomical variability of hardwoods is many times greater than that of softwoods, and much of this variability can be seen with a hand lens.</value>
+  </data>
+  <data name="Ch5T6" xml:space="preserve">
+    <value>Growth rings</value>
+  </data>
+  <data name="Ch5S6" xml:space="preserve">
+    <value>There are three classifications of growth rings in hardwoods, depending on transitions in the relative size, pattern, distribution, or abundance of vessels. The three classifications are ring-porous, semi-ring-porous, and diffuse porous (Fig. 5.2d–f).
+     In &lt;ring-porous woods&gt;, the earlywood vessels are distinctly larger than the latewood vessels (usually from 3 to 10 times the diameter) and also commonly more closely packed together (Fig. 5.2d). The transition between large earlywood vessels and much smaller latewood vessels is distinct. Clearly ring-porous woods are uncommon at the tropical latitudes, except in species at high elevations.
+     &lt;Semi-ring-porous woods&gt; are like ring-porous woods in that the earlywood vessels are large and the latewood vessels are half the diameter or smaller, but unlike ring-porous woods, there is a gradual rather than distinct decrease in vessel diameter from the earlywood through the latewood (Fig. 5.2e). This results in a clear distinction between the latewood of one growth ring and the earlywood of the next but no clear distinction between the earlywood and latewood within the same growth ring. Semi-ring-porous woods are more common in tropical latitudes than are ring-porous woods, but they are still comparatively rare.
+     &lt;Diffuse-porous woods&gt;, the most common type of hardwood, do not show a large difference in diameter between earlywood and latewood vessels. From the beginning of a growth ring to the end, the vessels are more or less evenly distributed and are of similar size, though in many diffuse-porous woods, there will be a slight decrease in vessel diameter in the latewood (Fig. 5.2f). This small difference in diameter should not be confused with the semi-ring-porous pattern, in which the difference is substantial.</value>
+  </data>
+  <data name="Ch5T7" xml:space="preserve">
+    <value>Vessel arrangement</value>
+  </data>
+  <data name="Ch5S7" xml:space="preserve">
+    <value>Vessel arrangement is a term used to describe the pattern, if any, of vessels within a growth ring. This is different from the concept of growth ring classification. Most woods have a random distribution of vessels in the wood, but this pattern is not generally considered worthy of a special name as a character because it is the assumed default condition. The concept of vessel arrangement involves two distinct aspects: the number of vessels in contact with each other and the distribution of vessels throughout the growth ring.
+     When vessels occur one at a time and are not in contact with other vessels, they are called &lt;solitary vessels&gt; (Fig. 5.3a). Most woods have at least a few solitary vessels, but comparatively few woods have exclusively solitary vessels; when this character is present, it is a strong character. When two or more vessels are touching each other and extend in the radial direction (parallel to the rays), they form a &lt;vessel multiple&gt;. Vessel multiples are commonly formed from two to four vessels (Fig. 5.3b); multiples with more than four vessels are less common. When several vessels are in contact radially and tangentially, they form &lt;vessel clusters&gt;. Vessel clusters are much less common than vessel multiples, and thus the presence of this character is a useful one for identification.
+     Vessels, whether solitary, in multiples, or in clusters, can also have patterns of distribution within the growth ring that receive special names. One pattern is &lt;radially aligned vessels&gt; and occurs when vessels are organized into radial lines or files, often lined up between rays. This pattern can occur in woods with solitary, multiple, or clustered vessels, though it is more common in the former two than the latter. A related pattern is &lt;vessels arranged in echelon&gt; (Fig. 5.3c); this is like radial arrangement, but instead of running parallel to the rays, the vessels form a pattern at a diagonal to the rays. The last pattern is called &lt;dendritic vessel arrangement&gt; (Fig. 5.3d), and is characterized by v-shaped, flame-shaped, or tree-like groups of vessels that are narrower on the pith side of the growth ring (toward the earlywood) and widen out toward the bark side (toward and into the latewood).</value>
+  </data>
+  <data name="Ch5Cap3" xml:space="preserve">
+    <value>Figure 5.3—Patterns in vessel arrangement. (a) Solitary vessels are those that are not in contact with other vessels. They usually appear distinctly rounded. (b) Vessel multiples are groups of two or more vessels with cell walls in contact. The individual vessels in a vessel multiple often appear slightly flattened where the two vessels touch. (c) Vessels in echelon arrangement can be either solitary vessels, vessel multiples, or a combination of both. The pattern of echelon vessel arrangement must be observed over a wider area, because it is a pattern formed by many vessels and how they are arranged relative to the direction of the rays. (d) Dendritic vessel arrangement is rare or absent in the woods found in this manual, and it is usually found in woods with extremely small-diameter vessels. Most of the vessels in this image are too small to be seen individually with a hand lens.</value>
+  </data>
+  <data name="Ch5S7c" xml:space="preserve">
+    <value>It is important to note that several different vessel arrangements can be present in one wood at the same time. Some hardwoods have axial gum canals that appear similar to small resinous vessels. In this manual, we chose to describe these structures as small vessels.</value>
+  </data>
+  <data name="Ch5T8" xml:space="preserve">
+    <value>Rays</value>
+  </data>
+  <data name="Ch5S8" xml:space="preserve">
+    <value>As mentioned earlier, rays in hardwoods can be narrow, similar to those of softwoods, or quite wide (Fig. 5.4).</value>
+  </data>
+  <data name="Ch5Cap4" xml:space="preserve">
+    <value>Figure 5.4—Differences in ray width and ray number. The image on the left shows comparatively few, wide rays; however, careful observation will show that there are narrow rays between the wide rays. Observing only the wide rays, this wood has few rays. The middle image shows a wood with an average number and size of rays. The image on the right shows a wood with numerous, narrow rays.</value>
+  </data>
+  <data name="Ch5S8c" xml:space="preserve">
+    <value>They can also be numerous, or a species can have few rays. These characters are best observed from the transverse surface, can be critical in hardwood identification, and are a major part of the wood anatomical pattern. The concepts of narrow, wide, few, and numerous are easily understood by examining photos or transverse surfaces of a variety of hardwoods.
+     In Chapter 2, the tangential plane of section was described, and in Chapter 4, the method needed to produce it was discussed. It is here that we will apply that knowledge to determine if a wood has nonstoried or storied rays. When looking at a tangential surface, rays will appear as small vertical lines, usually darker than the background. Larger rays are easier to see than small rays, but even tiny rays can be seen with a hand lens if the tangential surface is cut cleanly, the hand lens is used correctly, and the light is falling on the tangential surface at a favorable angle. If a wood has &lt;nonstoried rays&gt;, the rays will be randomly distributed across the tangential surface; there will be no obvious pattern (Fig. 5.5a). Most woods have nonstoried rays; this is the most common condition in woods worldwide. If a wood has &lt;storied rays&gt;, the rays will be lined up horizontally, much like the windows on the same story in a skyscraper, though in wood, the rays will not be perfectly aligned horizontally but will form somewhat wavy or undulating lines (Fig. 5.5b–d). We further divide woods with storied rays into three broad groups: woods with coarse storying (Fig. 5.5b), woods with medium storying (Fig. 5.5c), and woods with fine storying (Fig. 5.5d). The groups are defined on the basis of the size of the rays and the numbers of stories per millimeter along the grain. Most of the woods with storied rays in this manual have medium storying.</value>
+  </data>
+  <data name="Ch5Cap5" xml:space="preserve">
+    <value>Figure 5.5—Nonstoried and storied rays; this feature can only be observed from the tangential plane of section. (a) An image and illustration of a wood with nonstoried rays. Note that the rays are scattered across the tangential section with no obvious arrangement in horizontal files. The images and illustrations in b–d show woods with storied rays. Woods with storied rays can be grouped into those with coarse storying (b), medium storying (c), or fine storying (d). In many woods, the rays are small enough even when observed with a hand lens that they are difficult to see as separate entities; this is why storied rays produce what is sometimes called ‘ripple marks’. This is a term to describe the pattern of wavy horizontal lines formed by the storied rays, which can be easily seen in the image of the wood with medium storying (c). Note also in all images the long vertical lines in the wood; these are vessels cut along their lengths, similar to cutting a pipe lengthwise.</value>
+  </data>
+  <data name="Ch5T9" xml:space="preserve">
+    <value>Axial parenchyma patterns</value>
+  </data>
+  <data name="Ch5S9" xml:space="preserve">
+    <value>Axial parenchyma patterns in hardwoods are critical characters used in wood identification. Axial parenchyma patterns can be divided into three broad groups, depending on the position and appearance of the parenchyma (Fig. 5.6).
+     The first type of axial parenchyma is called &lt;marginal parenchyma&gt;. This name is used because marginal parenchyma occurs at the beginning or end of a growth ring and, when present, assists in defining the growth rings of the wood. Because most tropical woods are diffuse-porous, if growth rings are distinctly visible, it is usually because marginal parenchyma is present. Marginal parenchyma appears as a solid line of cells running evenly around the growth ring (Fig. 5.6, top); it generally does not have a wavy or undulating appearance. With some practice, correctly determining the presence of marginal parenchyma is an easy task.
+     Whereas marginal parenchyma is defined as delimiting the boundary of a growth ring, the other two types of parenchyma are defined on the basis of their association or lack of association with vessels and occur within the body of the growth ring. If the parenchyma is not associated with the vessels, it is called apotracheal parenchyma (Fig. 5.6, middle). If it is associated with vessels, it is called paratracheal parenchyma (Fig. 5.6, bottom).</value>
+  </data>
+  <data name="Ch5Cap6" xml:space="preserve">
+    <value>Figure 5.6—There are three types of axial parenchyma in hardwoods: marginal, apotracheal, and paratracheal. Marginal parenchyma occurs at the beginning or end of a growth ring and is shown in the top images and illustrations. Both apotracheal and paratracheal parenchyma occur within the growth ring and differ on the basis of their association with vessels. Apotracheal parenchyma is not associated with vessels and is shown in the middle images and illustrations. Paratracheal parenchyma is closely associated with vessels and is shown in the bottom images and illustrations.</value>
+  </data>
+  <data name="Ch5S9c" xml:space="preserve">
+    <value>The idea of association with vessels is at first a somewhat complex one, as will be subsequently discussed. Learning the names and patterns of apotracheal and paratracheal parenchyma, and having the words mean the correct things in your mind, is one of the hardest aspects of learning the characters for wood identification. It is helpful to start by using the full name for each type of parenchyma when learning the features and move to the abbreviated names only when you are fully conversant in the terminology for all characters.
+     &lt;Apotracheal parenchyma&gt; is parenchyma not associated with the vessels and occurs in three basic patterns: diffuse, diffuse-in-aggregate, and banded. These three patterns can be considered part of a continuum (Fig. 5.7b–d); at one end is diffuse apotracheal parenchyma, in the middle is diffuse-in-aggregate apotracheal parenchyma, and at the other end is banded apotracheal parenchyma. &lt;Diffuse apotracheal parenchyma&gt; appears as small dots of generally lighter-colored cells scattered out in the fibers and not touching the vessels (Fig. 5.7b). Diffuse apotracheal parenchyma is often not visible with a hand lens and so will only be used as a character in species that show it clearly. &lt;Diffuse-in-aggregate apotracheal parenchyma&gt; has a similar distribution, but instead of single cells, it is formed of small tangential lines of two to four cells (Fig. 5.7c). This gives it the appearance of short, broken lines of cells running perpendicular to the rays but still not associated with vessels. The aggregates of cells do not usually cross the rays, contributing to its broken appearance. In contrast to diffuse-in-aggregate apotracheal parenchyma, &lt;banded apotracheal parenchyma&gt; is formed of long, wavy lines of cells typically crossing several to many rays (Fig. 5.7d). Depending on the length of the bands, they may appear to be “touching” vessels. You can think of this pattern, when bands contact vessels, as being interrupted by them, rather than associated with them. Individual bands can be from many millimeters in length tangentially to less than half a millimeter in length. Bands can also be radially narrow (a single cell) or wide (many cells).</value>
+  </data>
+  <data name="Ch5Cap7" xml:space="preserve">
+    <value>Figure 5.7—Specific axial parenchyma patterns. (a) Marginal parenchyma. Note that the bands of marginal parenchyma are thick. (b) Diffuse apotracheal parenchyma; this, when observable with a hand lens, appears as small dots among the fibers. (c) Diffuse-in-aggregate apotracheal parenchyma appears as short tangential lines among the fibers, and the short lines generally do not cross the rays. (d) Banded apotracheal parenchyma forms long tangential lines among the fibers. The bands typically cross several rays and are often wavy. Compare this pattern with marginal parenchyma in (a).</value>
+  </data>
+  <data name="Ch5S9c1" xml:space="preserve">
+    <value>     &lt;Paratracheal parenchyma&gt; is always clearly associated with the vessels and has a variety of patterns. Much like apotracheal parenchyma, these patterns can be seen as a part of a continuum (Fig. 5.8). At one end of the spectrum is vasicentric paratracheal parenchyma, in the middle is aliform paratracheal parenchyma, and at the other end is confluent paratracheal parenchyma. &lt;Vasicentric paratracheal parenchyma&gt; appears as a round halo or sheath of parenchyma around the vessel, and it can be narrow or wide, referring to distance out from the vessel it extends (Fig. 5.8a). &lt;Aliform paratracheal parenchyma&gt; is like vasicentric paratracheal parenchyma with tangential extensions. That is, there are extensions from the sheath of parenchyma perpendicular to the rays. These extensions can be comparatively thick and short, giving a &lt;lozenge aliform paratracheal parenchyma&gt; pattern (Fig. 5.8b), or long and narrow, giving a &lt;winged aliform paratracheal parenchyma&gt; pattern (Fig. 5.8c). If the wings of aliform paratracheal parenchyma stretch outward and fuse with the wings of adjacent aliform paratracheal parenchyma from another vessel, the pattern formed is called &lt;confluent paratracheal parenchyma&gt; (Fig. 5.8d). Confluent paratracheal parenchyma can connect as few as two vessels or hundreds of vessels. The radial thickness of the parenchyma between vessels can be narrow or wide.</value>
+  </data>
+  <data name="Ch5Cap8" xml:space="preserve">
+    <value>Figure 5.8—Specific axial parenchyma patterns. (a) Vasicentric paratracheal parenchyma appears as an even sheath or halo of parenchyma around the vessels or vessel multiples. (b) Lozenge aliform paratracheal parenchyma appears similar to vasicentric parenchyma, but the parenchyma surrounding the vessels extends tangentially with short, thick projections. (c) Winged aliform paratracheal parenchyma is similar to lozenge aliform parenchyma but with narrow, long wings extending tangentially. (d) Confluent paratracheal parenchyma appears as a series of vessels connected by lozenge aliform or winged aliform parenchyma. The connecting, tangential bands of parenchyma can be narrow or wide and can connect from two to several hundred vessels. Compare this with banded apotracheal parenchyma in Figure 5.6d and note the differences in association of parenchyma with the vessels.</value>
+  </data>
+  <data name="Ch5T10" xml:space="preserve">
+    <value>Tyloses and radial canals in hardwoods</value>
+  </data>
+  <data name="Ch5S10" xml:space="preserve">
+    <value>Although wood identification has many additional anatomical terms and characters, only two more are necessary to complete our working list of characters used in this manual: tyloses and radial canals. &lt;Tyloses&gt; are outgrowths of parenchyma cells into vessels and appear in the vessels as bubbles or shiny, angled inclusions (Fig. 5.9a,b). Tyloses, in species that have them, are typically found only in the heartwood. For this reason, if you suspect you are examining sapwood, you cannot expect to find tyloses, even if the wood is a species in which they are always found in the heartwood. &lt;Radial resin canals&gt; are structurally similar to the axial resin canals in softwoods but instead are found scattered in the rays. They can be seen reliably only on the tangential surface and appear as dark-colored dots that usually stretch or swell the rays in which they are found (Fig. 5.9c–f).</value>
+  </data>
+  <data name="Ch5Cap9" xml:space="preserve">
+    <value>Figure 5.9—Tyloses and radial canals in hardwoods. Tyloses are shiny-appearing outgrowths of parenchyma cells into vessels in the heartwood (a,b). Note that at the top of (a) is a sapwood zone where the vessels are empty. In some species with tyloses, every vessel will be completely filled by tyloses. (b) In other species, vessels can be only partly filled or only some of the vessels have tyloses. Radial canals are special structures embedded in the rays of certain species. They generally appear as black or dark brown dots in expanded rays, as noted by arrows in (c–f), and can be quite difficult to observe with a hand lens, as in (e).</value>
+  </data>
+  <data name="Ch5S10c" xml:space="preserve">
+    <value>Unlike most of the other anatomical characters in this manual, radial canals have a scattered distribution, and if the key or a species description page asks you to look for them, you must prepare a comparatively large tangential surface and observe it carefully; there may only be one or two radial canals per square centimeter of tangential surface (Fig. 5.9c,e,f). If only a small tangential surface can be prepared, this character must be used only in the positive sense. That is, you may only conclude that the wood has them if you observe them; if you do not observe them in a small area, you cannot properly conclude that the wood doesnʼt have them.</value>
+  </data>
+  <data name="Ch5T11" xml:space="preserve">
+    <value>5.1.3 Growth ring width: plantation or natural stand?</value>
+  </data>
+  <data name="Ch5S11" xml:space="preserve">
+    <value>A last anatomical character is the apparent width of the growth rings (Fig. 5.10). Growth ring width is not used to separate different species of wood but can sometimes be used as an indicator of whether the wood you are examining is from a plantation or a natural stand of trees. Generally speaking, plantation-grown species grow much more rapidly than the same species does in nature, resulting in abnormally wide growth rings.</value>
+  </data>
+  <data name="Ch5Cap10" xml:space="preserve">
+    <value>Figure 5.10. Slow-grown (left) and fast-grown (right) woods. There are four complete growth rings (as indicated by the presence of marginal parenchyma) in the image on the left. The image on the right has only one complete growth ring in the same space and thus grew at approximately four times the rate of the wood on the left. A growth rate as fast as this might indicate plantation origin, whereas the growth rate on the left is more typical of a naturally grown tree.</value>
+  </data>
+  <data name="Ch5S11c" xml:space="preserve">
+    <value>Two commonly grown plantation woods are [Tectona grandis] and [Terminalia superba], though of the two, only [Terminalia] is found in natural stands in Ghana. In both species, plantation-grown material typically has fewer growth rings per centimeter; some plantation trees grow so rapidly that you measure the centimeters per growth ring rather than rings per centimeter. Growth rate is not a definitive way to determine the origin of a timber but may be used as an indicator for further investigation. If you are examining a shipment of [Terminalia] with 4 or 5 growth rings per centimeter and the shipper tells you it is plantation material, it might be appropriate to further investigate their claims; such a growth rate would be more typical of naturally grown material, and such a shipment might have been harvested illegally.</value>
+  </data>
+  <data name="Chapter 6 Title" xml:space="preserve">
+    <value>Identification key (Key tab)</value>
+  </data>
+  <data name="Ch6T0" xml:space="preserve">
+    <value>6.1 How to use the key</value>
+  </data>
+  <data name="Chapter 6 T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Ch6S0" xml:space="preserve">
+    <value>he key is written to guide you through the identification process in the most efficient and accurate way possible. It presents you with a numbered series of questions. The answers you provide will be based on your interpretations of the anatomical characters in your unknown specimen and will lead you to a new set of questions. In order to understand what the key means by terms like “few”, “average”, “many”, you will need to practice with a few correctly identified specimens—this will train you to use the key as intended. Each time you answer a question and proceed to the next, you are one step closer to making an identification. Eventually, the key will direct you to a species description page in Chapter 7 (^Species tab| in this app) that will provide more detailed information about the wood. The key will not work in the absence of the species descripion pages; you must go to the suggested species description and compare both the overall pattern and the specific characters of your unknown specimen to the images and text on that page. If your specimen is a good match for the indicated wood, you have successfully identified it. If, however, your unknown specimen is a species not included in the key, the images and information in Chapter 7 (^Species tab| in this app) will not match, and you must conclude that the specimen is not recognized. This will happen from time to time, because no key includes all woods. Let us reiterate, to make a correct identification, the following key must be used with the species description pages for this manual to function properly. Failing to use the species description pages in Chapter 7 (^Species tab| in this app) would be like traveling by airplane and failing to claim your luggage from the baggage claim at your destination; you would be assuming it arrived at the airport with you, but you would not know.</value>
+  </data>
+  <data name="Ch6T1" xml:space="preserve">
+    <value>6.2 Checklist of features</value>
+  </data>
+  <data name="Ch6T1c" xml:space="preserve">
+    <value>Checklist of features</value>
+  </data>
+  <data name="Ch6S1" xml:space="preserve">
+    <value>A checklist like the following one can be helpful when identifying an unknown specimen because it encourages you to go through the process of observing specific features useful in wood identification. It can prevent you from overlooking an important character or failing to check for the presence of all possible features. With practice and experience, such a checklist will be less useful to you for wood patterns you recognize automatically, but it can help with difficult specimens even when you have years of practice identifying wood.</value>
+  </data>
+  <data name="Chapter 7 Title" xml:space="preserve">
+    <value>Species description pages (Species tab)</value>
+  </data>
+  <data name="Ch7T0" xml:space="preserve">
+    <value>7.1 How to use the species description pages</value>
+  </data>
+  <data name="Chapter 7 T" xml:space="preserve">
+    <value>T</value>
+  </data>
+  <data name="Ch7S0" xml:space="preserve">
+    <value>hese pages are written to be the final step in the identification process; you will be directed to them by the key in Chapter 6 (^Key tab| in this app). Each species or group of similar species in the same genus has its own page. The information found in these pages shows transverse surface images of the wood and describes the characteristics of the wood for all species covered in the manual. Determine which character is present in the unknown, and use that information to confirm or deny the identification.</value>
+  </data>
+  <data name="Chapter 6" xml:space="preserve">
+    <value>Chapter 6 </value>
+  </data>
+  <data name="Chapter 7" xml:space="preserve">
+    <value>Chapter 7 </value>
+  </data>
+  <data name="Chapter 6 Title Hyperlink" xml:space="preserve">
+    <value>Identification key (^Key tab|)</value>
+  </data>
+  <data name="Chapter 7 Title Hyperlink" xml:space="preserve">
+    <value>Species description pages (^Species tab|)</value>
+  </data>
+  <data name="Ch6S0iOS" xml:space="preserve">
+    <value>he key is written to guide you through the identification process in the most efficient and accurate way possible. It presents you with a numbered series of questions. The answers you provide will be based on your interpretations of the anatomical characters in your unknown specimen and will lead you to a new set of questions. In order to understand what the key means by terms like “few”, “average”, “many”, you will need to practice with a few correctly identified specimens—this will train you to use the key as intended. Each time you answer a question and proceed to the next, you are one step closer to making an identification. Eventually, the key will direct you to a species description page in Chapter 7</value>
+  </data>
+  <data name="Ch6S0iOS1" xml:space="preserve">
+    <value>(^Species tab| in this app)</value>
+    <comment>@MutedRule(PunctuationTail)</comment>
+  </data>
+  <data name="Ch6S0iOS2" xml:space="preserve">
+    <value>that will provide more detailed information about the wood. The key will not work in the absence of the species descripion pages; you must go to the suggested species description and compare both the overall pattern and the specific characters of your unknown specimen to the images and text on that page. If your specimen is a good match for the indicated wood, you have successfully identified it. If, however, your unknown specimen is a species not included in the key, the images and information in Chapter 7</value>
+  </data>
+  <data name="Ch6S0iOS3" xml:space="preserve">
+    <value>(^Species tab| in this app)</value>
+  </data>
+  <data name="Ch6S0iOS4" xml:space="preserve">
+    <value>will not match, and you must conclude that the specimen is not recognized. This will happen from time to time, because no key includes all woods. Let us reiterate, to make a correct identification, the following key must be used with the species description pages for this manual to function properly. Failing to use the species description pages in Chapter 7</value>
+  </data>
+  <data name="Ch7S0iOS" xml:space="preserve">
+    <value>hese pages are written to be the final step in the identification process; you will be directed to them by the key in Chapter 6</value>
+  </data>
+  <data name="Ch7S0iOS1" xml:space="preserve">
+    <value>(^Key tab| in this app).</value>
+  </data>
+  <data name="Ch7S0iOS2" xml:space="preserve">
+    <value>Each species or group of similar species in the same genus has its own page. The information found in these pages shows transverse surface images of the wood and describes the characteristics of the wood for all species covered in the manual. Determine which character is present in the unknown, and use that information to confirm or deny the identification.</value>
+  </data>
+  <data name="Chapter 6 Title iOS" xml:space="preserve">
+    <value>Identification key</value>
+  </data>
+  <data name="Chapter 6 Title iOS1" xml:space="preserve">
+    <value>(^Key tab|)</value>
+  </data>
+  <data name="Chapter 7 Title iOS" xml:space="preserve">
+    <value>Species description pages</value>
+  </data>
+  <data name="Chapter 7 Title iOS1" xml:space="preserve">
+    <value>(^Species tab|)</value>
+  </data>
+  <data name="Abstract" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Background</value>
+  </data>
+  <data name="Objective" xml:space="preserve">
+    <value>Objective and scope of the manual</value>
+  </data>
+  <data name="Acknowledgments" xml:space="preserve">
+    <value>Acknowledgments</value>
+  </data>
+  <data name="Abs0" xml:space="preserve">
+    <value>Ghana is a nation rich in natural resources and tropical diversity, with forests covering approximately one-fifth of the country’s total land area. To ensure that future generations of Ghanaians can enjoy the benefits of such a rich forest resource, Ghana has been enacting and enforcing laws intended to ensure that wood and wood-derived products are legally sourced. Compliance with and enforcement of these laws depend in part on the availability of technical or forensic expertise to validate claims of legality through the correct identification of timber during its extraction, processing, and grading. As part of a UNIDO-funded international partnership to improve timber tracking and timber forensics in the Ghanaian timber market, we present a wood identification manual for the most common commercial timbers of Ghana. This manual provides a field reference suitable for timber inspectors to conduct routine field screening of more than 100 timber species using macroscopic and physical identification features.</value>
+  </data>
+  <data name="Bac0" xml:space="preserve">
+    <value>This manual is one outcome of the Improving Sustainable Value Chains for Exports from Ghana program (SAP ID 100317), which is sponsored by the United Nations Industrial Development Organization (UNIDO). In 2016, Alex Wiedenhoeft made a study tour of the Forestry Commission’s Timber Industry Development Division (TIDD) to assess the state of timber forensics in Ghana and identify opportunities to build capacity and enhance TIDD’s enforcement capabilities in the context of chain of custody management for timber.</value>
+  </data>
+  <data name="Obj0" xml:space="preserve">
+    <value>The objective of this manual is to provide a field reference suitable for timber inspectors to conduct routine field screening of the common commercial timbers of Ghana. The manual covers a list of woods selected by TIDD and the Council for Scientific and Industrial Research-Forestry Research Institute of Ghana (CSIR-FORIG) that reflects priority species at the time of publication. As the timber market changes, it is expected that new species will take on new importance and the manual will need to be updated.</value>
+  </data>
+  <data name="Ack0" xml:space="preserve">
+    <value>A warm thank you to Collins Faakye from TIDD for his patient explanations of chain of custody operations within TIDD for timber export and his kind professionalism in all things.
+     Juan Pablo Davila, Laura Pedraza, Amelia Espinoza Tiffer, and Abena Safoa Osei from UNIDO were critical partners from the earliest phases of the 2016 study tour to the partnership with the U.S. Forest Service that gave rise to this manual.
+     Within the U.S. Forest Service, Office of International Programs, this project was shepherded first by Cynthia Mackie and later by Beth Lebow, with support from Adam Welti.
+     Many thanks to our good colleague Prabu Ravindran for his collegial spirit and endless good humor.
+     The authors wish to thank the specimen polishing and imaging efforts of Flavio Ruffinatto, Patricia Vega, Nicholas Bargren, and Karl Kleinschmidt.
+     Xylaria that generously provided specimen access include: Royal Museum for Central Africa, Tervuren, Belgium; Instituto de Pesquisas Tecnologicas, São Paulo, Brazil; Instituto Florestal, São Paulo, Brazil; Universidade Estadual Paulista-Botucatu, Brazil.</value>
+  </data>
+  <data name="Ch6S0iOS5" xml:space="preserve">
+    <value>(^Species tab| in this app)</value>
+  </data>
+  <data name="Ch6S0iOS6" xml:space="preserve">
+    <value>would be like traveling by airplane and failing to claim your luggage from the baggage claim at your destination; you would be assuming it arrived at the airport with you, but you would not know.</value>
+  </data>
+</root>

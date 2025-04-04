@@ -1,0 +1,281 @@
+1+  1+  Rays absent+  2
+2+  1+  Rays present+  3
+
+3+  2+  Vascular bundles occupying well over 50% of the area on the transvserse surface, “wood” hard, heavy, and dark brown to black with narrow, lighter streaks+  [Borassus aethiopum]+  14
+4+  2+  Vascular bundles occupying 50% or less of the area on the transvserse surface, “wood” medium density, light brown in color with darker streaks+  [Cocos nucifera]+  22
+
+5+  3+  Vessels absent; earlywood-latewood transition abrupt and latewood with resin canals+  [Pinus] spp.+  66
+6+  3+  Vessels present+  4
+
+7+  4+  Rays storied (observed on the tangential surface)+  5
+8+  4+  Rays not storied (observed on the tangential surface)+  20
+
+9+  5+  Vessels small, only visible with a hand lens and not visible to the naked eye+  6
+10+  5+  Vessels medium to large, typically visible with the naked eye and easily visible with a hand lens+  10
+
+11+  6+  Axial parenchyma predominantly apotracheal+  7
+12+  6+  Axial parenchyma predominantly paratracheal+  9
+
+13+  7+  Axial parenchyma diffuse-in-aggregate+  8
+14+  7+  Axial parenchyma in narrow apotracheal bands+  [Dialium aubrevillei]+  30
+
+15+  8+  Vessels small, sometimes in radial arrangement; wood high density and dark reddish brown in color+  [Nesogordonia papaverifera]+  62
+16+  8+  Vessels small to medium, sometimes with tyloses; wood medium density and grey-green to grey-brown in color+  [Mansonia altissima]+  54
+
+17+  9+  Axial parenchyma winged aliform to narrow confluent; wood medium density, yellowish in color+  [Holoptelea grandis]+  44
+18+  9+  Axial parenchyma almost entirely confluent, alternating regularly with thick-walled fibers; apparent growth increments demarcated by very fine marginal parenchyma followed by a band of fibers with few or no vessels; wood hard and high density, yelllowish to brown in color.+  [Baphia nitida]+  10
+
+19+  10+  Axial parenchyma apotracheal or if paratracheal, not predominantly confluent, if confluent parenchyma is present it does not connect the majority of the vessels+  11
+20+  10+  Axial parenchyma predominantly confluent with most vessels connected by confluent bands+  13
+
+21+  11+  Axial parenchyma diffuse-in-aggregate, vessels often with tyloses, rays medium to wide+  [Bombax brevicuspe]+  13
+22+  11+  Axial parenchyma in the body of the growth ring, vasicentic or sometimes confluent connnecting few vessels; marginal parenchyma present+  12
+
+23+  12+  Marginal parenchyma narrow, axial parenchyma predomoninantly vasicentric, sometimes aliform to short confluent, virtually all vessels with paratracheal parenchyma, narrow gum-filled vessels common; wood yellow-brown to light reddish brown, without pleasant odor+  [Daniellia] spp.+  29
+24+  12+  Marginal parenchyma typically wide, axial parenchyma confluent, but many vessels with no paratracheal parenchyma of any kind, dark gums common in vessels; wood reddish brown and often with a pleasant spicy aroma+  [Entandrophragma cylindricum]+  36
+
+25+  13+  Wood clearly diffuse-porous, storying medium or coarse+  14
+26+  13+  Wood typically subtly semi-ring porous, storying fine+  [Pterocarpus erinaceus]+  69
+
+27+  14+  Vessel arrrangement clearly in echelon, confluent parenchyma paralleling echelon arrangement or connecting few vessels+  15
+28+  14+  Vessel arrangement not clearly in echelon, most vessels connecting tangentially in confluent parenchyma+  16
+
+29+  15+  Vessels large and abundant, typically easily visible to the naked eye, vessels often with dark gums and light colored powders+  [Erythrophleum suaveolens]+  37
+30+  15+  Vessels small and abundant, not visible to the naked eye but easily resolved with a hand lens+  [Pericopsis elata]+  65
+
+31+  16+  Axial parenchyma predominantly confluent in wide bands alternating regularly with thick-walled fibers, easily seen with the naked eye.+  17
+32+  16+  Axial parenchyma vasicentric to aliform to confluent, easily seen with hand lens, but not evident to the naked eye.+  18
+
+33+  17+  Storying regular and medium, rays fairly small on the tangential surface+  [Lonchocarpus sericeus]+  49
+34+  17+  Storying irregular and comparatively coarse, rays fairly tall on the tangential surface+  [Amphimas pterocarpoides]+  4
+
+35+  18+  Rays always well-storied, medium storying, vessels medium diameter, axial parenchyma aliform to confluent, with narrow marginal parenchyma present+  [Distemonanthus benthamianus]+  33
+36+  18+  Rays irregularly storied+  19
+
+37+  19+  Axial parenchyma in long, widely to regularly spaced narrow confluent bands appearing like connected thin winged aliform parenchyma+  [Quassia gabonensis]+  72
+38+  19+  Axial parenchyma vasicentric to wide lozenge aliform but predominantly confluent in wide, closely spaced confluent bands appearing like connected wide lozenge aliform parenchyma, sometimes with faint, narrow marginal parenchyma, heartwood vessels commonly with dark gums+  [Parkia] spp.+  64
+
+39+  20+  Rays at least in part medium to wide+  21
+40+  20+  Rays very narrow to narrow+  36
+
+41+  21+  Axial parenchyma essentially absent+  22
+42+  21+  Axial parenchyma clearly present+  24
+
+43+  22+  Vessels small and abundant, not visible with the naked eye but easily seen with a hand lens; rays medium-wide and numerous, rays wider than vessels+  [Scottellia coriacea]+  74
+44+  22+  Vessels medium size, sometimes visible to the naked eye; rays average to very wide, average abundance+  23
+
+45+  23+  Rays wide and very wide, average abundance, much wider than the vessels+  [Vernonia conferta]+  84
+46+  23+  Rays average to medium-wide, narrower than the vessels; vessels often with dark gums; wood reddish brown and lustrous+  [Khaya] spp.+  46
+
+47+  24+  Axial parenchyma almost exclusively marginal+  [Carapa procera]+  16+  rare specimens of [Khaya] spp.+  46
+48+  24+  Axial parenchyma in the body of the growth ring common, marginal parenchyma parenchyma present or absent+  25
+
+49+  25+  Axial parenchyma abundantly apotracheal and paratracheal, marginal parenchyma present; vessels large and often in tangential clusters, commonly with abundant tyloses+  [Cordia milleni]+  25
+50+  25+  Axial parenchyma either predominantly apotracheal or predominantly paratracheal+  26
+
+51+  26+  Axial parenchyma predominantly apotracheal - parenchyma, especially bands, may touch the vessels, but all vessels are not surrounded by parenchyma even if some vessels are, in whole or in part+  27
+52+  26+  Axial parenchyma predominantly paratracheal - clearly associated with the vessels+  34
+
+53+  27+  Apotracheal axial parenchyma almost exclusively diffuse-in-aggregate+  28
+54+  27+  Apotracheal axial parenchyma almost exclusively banded+  31
+
+55+  28+  Apotracheal parenchyma predominantly diffuse, some diffuse-in-aggregate, sometimes faint and narrow paratracheal vasicentric or lozenge aliform; wood medium density and typically reddish brown+  [Tarrietia utilis]+  77
+56+  28+  Apotracheal parenchyma predominantly and distinctly diffuse-in-aggregate+  29
+
+57+  29+  Rays nearly all wide to very wide+  [Sterculia tragacantha]+  75
+58+  29+  Rays medium to wide, wide rays not abundant+  30
+
+59+  30+  Vessels large to very large and abundant, easily visible to the naked eye, sometimes with tyloses; the widest rays seen on the tangential surface never more than half the magnified diameter seen with a hand lens+  [Ceiba pentandra]+  18
+60+  30+  Vessels large and abundant, easily visible to the naked eye, sometimes with tyloses; the widest rays seen on the tangential surface often more than half the magnified diameter seen with a hand lens+  [Bombax buonopozense]+  13
+
+61+  31+  Apotracheal bands of parenchyma wide and abundant, regularly alternating with narrow bands of fibers of similar width, possibly appearing as confluent+  32
+62+  31+  Apotracheal bands of parenchyma narrow, either quite narrow and evenly spaced or narrow and widely and irregularly spaced+  33
+
+63+  32+  Wood low to medium density; whitish to yellowish in color+  [Sterculia oblonga]+  75
+64+  32+  Wood medium density; reddish brown in color+  [Sterculia rhinopetala]+  75
+
+65+  33+  Apotracheal banded parenchyma widely spaced, wavy and irregular; vessels quite large and easily visible with the naked eye; wood whitish to greyish and low density+  [Cleistopholis patens]+  21
+66+  33+  Apotracheal banded parenchyma narrow and closely spaced; vessels medium to medium-large and typically visible with the naked eye; wood brownish and medium density+  [Duguetia staudtii]+  34
+
+67+  34+  Paratracheal winged aliform and confluent parenchyma in narrow widely spaced bands, parenchyma making up less than 20% of the area+  [Quassia gabonensis]+  72
+68+  34+  Paratracheal confluent parenchyma in wide, typically closely-spaced bands, parenchyma well over 20% of the area, often closer to 40-50%+  35
+
+69+  35+  Paratracheal confluent parenchyma wide and often undulating; vessels large and few, easily seen with the naked eye; the height of the tallest rays seen on the tangential surface always less than a quarter of the view in a 14x hand lens; wood sometimes appearing faintly semi-ring-porous; wood light to medium brown+  [Entada abyssinica]+  35
+70+  35+  Paratracheal confluent parenchyma in wide regular bands; vessels medium to medium-large and numerous, easily seen with the naked eye; the height of the tallest rays seen on the tangential surface often more than one third of the view in a 14x hand lens; wood whitish to greyish+  [Cola gigantea]+  23
+
+71+  36+  Axial parenchyma essentially absent+  37
+72+  36+  One or more types of axial parenchyma clearly present+  47
+
+73+  37+  Vessels very small to medium-small, visible with a hand lens, but not clearly visible to the naked eye+  38
+74+  37+  Vessels medium-small to large, visible to easily visible to the naked eye+  42
+
+75+  38+  In addition to numerous small vessels, large, irregularly-shaped structures with resinous or gummy contents visible on the transverse surface+  [Memecylon lateriflorum]+  56
+76+  38+  Large, irregularly-shaped structures with resinous or gummy contents absent+  39
+
+77+  39+  Radial canals in rays visible with a hand lens on tangential surface, often appearing as large black dots in the rays+  [Lannea welwitschii]+  48
+78+  39+  Rays when seen with a hand lens on the tangential surface without radial canals+  40
+
+79+  40+  Vessels small, easily visible with a hand lens, abdundant, but not so many that it would be impossible to count the vessels in one quarter of the hand lens view+  [Margaritaria discoidea]+  55
+80+  40+  Vessels very small and abundant, visible with a hand lens but far too numerous to count in one quarter of the hand lens view+  41
+
+81+  41+  All rays narrow, abundant, regularly spaced+  [Hymenocardia acida]+  45
+82+  41+  Rays of two sizes, extremely narrow and sligthly but distinctly wider; wider rays irregularly spaced but still numerous+  [Voacanga africana]+  86
+
+83+  42+  Radial canals in rays visible with a hand lens on tangential surface, often appearing as small black dots in the rays+  43
+84+  42+  Rays when seen with a hand lens on the tangential surface without radial canals+  44
+
+85+  43+  Vessels not easily visible without a lens; radial canals at most one per ray+  [Antrocaryon micraster]+  9
+86+  43+  Vessels easily visible without a lens; radial canals often more than one canal per ray+  [Pycnanthus angolensis]+  71
+
+87+  44+  Wood low to medium density; whitish to yellowish in color+  45
+88+  44+  Wood medium density; reddish brown to brown in color+  46
+
+89+  45+  Vessels medium to large, easily visible with the naked eye and with a hand lens, vessels often empty, sometimes with tyloses+  [Canarium schweinfurthii]+  15
+90+  45+  Vessels medium to medium-large, usually visible to the naked eye and easily visible with a hand lens, often with light-colored gums+  [Turraeanthus africanus]+  83
+
+91+  46+  Vessels medium-small to medium and abundant; rays varying in width from extremely narrow to medium-narrow+  [Khaya] spp.+  46
+92+  46+  Vessels medium-small to medium, often in echelon arrangement and radial multiples of 2-6; all rays extremely narrow+  [Blighia sapida]+  12
+
+93+  47+  Wood sublty ring-porous to semi-ring porous+  48
+94+  47+  Wood diffuse porous+  50
+
+95+  48+  Earlywood vessels barely visible to the naked eye or not visible, latewood vessels too small to be seen with the naked eye; rays narrow to medium width+  [Vitex micrantha]+  85
+96+  48+  Earlywood vessels easily seen with the naked eye, latewood vessels often also visible with the naked eye; rays narrow+  49
+
+97+  49+  Earlywood vessels loosely spaced and typically only in one row, vessels throughout the growth ring often with dark-colored gums; wood without oily texture; heartwood typically with a pleasant spicy scent+  [Cedrela odorata]+  17
+98+  49+  Earlywood vessels typically well-organized, often in more than one row, often with prominent tyloses in the heartwood; wood with oily texture; without spicy scent+  [Tectona grandis]+  78
+
+99+  50+  Parenchyma in the body of the growth ring absent, marginal parenchyma clearly present+  [Entandrophragma]+  36+  some rare specimens of [Khaya] spp.+  46
+100+  50+  Parenchyma in the body of the growth ring present, with or without marginal parenchyma+  51
+
+101+  51+  Parenchyma in the body of the growth ring predominantly apotracheal+  52
+102+  51+  Parenchyma in the body of the growth ring predominantly paratracheal+  69
+
+103+  52+  Parenchyma in the body of the growth ring predominantly apotracheal diffuse and/or diffuse-in-aggregate+  53
+104+  52+  Parenchyma in the body of the growth ring predominantly apotracheal banded+  62
+
+105+  53+  Vessels very small to medium-small and abundant, too small to be seen with the naked eye, but visible with a hand lens+  54
+106+  53+  Vessels medium small to large, visible with the naked eye+  57
+
+107+  54+  Parenchyma almost exclusively apotracheal diffuse+  [Aidia genipiflora]+  2+  [Corynanthe pachyceras]+  26
+108+  54+  Parenchyma predominantly diffuse-in-aggregate+  55
+
+109+  55+  Vessels in radial multiples of 2-6 or more common+  56
+110+  55+  Vessels solitary and in radial multiples of 2-3 common+  [Strombosia glaucescens]+  76
+
+111+  56+  Vessels not abundant, vessel multiples with tapered outline; wood whitish to greyish, low density and soft+  [Holarrhena floribunda]+  43
+112+  56+  Vessels numerous, solitary vessels and vessel multiples with rounded outline; wood shades of brown, medium-high density and hard+  [Mitragyna stipulosa]+  58
+
+113+  57+  Vessels exclusively solitary; wood other than whitish or greyish in color+  58
+114+  57+  Vessels commonly at least in part in radial multiples; wood whitish or reddish brown+  59
+
+115+  58+  Large, resinous radial canals easily seen with the hand lens, often barely visible to the naked eye; resinous spots often visible to the naked eye on longtudinal surfaces+  [Mammea africana]+  52
+116+  58+  Radial canals absent; wood with a reddish-orange cast+  [Nauclea diderrichi]+  61
+
+117+  59+  On the tangential surface, vessels, fibers, and parenchyma cells are storied but rays are not, appearing as faint wavy white lines; vessels quite large, marginal parenchyma well-developed; wood whitish to light yellow, light and soft+  [Triplochiton scleroxylon]+  82
+118+  59+  All storying absent on the tangential surface+  60
+
+119+  60+  Rays two sized, narrow and medium narrow to medium; axial parenchyma mostly diffuse-in-aggregate, but narrow vasicentric and lozenge also present; heartwood reddish brown+  [Tarrietia utilis]+  77
+120+  60+  Rays all narrow; paratracheal parenchyma absent; heartwood whitish to greyish+  61
+
+121+  61+  Vessels extremely large, easily seen at a distance with the naked eye+  [Ricinodendron heudelotii]+  73+  [Discoglypremna caloneura]+  32
+122+  61+  Vessels medium-large to large, visible to the naked eye+  [Funtumia elastica]+  38+  [Tetrorchidium didymostemon]+  80
+
+123+  62+  Vessels large to extremely large, easily visible to the naked eye at a distance+  63
+124+  62+  Vessels small to medium diameter, not readily visible to the naked eye, but easily seen with a hand lens+  66
+
+125+  63+  Vessels exclusively solitary and extremely large+  [Parinari excelsa]+  63
+126+  63+  Vessels solitary and in multiples+  64
+
+127+  64+  Axial parenchyma in prominent, abundant, wide bands alternating with fibers; vessels large; wood dark in color and high density+  [Lophira alata]+  50
+128+  64+  Axial parenchyma in thin, narrow, widely or closely spaced bands; wood whitish to greyish in color and low density+  65
+
+129+  65+  Apoptracheal banded parenchyma narrow but closely-spaced; vessel multiples of 2-5 common, often also in clusters, vessels commonly with tyloses; marginal parenchyma as fine brown lines commonly well-developed+  [Hevea brasiliensis]+  42
+130+  65+  Apotracheal banded parenchyma narrow and widely spaced, radial vessel multiples in excess of 8 common; marginal parenchyma sometimes present, typically as faint white lines+  [Alstonia boonei]+  5
+
+131+  66+  Apotracheal banded parenchyma in extremely fine lines narrower than the rays; vessels solitary and in multiples of 2-3+  [Diospyros] spp.+  31
+132+  66+  Apotracheal banded parenchyma in wider bands often as wide as or wider than the rays; vessels mostly in radial mutiples of 4 or more+  67
+
+133+  67+  Vessels and vessel multiples also with prominent echelon arrangement, medium diameter+  [Tieghemella heckelii]+  81
+134+  67+  Vessels and vessel multiples in radial arrangement, small to medium-small+  68
+
+135+  68+  Vessels small; wood brown to dark brown, extremely hard and heavy and difficult to cut with a utility knife+  [Manilkara obovata]+  53
+136+  68+  Vessels small to medium-small; wood light brown to brown, moderately hard and heavy, can be cut with a utility knife+  [Pouteria altissima]+  68+  [Chrysophyllum] spp.+  20
+
+137+  69+  Paratracheal parenchyma predominantly confluent with or without other types of parenchyma in a minority fraction+  70
+138+  69+  Paratracheal parenchyma predominantly vasicentric or aliform, with or without other types in a minority fraction+  78
+
+139+  70+  Confluent paratracheal parenchyma in narrow bands, generally not visible or barely visible to the naked eye, but easily seen with a hand lens+  71
+140+  70+  Confluent paratracheal parenchyma in wide bands easily seen with the naked eye+  72
+
+141+  71+  Confluent paratracheal parenchyma in narrow, regular bands; vessels small and not abundant; apparent growth rings delimited by areas with few or no vessels or parenchyma; wood medium-high density and dark brown+  [Cynometra ananta]+  28
+142+  71+  Confluent paratracheal parenchyma in looser, undulating bands; vessels small and abundant; wood medium density and light reddish brown+  [Guarea cedrata]+  41
+
+143+  72+  Nearly all heartwood vessels almost completely occluded by abundant and easily visible tyloses+  73
+144+  72+  Some vessels in heartwood with tyloses but most without, or tyloses absent+  75
+
+145+  73+  Confluent paratracheal bands of parenchyma of similar width to bands of fibers and alternating regularly, extending tangentially for mm or cm+  [Morus mesozygia]+  60
+146+  73+  Confluent paratracheal bands of parenchyma wavy and irregular, narrower than bands of fibers+  74
+
+147+  74+  Vessels medium to medium-large, average abundance; bands of parenchyma wavy and relativelty short connecting only 2-5 vessels; wood medium density, readily cut with a utility knife+  [Milicia] spp.+  57
+148+  74+  Vessels medium and abundant; bands of parenchyma narrow, frequent, and connecting many vessels; wood high density and hard, difficult to cut with a utility knife+  [Klainedoxa gabonensis]+  47
+
+149+  75+  Vessels small to medium-small and abundant, too numerous to count with a hand lens; confluent bands wavy and narrow, and aliform parenchyma common; wood whitish to yellowish+  [Celtis] spp.+  19
+150+  75+  Vessels medium to medium-large, not numerous, inconvenient but possible to count with a hand lens; confluent bands prominent and distinct, easily seen with the naked eye+  76
+
+151+  76+  Confluent paratracheal parenchyma bands distinctly narrower than the bands of fibers; rays extremely narrow and abudnant; wood whitish to greyish and medium to low density+  [Anthocleista nobilis]+  7
+152+  76+  Confluent paratracheal parenchyma bands of similar width to the bands of fibers; rays narrow and abundant or medium-narrow and of average abundance; wood yellowish to reddish orange, medium to high density+  77
+
+153+  77+  Confluent paratracheal parenchyma abundant and in closely-spaced bands; on the tangential surface no storying+  [Morinda lucida]+  59
+154+  77+  Confluent paratracheal parenchyma in thick bands; on the tangential surface fibers and parenchyma are storied, giving rise to faint yellowish wavy lines+  [Amphimas pterocarpoides]+  4
+
+155+  78+  Heartwood vessels typically occluded with well-developed, distinct, and abudand tyloses+  [Gmelina arborea]+  40
+156+  78+  Heartwood vessels without tyloses, or if tyloses present, not occluding vast majority of heartwood vessels and/or not distinct or well-developed+  79
+
+157+  79+  Apparently marginal parenchyma distinctly present and well-developed, in moderately thick lines+  80
+158+  79+  Marginal parenchyma in fine lines, faint, irregular, or absent+  84
+
+159+  80+  Wide bands of marginal parenchyma with numerous small vessels filled with dark resinous material - these are not tangential bands of wound tissue+  [Copaifera salikounda]+  24
+160+  80+  Marginal parenchyma without small, resinous vessels+  81
+
+161+  81+  Parenchyma in the body of the growth ring not visible to the naked eye+  82
+162+  81+  Parenchyma in the body of the growth ring clearly visible to the naked eye+  83
+
+163+  82+  Parenchyma in the body of the growth ring well-developed vasicentric to wide irregual confluent connecting 2-4 vessels+  [Entandrophragma] spp.+  36
+164+  82+  Parenchyma in the body of the growth ring predominantly narrow vasicentric to slightly aliform; long tangential bands of wound tissue can be common+  [Lovoa trichilioides]+  51
+
+165+  83+  Paratracheal parenchyma predominantly narrow vasicentric and narrow aliform, individual parenchyma cells too small to resolve with a hand lens+  [Piptadeniastrum africanum]+  67
+166+  83+  Paratracheal parenchyma predominantly wide lozenge aliform, individual parenchyma cells typically visible with a hand lens+  [Berlinia grandiflora]+  11
+
+167+  84+  Paratracheal parenchyma clearly visible with the hand lens, but not clearly visible with the naked eye+  85
+168+  84+  Paratracheal parenchyma clearly visible with the naked eye+  88
+
+169+  85+  All rays distinctly less than half vessel width+  86
+170+  85+  At least some rays distintly wider than half the vessel width+  87
+
+171+  86+  Rays extremely narrow and abundant; parenchyma predominantly winged alifrom to narrow confluent; wood low density and soft+  [Terminalia superba]+  79
+172+  86+  Rays narrow, average abundance; parenchyma predominantly narrow vasicentric; wood medium density+  [Terminalia ivorensis]+  79
+
+173+  87+  Vessels predominantly solitary, sometimes in multiples of 2 and rarely 3; wood light brown and medium density+  [Vitex micrantha]+  85
+174+  87+  Many vessels solitary and in multiples of 2-3 fairly common, multiples of 4-5 rare+  [Antiaris toxicaria]+  8
+
+175+  88+  Paratracheal parenchyma narrow, the area of each vessel’s parenchyma less than the vessel area+  89
+176+  88+  Paratracheal parenchyma wide, the area of each vessel’s parenchyma clearly equal to or greater than vessel area+  90
+
+177+  89+  Paratracheal parenchyma narrow vasicentric, rarely narrow aliform; vessels sometimes in slight echelon, sometimes with reddish brown gums; wood medium density+  [Zanthoxylum gilletii]+  87
+178+  89+  Paratracheal parenchyma winged aliform, short to medium wings; vessels often in clear echelon arrangement; wood high density and hard to cut with a utility knife+  [Anopyxis klaineana]+  6
+
+179+  90+  Marginal parenchyma in fine, faint lines, common throughout the specimen+  91
+180+  90+  Marginal parenchyma absent or only faintly present in the minority of growth rings+  93
+
+181+  91+  Paratracheal parenchyma predominantly lozenge aliform with short, stubby wings+  92
+182+  91+  Paratracheal parenhcyma lozenge aliform with long wings to confluent connecting few vessels+  [Parkia] spp.+  64
+
+183+  92+  Wood reddish brown+  [Afzelia africana]+  1
+184+  92+  Wood brown, without reddish color+  [Gilbertiodendron limba]+  39
+
+185+  93+  Paratracheal parenchyma predominantly vasicentric to narrow aliform+  94
+186+  93+  Paratracheal parenchyma predominantly aliform to confluent connecting few vessels+  [Erythrophleum suaveolens]+  37
+
+187+  94+  Wood dark yellow-greenish brown to dark brown; medium-high density, often slightly resinous+  [Cylicodiscus gabunensis]+  27
+188+  94+  Wood whitish to light reddish brown to rich red-brown; medium-low to medium density+  [Albizia] spp.+  3

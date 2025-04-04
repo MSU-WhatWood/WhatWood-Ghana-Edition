@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="referenceFC" xml:space="preserve">
+    <value>Especies</value>
+  </data>
+  <data name="idC" xml:space="preserve">
+    <value>Clave</value>
+  </data>
+  <data name="learnFC" xml:space="preserve">
+    <value>Prueba</value>
+  </data>
+  <data name="studyFC" xml:space="preserve">
+    <value>Libro</value>
+  </data>
+  <data name="Expert mode:" xml:space="preserve">
+    <value>Modo experto: </value>
+  </data>
+  <data name="Language:" xml:space="preserve">
+    <value>Idioma: </value>
+  </data>
+  <data name="Launch page:" xml:space="preserve">
+    <value>Página de lanzamiento: </value>
+  </data>
+  <data name="Definition hyperlinks:" xml:space="preserve">
+    <value>Hipervínculos de definición: </value>
+  </data>
+  <data name="Font size:" xml:space="preserve">
+    <value>Tamaño de fuente: </value>
+  </data>
+  <data name="settingsLC" xml:space="preserve">
+    <value>ajustes</value>
+  </data>
+  <data name="settingsFC" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="Study hyperlinks:" xml:space="preserve">
+    <value>Hipervínculos de estudiar: </value>
+  </data>
+  <data name="I.D. scroll animation:" xml:space="preserve">
+    <value>Animación de desplazamiento de Clave: </value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Colorblind mode:" xml:space="preserve">
+    <value>Modo daltónico: </value>
+  </data>
+  <data name="Initialization" xml:space="preserve">
+    <value>Inicialización</value>
+  </data>
+  <data name="Loading assets" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Créditos</value>
+  </data>
+  <data name="Credits descriptionOG" xml:space="preserve">
+    <value>Autores:
+&lt;Alex C. Wiedenhoeft, Rafael Arévalo, Kyatt Spessert, Frank Owens, Adriana Costa,&gt; y &lt;Rubin Shmulsky&gt;</value>
+  </data>
+  <data name="Credits description contOG" xml:space="preserve">
+    <value>
+Esta aplicación es una reimaginación del manual de campo “Identificación de las Maderas de Centroamérica, México y el Caribe” de los Dres. Rafael Arévalo y Alex Wiedenhoeft.
+
+Arévalo, Rafael; Wiedenhoeft, Alex C. 2022. [Identificación de las Maderas de Centroamérica, México y el Caribe—Identification of Central American, Mexican, and Caribbean Woods.] General Technical Report FPL-GTR-293. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 376 p. ^https://doi.org/10.2737/FPL-GTR-293|
+
+Créditos de la imagen:
+Dominique Belcher (2020)
+Lencer (2007) “Vorlage Karibik/Mittelamerika, Blank Map Caribbean Sea,” ^https://commons.wikimedia.org/wiki/File:Caribbean_Sea_and_West_Indies.png|
+
+Este material se basa en trabajo respaldado por el Instituto Nacional de Alimentos y Agricultura, Departamento de Agricultura de EE. UU., proyecto McIntire Stennis con número de acceso 7004014.
+
+Esta publicación es una contribución del Centro de Investigación Forestal y de Vida Silvestre de la Universidad Estatal de Mississippi.</value>
+  </data>
+  <data name="Credits description iOSOG" xml:space="preserve">
+    <value>
+Esta aplicación es una reimaginación del manual de campo “Identificación de las Maderas de Centroamérica, México y el Caribe” de los Dres. Rafael Arévalo y Alex Wiedenhoeft.
+
+Arévalo, Rafael; Wiedenhoeft, Alex C. 2022. [Identificación de las Maderas de Centroamérica, México y el Caribe—Identification of Central American, Mexican, and Caribbean Woods.] General Technical Report FPL-GTR-293. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 376 p. </value>
+  </data>
+  <data name="Credits description iOS1OG" xml:space="preserve">
+    <value>^https://doi.org/10.2737/FPL-GTR-293|</value>
+  </data>
+  <data name="Credits description iOS2OG" xml:space="preserve">
+    <value>
+Créditos de la imagen:
+Dominique Belcher (2020)
+Lencer (2007) “Vorlage Karibik/Mittelamerika, Blank Map Caribbean Sea,”</value>
+  </data>
+  <data name="Credits description iOS4OG" xml:space="preserve">
+    <value>
+Este material se basa en trabajo respaldado por el Instituto Nacional de Alimentos y Agricultura, Departamento de Agricultura de EE. UU., proyecto McIntire Stennis con número de acceso 7004014.
+
+Esta publicación es una contribución del Centro de Investigación Forestal y de Vida Silvestre de la Universidad Estatal de Mississippi.</value>
+  </data>
+  <data name="Credits description iOS3OG" xml:space="preserve">
+    <value>^https://commons.wikimedia.org/wiki/File:Caribbean_Sea_and_West_Indies.png|</value>
+  </data>
+  <data name="Credits disclaimer" xml:space="preserve">
+    <value>Las opiniones y puntos de vista expresados ​​en este documento son estrictamente de los autores. El contenido de esta aplicación no ha sido revisado ni aprobado por la Universidad Estatal de Mississippi ni por el Servicio Forestal del USDA.</value>
+  </data>
+</root>

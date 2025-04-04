@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="spp." xml:space="preserve">
+    <value> spp.</value>
+  </data>
+  <data name="Eucalyptus" xml:space="preserve">
+    <value>Eucalyptus</value>
+  </data>
+  <data name="Eschweilera" xml:space="preserve">
+    <value>Eschweilera</value>
+  </data>
+  <data name="learnFC" xml:space="preserve">
+    <value>Prueba</value>
+  </data>
+  <data name="vasicentric parenchyma" xml:space="preserve">
+    <value>¿Qué grupo presenta parénquima vasicéntrico?</value>
+  </data>
+  <data name="qMark" xml:space="preserve">
+    <value>?</value>
+  </data>
+  <data name="wGD" xml:space="preserve">
+    <value>¿Cuál grupo presenta </value>
+  </data>
+  <data name="VP" xml:space="preserve">
+    <value>parénquima vasicéntrico</value>
+  </data>
+  <data name="BAP" xml:space="preserve">
+    <value>parénquima en bandos apotraqueales</value>
+  </data>
+  <data name="wSD" xml:space="preserve">
+    <value>¿Cuál especie presenta </value>
+  </data>
+  <data name="HW89" xml:space="preserve">
+    <value>parénquima marginal</value>
+  </data>
+  <data name="HW76" xml:space="preserve">
+    <value>parénquima apotraqueal difuso</value>
+  </data>
+  <data name="HW77" xml:space="preserve">
+    <value>parénquima apotraqueal difuso-agregado</value>
+  </data>
+  <data name="HW79" xml:space="preserve">
+    <value>parénquima paratraqueal vasicéntrico</value>
+  </data>
+  <data name="HW80" xml:space="preserve">
+    <value>parénquima paratraqueal aliforme</value>
+  </data>
+  <data name="HW83" xml:space="preserve">
+    <value>parénquima paratraqueal confluente</value>
+  </data>
+  <data name="HW81" xml:space="preserve">
+    <value>parénquima paratraqueal aliforme rómbico</value>
+  </data>
+  <data name="HW82" xml:space="preserve">
+    <value>parénquima paratraqueal aliforme alado</value>
+  </data>
+  <data name="HW85" xml:space="preserve">
+    <value>parénquima apotraqueal bandeado (bandas anchas)</value>
+  </data>
+  <data name="HW86" xml:space="preserve">
+    <value>parénquima apotraqueal bandeado (bandas angostas)</value>
+  </data>
+  <data name="HW9" xml:space="preserve">
+    <value>vasos exclusivamente solitarios (90% o más)</value>
+  </data>
+  <data name="HW8" xml:space="preserve">
+    <value>disposición dendrítica de los vasos</value>
+  </data>
+  <data name="HW11" xml:space="preserve">
+    <value>comúnmente vasos en agrupación racemiforme</value>
+  </data>
+  <data name="HW7" xml:space="preserve">
+    <value>disposición radial-oblicua</value>
+  </data>
+  <data name="HW10" xml:space="preserve">
+    <value>comúnmente vasos alineados radialmente en múltiplos de 4 o más</value>
+  </data>
+  <data name="HW5" xml:space="preserve">
+    <value>porosidad difusa</value>
+  </data>
+  <data name="HW4" xml:space="preserve">
+    <value>porosidad semicircular</value>
+  </data>
+  <data name="HW3" xml:space="preserve">
+    <value>porosidad circular</value>
+  </data>
+  <data name="SW109" xml:space="preserve">
+    <value>los canales resiníferos</value>
+  </data>
+  <data name="SW43" xml:space="preserve">
+    <value>transición gradual</value>
+  </data>
+  <data name="SW42" xml:space="preserve">
+    <value>transición abrupta</value>
+  </data>
+  <data name="SW72" xml:space="preserve">
+    <value>parénquima axial</value>
+  </data>
+  <data name="SW73" xml:space="preserve">
+    <value>parénquima difuso</value>
+  </data>
+  <data name="SW75" xml:space="preserve">
+    <value>parénquima marginal</value>
+  </data>
+  <data name="HW96" xml:space="preserve">
+    <value>radios angostos</value>
+  </data>
+  <data name="HW98" xml:space="preserve">
+    <value>radios anchos</value>
+  </data>
+  <data name="HW97" xml:space="preserve">
+    <value>radios medianos a radios angostos</value>
+  </data>
+  <data name="HW99" xml:space="preserve">
+    <value>radios muy anchos</value>
+  </data>
+  <data name="HW114" xml:space="preserve">
+    <value>radios escasos</value>
+  </data>
+  <data name="HW116" xml:space="preserve">
+    <value>radios numerosos</value>
+  </data>
+  <data name="HW115" xml:space="preserve">
+    <value>radios de abundancia media</value>
+  </data>
+  <data name="SW40" xml:space="preserve">
+    <value>límites de anillos de crecimiento distintos</value>
+  </data>
+  <data name="SW41" xml:space="preserve">
+    <value>límites de anillos de crecimiento indistintos o ausentes</value>
+  </data>
+  <data name="SW74" xml:space="preserve">
+    <value>parénquima tangencialmente zonado</value>
+  </data>
+  <data name="SW111" xml:space="preserve">
+    <value>los canales de resina traumáticos</value>
+  </data>
+  <data name="HW1" xml:space="preserve">
+    <value>límites de anillos de crecimiento distintos</value>
+  </data>
+  <data name="HW2" xml:space="preserve">
+    <value>límites de anillos de crecimiento indistintos o ausentes</value>
+  </data>
+  <data name="HW6" xml:space="preserve">
+    <value>vasos en bandas tangenciales</value>
+  </data>
+  <data name="HW56" xml:space="preserve">
+    <value>comúnmente tílides</value>
+  </data>
+  <data name="HW58" xml:space="preserve">
+    <value>gomas y otros depósitos en vasos de duramen</value>
+  </data>
+  <data name="HW78" xml:space="preserve">
+    <value>parénquima paratraqueal escaso</value>
+  </data>
+  <data name="HW84" xml:space="preserve">
+    <value>parénquima paratraqueal unilateral</value>
+  </data>
+  <data name="HW87" xml:space="preserve">
+    <value>parénquima en bandas reticuladas</value>
+  </data>
+  <data name="Hardwood" xml:space="preserve">
+    <value>Madera dura </value>
+  </data>
+  <data name="Softwood" xml:space="preserve">
+    <value>Madera blanda </value>
+  </data>
+  <data name="Hardwood:" xml:space="preserve">
+    <value>Madera dura: </value>
+  </data>
+  <data name="Softwood:" xml:space="preserve">
+    <value>Madera blanda: </value>
+  </data>
+  <data name="Softwoods" xml:space="preserve">
+    <value>Maderas blandas</value>
+  </data>
+  <data name="Hardwoods" xml:space="preserve">
+    <value>Maderas duras</value>
+  </data>
+  <data name="sAFs" xml:space="preserve">
+    <value>Seleccione las características anatómicas presentes en la especie: </value>
+  </data>
+  <data name="sAFg" xml:space="preserve">
+    <value>Seleccione las características anatómicas presentes en el grupo: </value>
+  </data>
+  <data name="Features" xml:space="preserve">
+    <value>Características</value>
+  </data>
+  <data name="Open Features Page" xml:space="preserve">
+    <value>Abrir Página de Características</value>
+  </data>
+  <data name="Species" xml:space="preserve">
+    <value>Especies</value>
+  </data>
+  <data name="Open Species Page" xml:space="preserve">
+    <value>Abrir Página de Especies</value>
+  </data>
+  <data name="Result:" xml:space="preserve">
+    <value>Resultado:</value>
+  </data>
+  <data name="Continue" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="Correct!" xml:space="preserve">
+    <value>¡Correcta!</value>
+  </data>
+  <data name="Incorrect." xml:space="preserve">
+    <value>Incorrecta.</value>
+  </data>
+  <data name="Correct answers selected:" xml:space="preserve">
+    <value>Respuestas correctas seleccionadas:</value>
+  </data>
+  <data name="Well done! Correct answers selected:" xml:space="preserve">
+    <value>¡Bien hecho! Respuestas correctas seleccionadas:</value>
+  </data>
+  <data name="Missed:" xml:space="preserve">
+    <value>Omitido: </value>
+  </data>
+  <data name="Incorrect selections:" xml:space="preserve">
+    <value>Selecciones incorrectas:</value>
+  </data>
+  <data name="Selected:" xml:space="preserve">
+    <value>Seleccionada: </value>
+  </data>
+  <data name="SWcat1" xml:space="preserve">
+    <value>Límites de los anillos de crecimiento</value>
+  </data>
+  <data name="HWcat1" xml:space="preserve">
+    <value>Límites de los anillos de crecimiento</value>
+  </data>
+  <data name="SWcat2" xml:space="preserve">
+    <value>Transiciones de anillos de crecimiento</value>
+  </data>
+  <data name="SWcat4" xml:space="preserve">
+    <value>Canales intercelulares</value>
+  </data>
+  <data name="SWcat3" xml:space="preserve">
+    <value>Parénquima axial</value>
+  </data>
+  <data name="HWcat2" xml:space="preserve">
+    <value>Porosidad</value>
+  </data>
+  <data name="HWcat3" xml:space="preserve">
+    <value>Disposición de los vasos</value>
+  </data>
+  <data name="HWcat4" xml:space="preserve">
+    <value>Agrupaciones de vasos</value>
+  </data>
+  <data name="HWcat5" xml:space="preserve">
+    <value>Tílides y depósitos en los vasos</value>
+  </data>
+  <data name="HWcat6" xml:space="preserve">
+    <value>Ancho de los radios</value>
+  </data>
+  <data name="HWcat7" xml:space="preserve">
+    <value>Abundancia de los radios</value>
+  </data>
+  <data name="HWcat8" xml:space="preserve">
+    <value>Parénquima axial apotraqueal</value>
+  </data>
+  <data name="HWcat9" xml:space="preserve">
+    <value>Parénquima axial paratraqueal</value>
+  </data>
+  <data name="HWcat10" xml:space="preserve">
+    <value>Parénquima bandeado</value>
+  </data>
+  <data name="HWf3" xml:space="preserve">
+    <value>porosidad circular</value>
+  </data>
+  <data name="HWf4" xml:space="preserve">
+    <value>porosidad semicircular</value>
+  </data>
+  <data name="HWf5" xml:space="preserve">
+    <value>porosidad difusa</value>
+  </data>
+  <data name="HWf10" xml:space="preserve">
+    <value>vasos alineados radialmente en múltiplos de 4 o más son comunes</value>
+  </data>
+  <data name="HWf11" xml:space="preserve">
+    <value>vasos en agrupación racemiforme son comunes</value>
+  </data>
+  <data name="HWf56" xml:space="preserve">
+    <value>tílides son comunes</value>
+  </data>
+</root>

@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="studyFC" xml:space="preserve">
+    <value>Libro</value>
+  </data>
+  <data name="Background Title" xml:space="preserve">
+    <value>Prefacio</value>
+  </data>
+  <data name="Chapter 1" xml:space="preserve">
+    <value>Capítulo 1 </value>
+  </data>
+  <data name="Chapter 1 Title" xml:space="preserve">
+    <value>Identificación de las maderas y reconocimientro de patrones</value>
+  </data>
+  <data name="Chapter 2" xml:space="preserve">
+    <value>Capítulo 2 </value>
+  </data>
+  <data name="Chapter 2 Title" xml:space="preserve">
+    <value>Biología básica de la madera—Anatomía para la identificación</value>
+  </data>
+  <data name="Chapter 3" xml:space="preserve">
+    <value>Capítulo 3 </value>
+  </data>
+  <data name="Chapter 3 Title" xml:space="preserve">
+    <value>El uso correcto de la lupa de mano</value>
+  </data>
+  <data name="Chapter 4" xml:space="preserve">
+    <value>Capítulo 4 </value>
+  </data>
+  <data name="Chapter 4 Title" xml:space="preserve">
+    <value>Preparación de muestras de madera para su observación con lupa de mano</value>
+  </data>
+  <data name="Chapter 5" xml:space="preserve">
+    <value>Capítulo 5 </value>
+  </data>
+  <data name="Chapter 5 Title" xml:space="preserve">
+    <value>Caracteres básicos utilizados en la identificación de las maderas con lupa de mano</value>
+  </data>
+  <data name="Chapter 8" xml:space="preserve">
+    <value>Capítulo 8 </value>
+  </data>
+  <data name="Chapter 8 Title" xml:space="preserve">
+    <value>Comentarios e información adicional para la identificación de maderas</value>
+  </data>
+  <data name="Index" xml:space="preserve">
+    <value>Índice</value>
+  </data>
+  <data name="Table of Contents" xml:space="preserve">
+    <value>Tabla de Contenido</value>
+  </data>
+  <data name="W" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Ch1S0" xml:space="preserve">
+    <value>a identificación de maderas es una combinación de arte y ciencia. Aunque este manual se enfoca en las características científicas necesarias para identificar maderas en el campo, no debe olvidarse ni subestimarse la contribución del componente artístico en este proceso de reconocimiento. Aunque la acumulación del conocimiento científico y la experiencia son necesarias para la identificación adecuada de las maderas, la mente procesa esta información de manera tal que el conocimiento científico se fusiona con una percepción más artística de las estructuras utilizadas para la identificación de maderas. No hay nada específico que se deba hacer para entrenarse en los aspectos artísticos relacionados con la identificación de maderas, la mente lo hará automáticamente; es algo que llega con el tiempo y la práctica, y que se desarrolla orgánicamente a medida que aumenta la experiencia y el dominio de los aspectos científicos y técnicos. Por su parte, el desarrollo del componente científico vendrá solo con el estudio diligente, la práctica y la atención rigurosa a los detalles, lo que no es tan fácil como la parte artística del proceso. 
+     La identificación de maderas es un proceso de reconocimiento de patrones. Los patrones que se aprenderán a reconocer son patrones estructurales de la madera—células específicas con organizaciones particulares, muchas de los cuales están asociadas a una terminología particular. Al principio la terminología puede parecer abrumadora y densa, pero con la práctica, los términos al igual que todas las palabras, tomarán un significado en la mente. Asi, una vez que un término adquiera un significado mental, éste puede ayudar a clarificar ideas y observaciones, y permitir apreciar más cuidadosamente los detalles sutiles y particularidades en un objeto determinado. El proceso de asignación de significado a las palabras es muy similar al de aprender a reconocer cualquier cosa—maderas, aves, personas—, identificaciones que están gobernadas por los mismos procesos de conocimiento y reconocimiento, resultando en la percepción de un patrón. 
+     Por ejemplo, la palabra silla tiene un significado para nosotros. Podemos definir una silla como algo donde uno se sienta, generalmente lo suficientemente grande para albergar a una persona, a menos que se convierta en un sofá o en un banco. Hay muchos tipos de sillas, desde construcciones de cuatro patas en madera, hasta sillas de oficina más modernas hechas de metal, plástico o cuero, con ruedas y con poca semejanza a una silla de madera (Figura 1).</value>
+  </data>
+  <data name="Ch1Cap0" xml:space="preserve">
+    <value>Figura 1. Usamos el reconocimiento de patrones en todos los aspectos de nuestra vida cotidiana. Estos cuatro objetos son sillas, a pesar de las diferencias en el diseño y los materiales con que fueron construidas.</value>
+  </data>
+  <data name="Ch1S1" xml:space="preserve">
+    <value>A pesar de las grandes diferencias estructurales entre una silla de madera y una silla moderna de oficina, nuestra mente reconoce que ambos tipos de objetos son sillas. Lo mismo podría suceder con la terminología prensente en este manual. Con la práctica podremos desarrollar un entendimiento más sofisticado del significado de los términos y así ser capaces de hacer una identificación más depurada y rápida de la madera. Con el tiempo, la familiaridad con los términos y la apariencia de las estructuras de la madera que dichos términos describen, nos permitirán no sólo identificar las maderas, sino también reconocerlas por el patrón de la estructura de la madera que cada especie presenta. 
+     Un ejemplo común de este proceso es la forma en que aprendemos a distinguir entre gemelos idénticos. Cuando nos presentan a un par de gemelos idénticos sabemos que debemos aprender a distinguirlos y mantenerlos separados en nuestra mente, por lo que los observamos cuidadosamente para tratar de encontrar rasgos y características específicas que nos permitan diferenciarlos (Figura 2).</value>
+  </data>
+  <data name="Chapter 1 Title short" xml:space="preserve">
+    <value>Cap. 1: ID de las maderas y reconocimientro de patrones</value>
+  </data>
+  <data name="Chapter 2 Title short" xml:space="preserve">
+    <value>Biología básica de la madera—anatomía para la ID</value>
+  </data>
+  <data name="B" xml:space="preserve">
+    <value>A</value>
+  </data>
+  <data name="Ch2S0" xml:space="preserve">
+    <value>ntes de abordar los temas relacionados con el uso de las lupas de mano, la preparación de muestras de madera para su observación y la interpretación de los caracteres utilizados en la identificación de las maderas, es necesario hacer una introducción general a la biología de la madera. Las maderas que se comercian en América Central y el Caribe provienen casi exclusivamente de árboles, por lo que la discusión sobre la biología de la madera presentada en este capítulo se restringirá a los árboles, aunque gran parte de lo expresado también es aplicable a los arbustos y las lianas.
+     No es para nada fácil organizar y presentar el amplio conocimiento que se tiene sobre la biología y la estructura de la madera en un texto fácil de entender. Con el fin de presentar un concepto unificado sobre la estructura de la madera y su identifcación, sera necesario revisar reiteradamente algunos términos presentados en este capítulo. Así mismo, algunas secciones de este capítulo podrán ser difíciles de entender en su totalidad después de una sola lectura, pero leerlas por segunda vez después de haber reflexionado sobre los concepos inicialmente no familiares, ayudará a que puedan ser más manejables.</value>
+  </data>
+  <data name="Ch2T1" xml:space="preserve">
+    <value>La madera como material celular</value>
+  </data>
+  <data name="Ch2S1" xml:space="preserve">
+    <value>Las células son los bloques estructurales básicos de los organismos vivos. La madera, como todos los seres vivos o que alguna vez estuvieron vivos, está hecha de millones y millones de células interconectadas que conforman una estructura mayor, de la misma manera que nuestro corazón o hígado están conformados por un gran número de células. La mayor parte de este manual se enfoca en la comprensión de los diferentes tipos, formas, orientación y agrupación de las células en la madera. Si para Usted la base celular de la vida le es un concepto desconocido, no se preocupe. Los detalles biológicos de las células no son estrictamente necesarios para la identificación de las maderas, pero lo que realmente es necesario entender se describirá a continuación. Según nuestra experiencia, a la mayor parte de las personas les resulta más fácil entender la madera partiendo de la comprensión de su origen como material biológico.</value>
+  </data>
+  <data name="Ch2T2" xml:space="preserve">
+    <value>Los dos sistemas de células presentes en la madera</value>
+  </data>
+  <data name="Ch2S2" xml:space="preserve">
+    <value>La madera esta formada por dos sistemas de células que están interconectados, el sistema axial y el sistema radial. El {sistema axial} está formado por todas las células que se orientan verticalmente a lo largo del tronco del árbol, o a lo largo del grano de la madera. El {sistema radial} está formado por los radios, que corresponden a grupos de células que van desde el centro del árbol hacia la corteza (Figura 1).</value>
+  </data>
+  <data name="Ch2S2c" xml:space="preserve">
+    <value>Generalmente, los radios y el sistema radial no son familiares para el observador casual de la madera, pero son fundamentales para comprenderla e identificarla. Si un material similar a la madera carece de radios, no es madera. Por ejemplo, la palma y el bambú carecen de radios, y aunque físicamente son similares a la madera, anatómica y botánicamente no son madera. Estos dos sistemas de células constituyen la estructura básica de la madera y siempre podemos regresar a estos conceptos básicos para comprender su estructura.</value>
+  </data>
+  <data name="Ch2T3" xml:space="preserve">
+    <value>Las funciones de la madera en un árbol</value>
+  </data>
+  <data name="Ch2S3" xml:space="preserve">
+    <value>La madera cumple tres funciones principales en un árbol y comprenderlas nos ayudará a entender mejor algunos de los detalles anatómicos de las maderas. Un poco de sentido común, junto con una dosis de biología y una observación cuidadosa de la madera, nos permitirán integrar la estructura de la madera con sus funciones y recordar más fácilmente los nombres de las células y los patrones que conforman.
+     La función más importante de la madera en un árbol vivo es la conducción de agua, minerales y otros nutrientes, desde las raíces hasta las hojas y a lo largo del tronco y de las ramas. Si un árbol falla en esta tarea, éste muere rápidamente. En la madera hay células especializadas para la conducción de sustancias y es útil recordar esta función conductora al tiempo que abordamos los diversos patrones estructurales de la madera en este manual.
+     Cuando se le pregunta a la gente acerca de las funciones de la madera, lo primero que se les viene a la mente es el soporte mecánico, su fuerza. Una función importante de la madera es sostener el tallo, las ramas, las hojas, las flores y los frutos. Todas las células de la madera juegan algún papel importante en su resistencia mecánica, pero en la mayoría de maderas existen células diseñadas especialmente para cumplir con esta función mecánica. Esto es muy parecido a lo que ocurre con nuestro propio cuerpo, así, nuestros músculos, tendones y ligamentos participan en el soporte del cuerpo, pero el esqueleto se constituye en el aspecto estructural más importante para el soporte mecánico del cuerpo humano.
+     La función menos obvia de la madera se relaciona con el almacenamiento y la síntesis de compuestos bioquímicos. En el contexto de la identificación de las maderas, el almacenamiento de estos compuestos orgánicos es crucial puesto que es el que provee a la madera su color y olor característicos. Así, el color y olor de la madera son el resultado de la acumulación de compuestos químicos en la parte central del tronco, a diferencia de la capa externa de la madera donde estos compuestos generalmente no están presentes.</value>
+  </data>
+  <data name="Ch2Cap1" xml:space="preserve">
+    <value>Figura 1. Sistema axial y radial en la madera. El diagrama de la izquierda muestra una simplificación de los sistemas axial y radial. La fotografía de la derecha ilustra un tronco podrido, en el cual la mayor parte del sistema axial ha sido descompuesta por hongos. Las estructuras señaladas y que salen a modo de cuñas corresponden a los radios del sistema radial.</value>
+  </data>
+  <data name="Ch2T4" xml:space="preserve">
+    <value>El duramen, la albura y la médula</value>
+  </data>
+  <data name="Ch2S4" xml:space="preserve">
+    <value>Cuando se examina un tronco cortado o una rodaja de madera se observan dos regiones básicas en la mayoría de las maderas: el {duramen}, que corresponde al área central, de color más oscuro y que algunas veces puede ser aromática; y la {albura}, que corresponde a la franja más externa y de color más claro. (Figura 2).</value>
+  </data>
+  <data name="Ch2Cap2" xml:space="preserve">
+    <value>Figura 2. Superficie transversal del tronco de un árbol. La corteza rodea al tronco, debajo de la cual se encuentra la madera. La madera de color más claro es la albura y la más oscura es el duramen. El pequeño punto que señala el centro del tronco es la médula.</value>
+  </data>
+  <data name="Ch2S4c" xml:space="preserve">
+    <value>En un árbol vivo, tanto el duramen como la albura están involucrados en el soporte mecánico del árbol, pero el agua es transportada sólo a través de la albura, mientras que el duramen no participa en esta función. Aunque no hay diferencia estructural apreciable entre el duramen y la albura, es en el duramen que se encuentran acumulados los compuestos bioquímicos y generalmente sólo el duramen tiene valor comercial. En el árbol, las funciones de almacenamiento y conducción en la madera se separan a un nivel que se puede observarse generalmente a simple vista. Adicionalmente, en el centro del tronco se encuentra la {médula}, la cual constituye el tejido que se forma antes de la producción de las primeras trazas de madera en el árbol.</value>
+  </data>
+  <data name="Ch2T5" xml:space="preserve">
+    <value>Los anillos de crecimiento</value>
+  </data>
+  <data name="Ch2S5" xml:space="preserve">
+    <value>Otra forma en la cual muchos árboles separan las tres funciones de la madera es formando capas concentricas discretas de madera con múltiples componentes, cada uno de los cuales cumple una función diferente. Estas unidades concentricas se conocen como {anillos de crecimiento} (Figura 3), constituyen los bloques básicos de la estructura de la madera y abarcan su naturaleza microscópica celular y lo que se puede observar a simple vista.</value>
+  </data>
+  <data name="Ch2Cap3" xml:space="preserve">
+    <value>Figura 3. Los anillos de crecimiento en una madera blanda y en una madera dura. Aunque la estructura de estos dos tipos de maderas es muy diferente, ambas tienen anillos de crecimiento que pueden dividirse en leño temprano y leño tardío.</value>
+  </data>
+  <data name="Ch2S5c" xml:space="preserve">
+    <value>En los árboles que forman estas capas, un anillo de crecimiento constituye toda la madera que se forma durante un período de crecimiento—sea éste la estación lluviosa, la temporada de crecimiento, el tiempo entre períodos de floración, etc.—y la cual puede distinguirse de la madera formada durante otros períodos de crecimiento. Cuando se observa el grano de la madera en el extremo cortado de un tronco (o tocón) o de una tabla, los círculos concéntricos que se aprecian corresponden muy probablemente a los anillos de crecimiento. La porción de un anillo de crecimiento que se forma al comienzo de una temporada de crecimiento se conoce como {leño temprano}; ésta se encuentra más próxima a la médula y puede especializarse en la función conductora de la madera. La porción del anillo de crecimiento que se forma al final de la temporada de crecimiento se denomina {leño tardío}; este se encuentra hacia la parte exterior del tronco y puede especializarse en el soporte mecánico. En la mayoría de las maderas no existe una separación obvia de la función de almacenamiento entre el leño temprano y el leño tardío. En el Capítulo 5 profundizaremos más sobre el leño temprano y leño tardío, en donde se explorarán los distintos tipos de anillos de crecimiento como fuente de caracteres útiles para la identificación de la madera. Por último, cabe anotar, que al examinar el extremo de una tabla o el corte de un tronco, los radios del sistema radial aparecen como líneas perpendiculares a los anillos de crecimiento.</value>
+  </data>
+  <data name="Ch2T6" xml:space="preserve">
+    <value>Los planos de corte</value>
+  </data>
+  <data name="Ch2S6" xml:space="preserve">
+    <value>Un tronco de madera puede examinarse de tres formas intrínsicas, si se tiene en cuenta las relaciónes existentes entre las células del sistema axial y los radios del sistema radial, la forma cilíndrica del tronco del árbol y la naturaleza concéntrica de los anillos de crecimiento. Estas tres perspectivas se denominan {planos de corte} y su comprensión constituye uno de los aspectos más difíciles e imprescindibles en el proceso de identificación de las maderas. Por favor tener en cuenta la Figura 4 a medida que se leen los párrafos siguientes.</value>
+  </data>
+  <data name="Ch2Cap4" xml:space="preserve">
+    <value>Figura 4. Ilustración de los tres planos de corte. En la parte izquierda se presenta una fotografía de un tronco que se cortó a través del grano para exponer la superficie transversal y a lo largo del grano para exponer las superficies radial y tangencial. A la derecha se ilustra la relación entre los planos radial y tangencial en un cilindro simple. En la parte inferior derecha, se muestra un pedazo de torta (pie) que ilustra las tres superficies: las partes superior e inferior representan las superficies transversales; los lados cortados representan las superficies radiales; mientras que la cubierta exterior curva representa la superficie tangencial.</value>
+  </data>
+  <data name="Ch2S6c" xml:space="preserve">
+    <value>     Hay dos formas básicas de cortar la madera: a través del grano y a lo largo del grano. Cuando se corta la madera, ya sea para estudiarla con una lupa de mano o para producir una tabla, el corte más fácil de examinar es el que va a través del grano; de hecho, es lo que hacen los madereros cuando talan un árbol. Se trata de un corte transversal, que se hace perpendicular al tronco (a través del sistema axial) y, por consiguiente, atraviesa el grano de la madera. La superficie que se observa una vez se realiza este corte corresponde a la superficie transversal o plano del {corte transversal}, también conocida como grano final de la madera. Sobre esta superficie transversal de la madera se puede ver la naturaleza curva de los anillos de crecimiento y como los radios del sistema radial se disponen perpendiculares a esa curvatura, como líneas rectas que van desde el centro del árbol hasta la corteza.
+     La segunda forma básica de cortar la madera es a lo largo del grano, lo que expone la superficie longitudinalmente. Aunque es posible cortar la madera en cualquier orientación con respecto a la superficie transversal, si se tiene en cuenta la estructura de la madera, se consideran dos formas básicas de corte: paralela a los radios, o perpendicular a éstos. Debido a que los radios y los anillos de crecimiento son perpendiculares entre sí, las dos formas de corte también se pueden describir como perpendicular a los anillos de crecimiento o paralela a éstos. Sin embargo, como no todas las maderas tienen anillos de crecimiento obvios, es preferible utilizar la dirección en que los radios están orientados como referencia para orientarse.
+     Cuando se corta a lo largo del grano y paralelo a lo radios, se produce una superficie radial o plano del {corte longitudinal radial}. Este corte expone los radios como líneas que atraviesan la superficie y es poco utilizado en la identificación de maderas con lupa de mano. Si un trozo del tronco de un árbol se divide exactamente por la mitad, de un lado al otro a través del centro del árbol, se obtiene una superficie plana radial.
+     Para nuestros propósitos de identificación de las maderas es más importante el corte longitudinal y perpendicular a los radios, que expone la superficie tangencial o plano del {corte longitudinal tangencial}. Este corte expone los extremos cortados de los radios y nos permite—como veremos en el Capítulo 5—entender el tamaño, el espaciamiento y la organización de los radios. Esta es la vista de la madera que se tendría si se remueve la corteza de un árbol vivo para observarla.
+     Existen dos analogías que podríamos utilizar para aclarar estas ideas: la geometría y una deliciosa torta o pie de manzana. Por ejemplo, en el caso de la geometría, comencemos dibujando un círculo o circunferencia; cualquier línea recta que parta desde el centro del círculo hasta el borde es un radio del círculo. Este radio es equivalente al radio de la madera—de hecho, es la fuente que le da origen al término. Una línea recta que toca la circunferencia en un punto es conocida como línea tangente y cualquier radio del círculo que se intersecte con una línea tangente en este punto es perpendicular a la misma. Al mismo tiempo, la línea tangente es paralela a la circunferencia en ese punto. Si una circunferencia representa un anillo de crecimiento y el radio del círculo un radio, cuando nos situamos perpendiculares al radio, estaremos paralelos al anillo de crecimiento. Al trasladar esta geometría bidimensional del círculo a un cilindro tridimensional y prolongar el radio o la línea tangente hacia arriba y hacia abajo del cilindro, se produce un plano de sección radial o tangencial, respectivamente.
+     La segunda analogía es menos precisa, pero tal vez sea más comprensible. Una torta de fruta recién horneada, generalmente es de forma redonda. Para cortar la torta y compartirla con la familia se hacen cortes desde el borde hacia el centro, produciendo así pedazos en forma de cuña. Cada pedazo de torta exhibe los tres planos de corte: las caras superior e inferior del pedazo de torta son las superficies transversales; el relleno de fruta expuesto entre los dos bordes cortados de cada cuña representan las superficies radiales; y la porción curva externa que originalmente estaba contra las paredes del molde representa la superficie tangencial curva.
+     Así como identificamos a las personas que conocemos principalmente por sus características faciales, la identificación de las maderas usando una lupa de mano se realiza principalmente utilizando características de su superficie transveral, por lo que se puede afirmar que esta superficie representa la ‘cara’ de la madera. Por consiguiente, cualquier referencia que se haga con respecto a la apariencia de un carácter, se referira a la superficie transversal de la madera, a menos que se indique lo contrario. Por otra parte, para la identificación de las maderas en este manual se usara muy poco o nada la superficie radial, mientras que la superficie tangencial será crítica para confirmar una identificación apropiada. A medida que se lea el resto de este manual, recomendamos volver a consultar estas explicaciones y las figuras correspondientes hasta que entienda a cabalidad los planos de corte. Una buena forma para perfeccionar su comprensión sobre los distintos planos de corte sería intentar hacer dibujos tridimensionales—sin mirar las figuras—que ilustren las relaciones entre ellos. Cuando se siente seguro de poder explicar los planos de corte a otra persona, su dominio del tema será satisfactorio.</value>
+  </data>
+  <data name="Ch2T7" xml:space="preserve">
+    <value>Las maderas blandas y las maderas duras</value>
+  </data>
+  <data name="Ch2S7" xml:space="preserve">
+    <value>Los temas tratados hasta ahora en este capítulo, se aplican a todas las maderas incluidas en este manual, independientemente de la especie o de su origen. El resto del capítulo está dedicado a establecer algunas diferencias fundamentales entre los distintos tipos de madera y a comprender las bases anatómicas y celulares de sus diferencias.
+     Existen dos tipos fundamentales de maderas, las blandas y las duras, dependiendo del tipo de árbol que las produce. Las {maderas blandas} provienen de árboles que tienen las hojas en forma de aguja y que llevan las semillas en estructuras especializadas llamadas conos, como los pinos, los abetos y las piceas. Las {maderas duras} provienen de árboles que tienen las hojas anchas y producen flores, como el nogal, el encino, el guanacaste y el pochote. Así, la distinción entre las maderas duras y blandas es un asunto botánico (Figura 5) y en un bosque pueden diferenciarse fácilmente teniendo en cuenta algunas características del árbol, como la forma de sus hojas, la naturaleza de sus estructuras reproductivas (conos vs. flores), o la arquitectura del árbol mismo.</value>
+  </data>
+  <data name="Ch2Cap5" xml:space="preserve">
+    <value>Figura 5. Ejemplos de las superficies transversales en maderas blandas y duras. A la izquierda, arriba y abajo, se presentan dos maderas blandas, así como también la silueta de un árbol genérico de madera blanda. A la derecha, arriba y abajo, se presentan dos maderas duras, junto con la silueta de un árbol genérico de madera dura. Nótese que la estructura de las maderas blandas y las duras es diferente.</value>
+  </data>
+  <data name="Ch2S7c" xml:space="preserve">
+    <value>Adicionalmente a estas características externas, la estructura celular es diferente en las maderas blandas y las duras, por lo que ambos tipos de maderas pueden distinguirse fácilmente la una de la otra. Sin embargo, a pesar de ser estructuralmente distintas (como se explicará más adelante), ambos tipos de madera presentan los sistemas axial y radial, y pueden cortarse para producir superficies transversales, radiales y tangenciales. Ambos tipos de madera proporcionan las mismas tres funciones en un árbol, pero dividen sus funciones de acuerdo con el tipo de células que presentan y la manera en que los anillos de crecimiento se forman en cada especie de árbol. Las células en la madera pueden estar muertas o vivas, una vez alcanzan su madurez funcional. En ambas maderas, las blandas y las duras, las células vivas corresponden a células del {parénquima}, involucradas en la función de almacenamiento, forman parte del sistema axial y constituyen prácticamente la totalidad de las células del sistema radial (i.e. los radios están compuestos de células del parénquima).</value>
+  </data>
+  <data name="Ch2T8" xml:space="preserve">
+    <value>La anatomía celular de las maderas blandas</value>
+  </data>
+  <data name="Ch2S8" xml:space="preserve">
+    <value>La anatomía celular de las maderas blandas es más simple que la de las maderas duras (Figura 6).</value>
+  </data>
+  <data name="Ch2Cap6" xml:space="preserve">
+    <value>Figura 6. Diferencias anatómicas entre maderas blandas (arriba) y maderas duras (abajo). Las maderas blandas se componen principalmente de traqueidas y radios; las traqueidas pueden tener paredes delgadas en el leño temprano y paredes gruesas en el leño tardío; los radios están dispuestos verticalmente en la imagen superior derecha. En la ilustración superior izquierda se muestran más detalles, pues ha sido dibujada con un mayor aumento que la imagen superior derecha obtenida a través de una lupa en una madera blanda. Ambas imágenes muestran canales resiníferos. Las maderas duras son estructuralmente más complejas que las blandas, presentando vasos, fibras, parénquima axial y radios. Los vasos son los agujeros oscuros dispersos a través de la madera, mientras que los radios son las líneas de color claro dispuestas verticalmente en la imagen derecha. El parénquima axial aparece como halos redondeados de color claro alrededor de los vasos. Las fibras son demasiado pequeñas como para poder ser observadas individualmente, pero conforman el tejido marrón en el cual están embebidas las demás células. Al igual que con la madera blanda, la ilustración inferior izquierda presenta un mayor aumento que la imagen inferior derecha obtenida con lupa. Nótese que en esta madera dura no hay distinción clara entre leño temprano y leño tardío (esto se discute en detalle en el Capítulo 5).</value>
+  </data>
+  <data name="Ch2S8c" xml:space="preserve">
+    <value>El sistema axial está formado principalmente por un tipo de célula, la {traqueida}; estas células sirven al árbol tanto para la conducción del agua como para el soporte mecánico y están muertas en su madurez funcional. Vistas con una lupa de mano, las traqueidas parecen pequeñas cajas o rectángulos. En especies con anillos de crecimiento evidentes, las traqueidas del leño temprano tienden a tener paredes celulares delgadas y los espacios internos de las células, o lumen, se ven como centros oscuros. En estas especies, las paredes celulares del leño tardío son mucho más gruesas y a menudo el lumen de las células no es visible (Figura 6, arriba). El segundo tipo de célula en el sistema axial de las maderas blandas es el {parénquima axial}; aunque menos abundante, cuando esta presente, puede encontrarse ya sea como células solitarias dispersas, células agrupadas en líneas tangenciales, o formando estructuras especiales llamadas {canales resiníferos}. Los canales resiníferos se discuten en el Capítulo 5 como un carácter importante para la identificación de las maderas blandas. El sistema radial, como en todas las maderas, está compuesto por células de {parénquima radial}; aunque con una lupa de mano no es posible ver las células individuales del parénquima radial, los radios que éstas forman se ven como ligeras líneas rectas perpendiculares a los anillos de crecimiento. Generalmente, los radios de las maderas blandas son de una célula de espesor, siendo apenas perceptibles.</value>
+  </data>
+  <data name="Ch2T9" xml:space="preserve">
+    <value>La anatomía celular de las maderas duras</value>
+  </data>
+  <data name="Ch2S9" xml:space="preserve">
+    <value>La anatomía de las maderas duras es más compleja que la de las maderas blandas, debido a la presencia de tres tipos principales de células en el sistema axial: los vasos, el parénquima axial y las fibras (Figura 6, abajo).
+     Los vasos son células características de las maderas duras y no están presentes en las maderas blandas. En este manual todas las maderas duras tienen vasos (a excepción de [Drimys granadensis]), por lo que su presencia se convierte en una prueba definitiva de que una madera es dura. Los {vasos} son células muertas especializadas en la conducción de agua y generalmente son mucho más grandes y redondeadas que las traqueidas presentes en las maderas blandas. Los vasos semejan tubos cilíndricos, o huecos, en la madera y la variación en cuanto a la estructura, tamaño, disposición y proporciones relativas, es bastante importante para la identificación de las maderas duras.
+     Las células del {parénquima axial} de las maderas duras, así como todas las células de parénquima, son células vivas cuando están funcionales en el arbol vivo. En las maderas duras el parénquima axial es mucho más frecuente y tiene disposición mucho más compleja que en las maderas blandas. El parénquima axial generalmente es visible con la lupa de mano sólo cuando se encuentra en grupos de muchas células y, generalmente, se aprecia como un tejido de color más claro. La cantidad, la disposición y el tipo de parénquima axial presente en la madera, junto con las variaciones en las características de los vasos, conforman uno de los principales conjuntos de caracteres usados en la identificación de las maderas duras.
+     Las {fibras} son células muertas y de paredes gruesas que están especializadas en el soporte mecánico. Las fibras individuales usualmente no se pueden distinguir con una lupa de mano, pero en cualquier madera dura constituyen un gran porcentaje de las células visibles. Aunque suene extraño, las fibras pueden verse y comprenderse mejor por medio de la sustracción, es decir, corresponden a todas aquellas células del sistema axial que no son ni vasos ni parénquima axial.
+     El sistema radial de las maderas duras está constituido por los radios de {parénquima radial}, y como ocurre con las maderas blandas, es imposible discernir las células individuales de parénquima en los radios. Sin embargo, a diferencia de las maderas blandas, las maderas duras tienen una variación enorme en el ancho de los radios, desde radios con una sola célula de ancho y escasamente distinguibles (tal como en las maderas blandas), hasta radios con más de 60 células de ancho y fáciles de distingur a simple vista.</value>
+  </data>
+  <data name="Ch2T10" xml:space="preserve">
+    <value>El uso de los nombres científicos</value>
+  </data>
+  <data name="Ch2S10" xml:space="preserve">
+    <value>De aquí en adelante este manual utilizará los nombres científicos para referirse a las especies de madera, en lugar de los nombres comunes utilizados en el comercio maderero. Aunque parezca contradictorio, el uso de los nombres científicos pocos familiares ayuda a minimizar las confusiones, por lo que no debe ser una carga para el usuario. La razón para usarlos es simple: la misma especie puede tener más de un nombre común o comercial en cada país donde crece y, como este manual está destinado a ser usado a través de México, América Central y el Caribe, sería imposible usar todos los nombres comunes dados en esos países cada vez que se hace referencia a una misma especie. Por otra parte, para aumentar aún mas la confusión, un mismo nombre común podría aplicarse a maderas completamente diferente en países distintos. La confusión que esto crearía fácilmente superaría el esfuerzo que supone aprender a usar los nombres científicos.
+     Los nombres científicos están formados por dos palabras: un nombre genérico y un epíteto específico. Las dos palabras se escriben en letra cursiva o subrayadas en un texto impreso. El nombre del género es la primera de las dos palabras y siempre su primera letra se escribe en mayúscula. El epíteto específico es la segunda palabra y se escribe toda en minúsculas. El nombre científico proporciona información acerca de la especie en cuestión, de la misma forma que nuestros nombres dan información a otras personas acerca de nosotros y nuestras relaciones de parentezco. Por ejemplo, el nombre Pedro Pérez: Pérez es el apellido y tradicionalmente proporciona información sobre el linaje paterno de una persona; Pedro es el nombre de pila y la distingue de otros miembros de la familia, ninguno de los cuales se llama Pedro. En los nombres científicos el nombre genérico (o género) es como un apellido y designa al grupo de especies más cercanamente relacionadas entre si. El epíteto específico es como un nombre de pila, distinguiendo a la especie de todas las otras dentro del mismo género.
+     Por ejemplo, el nombre científico de la caoba es [Swietenia macrophylla]; la palabra [Swietenia] es el nombre del género y la palabra [macrophylla] es el epíteto específico. Existen otras dos especies en el género [Swietenia] que son: [S. mahagoni] y [S. humilis]. Nótese que cuando se mencionan otras especies del mismo género se abrevia el nombre del género colocando un punto después de la letra inicial y omitiendo el resto de la palabra. Debe tenerse en cuenta que esto sólo se hace después de que el el nombre científico completo ha sido mencionado con anterioridad y constituye una convención que permite ahorrar espacio. Nótese también que no está escrito: “Hay otras dos especies en el género [Swietenia, mahagoni] y [humilis].” Aunque hubiera quedado claro que se está hablando de las especies de [Swietenia], en otras situaciones esto podría generar una confusión similar a cuando se utiliza sólo el nombre de pila Pedro, que no es lo suficientemente específico para distinguir entre todas las otras personas que pueden tener ese mismo nombre de pila. Así mismo, con un apellido común como Pérez, existe la posibilidad de encontrar más de una persona llamada Pedro Pérez en el mundo. En los nombre científicos esta confusión se evita con una regla simple: no se puede utilizar la misma combinación de nombre genérico y epíteto específico para referirse a más de una especie. En consecuencia, sólo existe una [Swietenia macrophylla] y su nombre científico nunca podrá ser confundido con el de cualquier otra especie.
+     Aprender a utilizar correctamente los nombres científicos nos permite comunicarnos con precisión. Por ejemplo, si decimos que [Swietenia] tiene madera de color marrón o rojizo, esto implica que las tres especies tienen esta característica. Debido a que no es posible separar las tres especies de [Swietenia] utilizando solamente la anatomía de la madera, cuando se identifica un espécimen y se escribe la identificación se colocaría como [Swietenia] sp.. La abreviatura "sp." (sin itálicas) indica que el espécimen examinado es representativo de una de las especies del género [Swietenia], pero que no se sabe a cual de ellas pertence. Si se identifican varios especímenes de madera y se sospecha que puede haber más de una especie, se escribiría [Swietenia] spp.. La abreviatura spp. (también sin itálicas) indica que entre los especímenes examinados hay más de una especie [Swietenia] presente. De la misma manera, si alguien tuviese una caja de madera con muestras de las tres especies de [Swietenia], la caja se etiquetaría como [Swietenia] spp., indicando que hay dos o más especies de [Swietenia] en la caja.
+     Algunas veces el grupo al que una madera pertenece se encuentra entre los niveles de clasificación de género y especie. Esto es común en géneros con muchas especies o en géneros donde la madera de las diferentes especies es considerablemente distinta. Por ejemplo, el género [Pinus] tiene muchas especies distribuidas a través del hemisferio norte y diferentes grupos de especies con características anatómicas distintivas. Así, [Pinus caribaea], una especie perteneciente al grupo de los pinos amarillos, podría reportarse como "[Pinus] sp., del grupo de los pinos amarillos", puesto que se pudo determinar que no es un miembro del grupo de los pinos rojos, pero no se pudo determinar la especie exacta a la que pertence dentro del grupo de los pinos amarillos. En general, estos términos (pino amarillo, pino rojo) no son científicos o convenientes de usar por si solos, por lo que se combina el nombre científico con información adicional, escrita en lenguaje sencillo, para indicar el nivel de especificidad en la identificación.</value>
+  </data>
+  <data name="A" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Ch3S0" xml:space="preserve">
+    <value>a lupa de mano es una herramienta poderosa para la identificación de las maderas, pero como toda herramienta debe emplearse correctamente para aprovecharla al máximo. La lupa de mano consta dos partes principales: un lente, que aumenta el objeto de interés, y la carcasa, en la que se guarda y protege el lente (Figura 1).</value>
+  </data>
+  <data name="Ch3S0c" xml:space="preserve">
+    <value>Para la identificación de maderas generalmente se usan lentes 10X o 14X (la X indica el numero de aumentos), el último de los cuales es el que se recomienda usar en este manual. A diferencia de un microscopio, el cual puede enfocar a diferentes distancias dependiendo del espécimen y la configuración de sus lentes, una lupa de mano tiene una distancia focal fija. Es decir, existe solo una distancia entre el lente y el objeto con la cual se obtiene una imagen nítida. Esta distancia, generalmente entre 1–4 cm, puede encontrarse fácilmente al examinar una moneda u otro objeto familiar con el lente. En la mayoría de las lupas de mano no hay diferencia alguna entre las caras frontal y posterior, por lo que se puede observar un objeto por cualquiera de las dos caras.
+     Debido a que existe una distancia fija entre el lente y el objeto para producir una imagen nítida, la única variable posible es la distancia entre el lente y nuestro ojo. Para obtener los mejores resultados, la lupa de mano debe situarse lo más próxima al ojo, tanto como sea posible. Debe tenerse en cuenta que es normal que nuestras pestañas toquen el lente cuando la lupa se usa a esa distancia (Figura 2), lo que puede sentirse algo incómodo al principio; pero esta distancia tan próxima al ojo es clave en el proceso.</value>
+  </data>
+  <data name="Ch3Cap1" xml:space="preserve">
+    <value>Figura 1. Una lupa de mano tiene dos partes principales, un lente y la carcasa que lo cubre.</value>
+  </data>
+  <data name="Ch3Cap2" xml:space="preserve">
+    <value>Figura 2. El uso de una lupa de mano para observar una muestra de madera. A la izquierda, la fotografía muestra que la distancia entre el lente y el ojo del observador es demasiado grande, pero la distancia entre el lente y la muestra de madera es la correcta. La fotografía superior central muestra la distancia correcta entre el lente y la muestra de madera. La fotografía inferior central muestra la distancia correcta entre la lente y el ojo. La fotografía de la derecha muestra las distancias correctas entre el lente, la muestra y el ojo.</value>
+  </data>
+  <data name="Ch3S0c1" xml:space="preserve">
+    <value>Se recomienda que antes de tratar de observar una muestra de madera se examinen con la lupa otros objetos comunes, como la tela de una camisa, los caracteres impresos de este libro, una uña, u otros objetos de interés. Asegúrese de mantener el lente cerca del ojo y practique el ajustar la distancia entre el lente y el objeto hasta obtener una focalización adecuada. Al comienzo, puede ser útil cerrar el otro ojo, pero luego de varios minutos de observar objetos se sugiere practicar manteniendo los dos ojos abiertos. Aunque esto puede ser difícil para muchas personas, es una destreza que se adquiere con la práctica y que reduce la tensión ocular.
+     A veces puede ser difícil asegurar la suficiente iluminación del espécimen cuando se usa una lupa de mano, pues las manos y la cabeza tienden a bloquear la entrada de luz y producir sombra sobre el espécimen, dificultando así la observación de sus detalles (Figura 3).</value>
+  </data>
+  <data name="Ch3Cap3" xml:space="preserve">
+    <value>Figura 3. La imagen de la izquierda muestra cómo la cabeza del observador bloquea la luz y así la muestra no se puede observar apropiadamente. La imagen de la derecha muestra como el observador permite que la luz caiga sobre la muestra para asegurar una observación apropiada.</value>
+  </data>
+  <data name="Ch3S0c2" xml:space="preserve">
+    <value>La primera reacción es alejar el lente de nuestros ojos para proporcionarle más luz al objeto, sin embargo, se recomienda no hacer esto; es preferible reorientar nuestro cuerpo para permitir que la luz incida sobre el especimen en observción. Algunas veces, el proceso de encontrar suficiente iluminación requiere que usted gire en un ángulo diferente, que doble la cintura, o que tome otras medidas para encontrar suficiente iluminación. Aunque esto pueda parecer un asunto de menor importancia, asegurar una buena iluminación tiene varios beneficios. Primero, permite que la lupa, como herramienta de trabajo, funcione a su máxima capacidad; en segundo lugar, garantiza que el objeto a examinar, como una muestra de madera desconocida, pueda ser observado con suficiente detalle para lograr su identificación; y por último, reduce la fatiga visual, lo que permite adquirir más experiencia y ejercer la identificación de las maderas con mayor comodidad.</value>
+  </data>
+  <data name="T" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Ch4S0" xml:space="preserve">
+    <value>n la identificación de las maderas, la habilidad física más difícil de adquirir es producir una superficie de madera lisa y clara que permita observar sus características anatómicas. Esta habilidad debe ser practicada con paciencia, pues toma su tiempo para volverse competente. Obtener una superficie de corte clara es la única parte del proceso de identificación de las maderas que puede llegar a ser peligrosa. Las herramientas utilizadas para seccionar la madera deben estar muy bien afiladas, por lo que pueden ocasionar desde lesiones leves hasta heridas mayores, como producto del descuido, del cansancio, o de una técnica deficiente. La seguridad personal siempre debe ser la primera prioridad, seguida de la importancia de producir un corte adecuado de la madera para su posterior estudio. Dado que es necesario adquirir esta habilidad y que puede llegar a ser peligrosa, hay que practicar paciencia y prudencia mientras se aprende. Después de más de viente años enseñando sobre la identificación de las maderas, hemos aprendido que generalmente los principiantes no siguen los consejos de sus instructores y que por el contrario, tratan de avanzar sin tomar las debidas precauciones de seguridad. Por lo tanto, sugerimos que antes de seccionar una muestra de madera, por favor lea y comprenda detenidamente este capítulo en su totalidad y siga las sugerencias y técnicas que se describen a continuación.</value>
+  </data>
+  <data name="Ch4T1" xml:space="preserve">
+    <value>Los principios básicos del corte</value>
+  </data>
+  <data name="Ch4S1" xml:space="preserve">
+    <value>Hay algunos principios básicos que se aplican al corte de cualquier tipo de material y es probable que la mayoría de las personas ya estén familiarizados con estos gracias a sus experiencias cotidianas. El primer principio, y el más importante, se refiere a la forma de pasar el filo de la herramienta cortante a través de la superficie que se intenta cortar. Una de las maneras más fáciles de entender este principio es pensarlo en términos de cómo se corta un tomate (Figura 1). Si se trata de empujar el filo del cuchillo directamente a través del tomate, incluso el cuchillo más afilado, aplastaría el tomate en vez de hacer una rodaja (Figura 1A). Si se intenta cortar el tomate moviendo varias veces el cuchillo de atrás hacia adelante (Figura 1B), como serruchando, terminaremos con rodajas irregulares y desiguales (Figura 1C). La mejor técnica es pasar el filo del cuchillo a través del tomate con un solo movimiento en diagonal uniforme, aplicando presión hacia abajo (Figura 1D,E), lo que provee la máxima capacidad de corte del cuchillo. Si coloca el filo del cuchillo sobre un dedo pulgar, administrando una ligera presión, su filo no cortará (Figura 1F), pero si se desliza el filo del cuchillo con la misma presión, seguramente que se hará una incisión en el dedo pulgar. Cuando cortamos la madera para luego observarla utilizando una lupa de mano, debemos deslizar el filo de la herramienta cortante a través del área que estamos preparando.</value>
+  </data>
+  <data name="Ch4Cap1" xml:space="preserve">
+    <value>Figura 1. El corte de un tomate en rodajas ilustra los principios del corte de la madera. (A) Empujar la hoja afilada de un cuchillo sobre el tomate, tiende a aplastarlo. (B) Aserrar hacia atrás y hacia adelante produje rebanadas desiguales (C). (D) Pasar la hoja afilada del cuchillo a través del tomate con un solo movimiento uniforme, maximiza la capacidad de corte del cuchillo y produce rodajas limpias (E). (F) Si solo se empuja la hoja afilada del cuchillo sobre el pulgar, no se corta la piel.</value>
+  </data>
+  <data name="Ch4S1c" xml:space="preserve">
+    <value>     El segundo principio para el corte tiene que ver con el ángulo entre la hoja de la cuchilla y el material a cortar. Los materiales más duros generalmente requieren un ángulo de corte más pronunciado que los materiales más blandos, así como tambien requieren de cuchillas más resistentes para cortarlos. Por ejemplo, usted puede afeitarse con una cuchilla de acero delgada, pero para cortar alambre de cobre necesitará utilizar cortadores de alambre de acero mucho más gruesos. Preparar la madera para la observación a traves de una lupa de mano requiere de dos herramientas de corte básicas: una cuchilla de precisión o cúter y una hoja de afeitar (Figura 2).</value>
+  </data>
+  <data name="Ch4Cap2" xml:space="preserve">
+    <value>Figura 2. Dos herramientas básicas para cortar la madera. Las cuchillas de precisión o cúteres (fotografía izquierda) son la mejor herramienta para cortar la madera y permite hacer cortes limpios de todas las maderas, excepto en las muy blandas. Las hojillas de afeitar (fotografíá derecha) producen cortes limpios en las maderas más blandas, pero su borde es demasiado frágil para permitir cortar maderas más densas.</value>
+  </data>
+  <data name="Ch4S1c1" xml:space="preserve">
+    <value>La cuchilla de precisión se utiliza para la mayoría de las maderas y mientra más dura sea la madera, el ángulo de corte debe ser más pronunciado, asi como mientras más blanda sea la madera, el ángulo de corte debe ser menor (Figura 3).</value>
+  </data>
+  <data name="Ch4Cap3" xml:space="preserve">
+    <value>Figura 3. Ilustraciones que muestran los ángulos de corte para maderas duras y densas y para maderas más blandas y ligeras. A la izquierda, el ángulo de la cuchilla con la madera es mayor porque la madera es densa y necesita la llámina gruesa del cúter. A la derecha, el ángulo de la cuchilla con la madera es menor porque la madera es ligera y blanda, por lo cual es más conveniente utilizar una hojilla de afeitar, que es más fina y afilada.</value>
+  </data>
+  <data name="Ch4S1c2" xml:space="preserve">
+    <value>En maderas muy blandas, el ángulo de corte necesario es más pequeño que el ángulo del bisel de la cuchilla de precisión, por lo que se debe cambiar a una cuchilla más delgada, como la hoja de afeitar. Esta cuchilla más delgada y de borde más afilado permite un ángulo de corte menos profundo y, por lo tanto, produce en el especimen una superficie más nítida. Para la mayoría de las maderas tratadas en este manual, una simple cuchilla de afeitar no es lo suficientemente fuerte para cortarlas, por lo que la cuchilla de precisión o cúter es la mejor herramienta.</value>
+  </data>
+  <data name="Ch4T2" xml:space="preserve">
+    <value>La manipulación de la cuchilla</value>
+  </data>
+  <data name="Ch4S2" xml:space="preserve">
+    <value>Para cortar la madera de manera segura y efectiva es necesario sujetar la cuchilla correctamente; cuya forma de hacerlo podría contradecir las prácticas y recomendaciones básicas de seguridad en el manejo de un cuchillo u otro objeto cortante. Normalmente se nos ha enseñado a utilizar el cuchillo de tal forma que el recorrido de corte se realice en dirección contraria a nuestro cuerpo (hacia afuera), lo que evita o minimiza el riesgo de una cortada. Sin embargo, para preparar la superficie de una muestra de madera el corte debe realizarse en dirección al cuerpo (hacia adentro), pero de forma controlada y segura para evitar que nos cortemos. Esto se logra sujetando la cuchilla de forma correcta. Para ello, comencemos con su mano dominante abierta, el pulgar extendido y los demas dedos unidos pero sin apretarlos. Coloque la cuchilla en la palma de la mano de manera que la base de la lámina (el punto donde ésta se une con el mango) se sitúe cerca de la piel, entre los dedos pulgar e índice, pero no en contacto con ella, y con el filo de la cuchilla hacia el pulgar (Figura 4A). Por supuesto, si el filo de la cuchilla toca la piel (Figura 4D) se corre el riesgo de cortarse, pero si el filo se sitúa muy alejado de la mano (Figura 4C), no se tendrá la fuerza necesaria para hacer un buen corte. Seguidamente, cuidando que la hoja de la cuchilla no se desplace cerca o lejos de la piel entre el pulgar y el índice, cierre los dedos firmemente sobre el mango de la cuchilla, envolviendo el pulgar relajadamente sobre los otros dedos (Figura 4B).</value>
+  </data>
+  <data name="Ch4Cap4" xml:space="preserve">
+    <value>Figura 4. El uso adecuado de la cuchilla de precisión. (A) Comience con una mano abierta y oriente el cúter como tal como se muestra en la fotografíá. (B) Cierre los dedos y coloque el pulgar sobre ellos; este es el agarre básico. Note que la base de la hoja afilada del cúter (flecha) no está tocando la piel entre los dedos índice y el pulgar. (C) Esta fotografía muestra que la distancia entre la hoja afilada y la mano es demasiado grande, por lo que será difícil realizar un corte limpio en la muestra de madera. (D) En este caso, la fotografía muestra que la hoja afilada (flecha) está en contacto con la piel situada entre los dedos índice y pulgar, por lo que producirá una herida.</value>
+  </data>
+  <data name="Ch4S2c" xml:space="preserve">
+    <value>Este es el agarre básico y cuando sea el momento de cortar un espécimen, utilice el pulgar como punto de apoyo para desplazar la cuchilla a través de la muestra, a medida que se cierra el puño.
+&lt;* Por favor, paciencia, aún no intente cortar ningún espécimen de madera.&gt;</value>
+  </data>
+  <data name="Ch4T3" xml:space="preserve">
+    <value>La manipulación del espécimen</value>
+  </data>
+  <data name="Ch4S3" xml:space="preserve">
+    <value>Mientras la mano dominante está agarrando la cuchilla, la otra mano debe sostener el espécimen y hay dos reglas simples para sujetarlo adecuadamente. En primer lugar, debe agarrar el espécimen con firmeza, ya que para producir un corte limpio de madera se requiere de una fuerza considerable; un agarre demasiado flojo puede hacer que se pierda el control sobre el espécimen y se corre el riesgo de cortarse. En segundo lugar, mantenga todas las partes de su mano fuera del alcance de la trayectoria de la cuchilla y, en ningún caso, agarre el espécimen cerca del área que intenta cortar (Figura 5).</value>
+  </data>
+  <data name="Ch4Cap5" xml:space="preserve">
+    <value>Figura 5. La fotografía de la izquierda muestra la forma correcta de manipular una muestra de madera para ser cortada; nótese que los dedos y el pulgar están por debajo del borde superior de la muestra, por lo que no sufrirán lesión. En la fotografía de la derecha la muestra está agarrada de tal forma que podrían ocurrir lesiones cuando se realice un corte.</value>
+  </data>
+  <data name="Ch4S3c" xml:space="preserve">
+    <value>Todas las partes del cuerpo deben estar bien alejadas del área de corte o protegidas para así tener un agarre seguro y efectivo del espécimen.
+&lt;* Por favor, paciencia, aún no intente cortar ningún espécimen de madera.&gt;</value>
+  </data>
+  <data name="Ch4T4" xml:space="preserve">
+    <value>La selección del espécimen de madera a cortar</value>
+  </data>
+  <data name="Ch4S4" xml:space="preserve">
+    <value>Cuando se trabaja en el campo, normalmente no se tiene mucho control sobre el tamaño y la forma de la muestra de madera que se quiere identificar, pero cuando esté practicando con estas técnicas de muestreo, la selección adecuada del espécimen es fundamental. Se recomienda elegir una muestra aproximadamente del mismo largo y ancho de su mano y con un espesor de 1 a 3 cm; una muestra más delgada podría romperse o doblarse fácilmente y una más gruesa podría ser difícil de agarrar firmemente.
+&lt;* Por favor, paciencia, aún no intente cortar ningún espécimen de madera.&gt;</value>
+  </data>
+  <data name="Ch4T5" xml:space="preserve">
+    <value>La orientación del espécimen</value>
+  </data>
+  <data name="Ch4S5" xml:space="preserve">
+    <value>Además de lo descrito anteriormente sobre el ángulo de corte entre la cuchilla y la superficie de madera, también se debe saber orientar la cuchilla con respecto al espécimen de madera para poder obtener el plano de corte deseado. Si se quiere obtener una superficie transversal, el borde de la cuchilla debe cortar perpendicular al sistema axial del espécimen (Figura 6A,B); si se desvía por más de unos pocos grados, los caracteres anatómicos de la madera tendrán una apariencia estirada, lo que dificulta interpretarlos (Figura 6C,D). Del mismo modo, si se quiere obtener una superficie tangencial, el corte debe hacerse perpendicular a los radios que se observan en la superficie transversal y la cuchilla debe cortar uniformemente a lo largo del grano (no en un ángulo). En cualquier caso, la orientación cuidadosa del espécimen y de la cuchilla es fundamental.
+     Consideremos la sección de un tubo de plástico (Figura 6E). Si se hace un corte transversal perfecto a través del tubo, el extremo del tubo se apreciará como un círculo perfecto, pero si se corta con algún ángulo, el extremo del tubo se verá elíptico.</value>
+  </data>
+  <data name="Ch4Cap6" xml:space="preserve">
+    <value>Figura 6. Cuando se corta una superficie transversal para su observación con una lupa de mano, el corte debe estar orientado en relación a las células de sistema axial y no a la superficie del espécimen. (A) Un buen corte es perpendicular al sistema axial y produce una superficie en la que los aspectos anatómicos de la madera se ven normales (B). (C) Un corte en ángulo con el sistema axial produce una superficie en la que los aspectos anatómicos de la madera se ven distorcionados (D). (E) Ilustración de un corte perpendicular (imagen izquierda) y un corte oblicuo (imagen derecha) en un tubo. El corte perpendicular produce una representación correcta de la forma circular del tubo, mientras el corte en ángulo (oblicuo) produce una forma ovalada.</value>
+  </data>
+  <data name="Ch4S5c" xml:space="preserve">
+    <value>Por ello y debido a que las células de la madera son esencialmente tubos diminutos, la orientación del filo de la cuchilla en relación con la estructura de la madera es crucial.
+     Es importante tener en cuenta que el filo de la cuchilla siempre debe orientar con relación a la dirección de las células de la madera y no con relación a las superficies cortadas del bloque de madera que tiene en sus manos. Es bastante frecuente que las muestras de madera se corten de forma imperfecta, es decir, que lo que parece a simple vista una superficie transversal puede estar 5 ó 10 grados por fuera del plano ideal.
+&lt;* Por favor, paciencia, aún no intente cortar ningún espécimen de madera.&gt;</value>
+  </data>
+  <data name="Ch4T6" xml:space="preserve">
+    <value>Haciendo el corte</value>
+  </data>
+  <data name="Ch4S6" xml:space="preserve">
+    <value>Si se han seguido apropiadamente las instrucciones de cómo sujetar la cuchilla y el espécimen, solo queda por revisar la posición del pulgar de la mano que sujeta la cuchilla: éste debe colocarse en el lado más cercano del espécimen de madera y bien por debajo de la superficie superior del mismo, de tal forma que si se resbala la cuchilla, sea físicamente imposible que nos corte. Por favor, vuelva a revisar las instrucciones de cómo sostener la cuchilla y los consejos sobre la seguridad antes de continuar.
+     Una vez se sabe como manipular la cuchilla y el espécimen de madera y se tiene una idea de lo que se quiere lograr, además de saber cómo colocar los dedos para terminar el día con los mismos dedos que se comenzó (Figura 7A), la siguiente pregunta es: ¿En qué parte del bloque de madera se debe cortar? Ya que el pulgar se utiliza como apoyo para el movimiento del corte, mientras que a su vez se mantiene protegido de la trayectoria de la cuchilla, la mejor manera de maximizar la fuerza de corte es cortando la esquina más cercana al pulgar. Lo anterior se aplica para los tres planos de corte indicados en las secciones previas. Al mantener la hoja de la cuchilla cerca del pulgar, la mano no necesita estirarse demasiado y se maximiza el efecto de palanca. Para cortar, utilice la cuchilla de forma tal que el recorrido del corte a través de la madera comience en el punto más alejado del pulgar y llevándola en dirección al pulgar, a medida que aprieta el puño firmemente (Figura 7B–D).</value>
+  </data>
+  <data name="Ch4Cap7" xml:space="preserve">
+    <value>Figura 7. Medidas de seguridad que deben tenerse en cuenta al realizar un corte. (A) Forma correcta de agarrar la muestra y el cúter; nótese la colocación del pulgar y los otros dedos. (B–D) Estas imágenes muestran el movimiento de la hoja afilada a lo largo de la muestra. El corte comienza en la base de la hoja (A,B) y se desliza a través de la muestra de madera. (D) Al final del corte, la punta de la hoja es lo único que está en contacto con la madera. Nótese que en todas las imágenes, el dedo pulgar de la mano que sujete el cúter, siempre está debajo de la superficie superior de la muestra.</value>
+  </data>
+  <data name="Ch4S6c" xml:space="preserve">
+    <value>La porción expuesta de una cuchilla de precisión o cúter es de aproximadamente 2 cm de largo, por lo que el recorrido total de corte al pasar la cuchilla por la madera será de 3–4 cm de largo, mientras que el ángulo de la cuchilla y la manera como la pasamos a través del espécimen sean los apropiados. Esto no implica mucho movimiento, por lo que debe hacerse con fluidez y confianza. El resultado será una superficie relativamente pequeña, especialmente al principio, lo que es aceptable si se tiene en cuenta que la superficie se observará a través de una lupa de mano, haciendo que el área parezca mucho mayor.
+     Las primeras veces que intente hacer un corte apropiado es casi seguro que fracase, pero tenga en cuenta que esto es parte del proceso de aprendizaje. Si el ángulo de corte es muy inclinado, la cuchilla se enterrará profundamente en el espécimen y, a su vez, si el ángulo de corte es muy superficial, la cuchilla no se insertará en la madera. Se recomienda practicar concienzudamente y releer este capítulo cuantas veces sea necesario, para así entender en donde se falló. Si comienza a sentir la hoja de la cuchilla roma, reemplácela por otra hoja y tenga en cuenta que a medida que mejore su técnica, las hojas de la cuchilla le durarán más tiempo.
+     Al principio puede sentir que le falta fuerza física para realizar cortes de madera limpios, pero tenga en cuenta que ésta viene con la práctica, en la medida en que se ejercitan los músculos que intervienen en el movimiento de corte. Sin embargo, la fuerza física es menos importante que una buena técnica. Si comienza a sentir las manos débiles o comienzan a fatigarse, debe dejar de practicar y permitir que la fuerza regrese antes de continuar; estirar los dedos y sacudir las manos para aflojarlas puede ser útil. El control del desplazamiento de la hoja de la cuchilla a través de la madera depende de la técnica, pero la fatiga puede resultar en lesiones, por lo que no es aconsejable hacer cortes cuando estamos con las manos cansadas.
+&lt;* Ya casi listos para empezar a cortar especímenes; pero antes, lea la sección de cómo inspeccionar un corte.&gt;</value>
+  </data>
+  <data name="Ch4T7" xml:space="preserve">
+    <value>Inspección del corte</value>
+  </data>
+  <data name="Ch4S7" xml:space="preserve">
+    <value>Una vez realizado un corte, se expone uno de los planos de corte de la madera, el cual debe inspeccionarse con la lupa de mano (Figura 8).</value>
+  </data>
+  <data name="Ch4Cap8" xml:space="preserve">
+    <value>Figura 8. Cortes de madera de diferente calidad. La imagen izquierda muestra un espécimen cortado con una sierra de mesa afilada. La imagen central muestra un espécimen cortado limpiamente con una cuchilla de precisión o cúter. La imagen de la derecha muestra un espécimen preparado en el laboratorio, del cual se pueden producir imágenes de calidad para la investigación científica. Nótese que los aspectos anatómicos de la madera mostrados en las imágenes del centro y de la derecha se pueden observar fácil y adecuadamente. Si se usa de forma segura, el cúter produce tan buenos resultados como el equipo de laboratorio.</value>
+  </data>
+  <data name="Ch4S7c" xml:space="preserve">
+    <value>Preste atención especial a la superficie que produjo y a su orientación con respecto a las células. Para un corte transversal, las células del sistema axial deben estar casi perpendiculares al corte, pero sino lo están, entonces se debe hacer un corte nuevo, teniendo especial cuidado en orientar el filo de la cuchilla en el ángulo que produzca un verdadero plano transversal. Para un plano tangencial de corte, la superficie de corte debe ser perpendicular a los radios (vistos en la superficie transversal) y paralela a las células del sistema axial; por lo tanto, se debe cortar a lo largo y no a través del grano.
+&lt;* * Ahora, aplicando las técnicas detalladas anteriormente y teniendo en cuenta las medidas de seguridad descritas, podemos hacer un corte transversal en un espécimen de practica.&gt;
+     Una vez que la superficie transversal está preparada, observe la orientación de los radios y determine si esa esquina ofrece una superficie tangencial. Si no es así, entonces reoriente el espécimen y prepare una superficie transversal en otra esquina que ofrezca una superficie tangencial. Nuevamente, concéntrese en su seguridad primero y, luego, prepare la superficie tangencial.</value>
+  </data>
+  <data name="Ch4T8" xml:space="preserve">
+    <value>Corte con una cuchilla de afeitar</value>
+  </data>
+  <data name="Ch4S8" xml:space="preserve">
+    <value>Para maderas blandas o de baja densidad, una cuchilla de precisión no es la herramienta adecuada, por lo que es preferible utilizar una hoja o cuchilla de afeitar. Los principios básicos de corte y las reglas de seguridad a tener en cuenta son las mismas, tanto cuando se utiliza una cuchilla de precisión como cuando se utiliza una cuchilla de afeitar. El espécimen se sujeta de la misma forma, pero cambia la forma de sujetar la cuchilla de afeitar y la dirección del movimiento de corte. Las cuchillas de afeitar no son utensilios fuertes y al usarlas, no se necesita la misma fuerza que con la cuchilla de precisión. Simplemente, sujete la cuchilla de afeitar firmemente entre los dedos pulgar e índice , y empuje (no jale) la hoja desde la esquina de la muestra a través de la madera. Concéntrese en su seguridad y deje que la cuchilla de afeitar, en vez de su fuerza, sea la que corte el espécimen.</value>
+  </data>
+  <data name="Chapter 5 Title short" xml:space="preserve">
+    <value>Caracteres básicos utilizados en la ID de las maderas con lupa de mano</value>
+  </data>
+  <data name="Chapter 5 T" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Ch5S0" xml:space="preserve">
+    <value>os caracteres presentados en este capítulo representan el conjunto mínimo de términos y conceptos necesarios que permiten desarrollar la competencia suficiente para la identificación de las maderas con una lupa de mano. Debe aclararse que la lista de caracteres presentados no pretende ser completa y exhaustiva, de acuerdo con los caracteres utilizados por otros autores, en otras referencias bibliográficas, o en la anatomía microscópica tradicional de la madera. En realidad, la forma en que los caracteres y sus definiciones se desvían del concepto de otros autores no es relevante para nuestro propósito, pero es importante tenerlo en cuenta si se utilizan otras referencias para la identificación de las maderas. El enfoque escogido en este manual se basa en las experiencias recogidas durante varios talleres de identificación de maderas con lupa de mano realizados en América Central, Asia y los Estados Unidos. La intención es simplificar el proceso de aprendizaje y agilizar el proceso de identificación. En la medida en que Usted utilice este manual en el campo, sin duda encontrará caracteres de especies que no están cubiertos aquí; tome nota de lo que esta observando y compare con los caracteres que se describirán a continuación. Si después de estudiarlos y observarlos detalladamente concluye que ha encontrado algo que no está descrito en este manual, esto es excelente, pues denota que no sólo ha aprendido sobre el significado de los caracteres, sino que también ha ganado el suficiente conocimiento para concluir que ha encontrado algo nuevo para Usted. Si desea obtener más información sobre los caracteres y las formas de identificar las maderas, lo invitamos a consultar los recursos presentados en el Capítulo 8.</value>
+  </data>
+  <data name="Ch5T12" xml:space="preserve">
+    <value>Caracteres no anatómicos en la identificación de las maderas</value>
+  </data>
+  <data name="Ch5S12" xml:space="preserve">
+    <value>Los caracteres utilizados en la identificación de las maderas son principalmente anatómicos, pero hay otras características no anatómicas que pueden ser muy útiles, algunas de las cuales se referencian en la clave de identificación (Capítulo 6) y en las páginas de descripción de las especies (Capítulo 7). Estos caracteres no anatómicos incluyen: el color, el olor, la densidad y la dureza, el brillo, la regularidad del grano, y la fluorescencia.</value>
+  </data>
+  <data name="Ch5T13" xml:space="preserve">
+    <value>El color</value>
+  </data>
+  <data name="Ch5S13" xml:space="preserve">
+    <value>El color en la madera generalmente se refiere al color del duramen (Figura 1), y es un tema difícil de discutir por varias razones.</value>
+  </data>
+  <data name="Ch5Cap11" xml:space="preserve">
+    <value>Figura 1. El color del duramen se deriva de los productos químicos acumulados por el árbol a medida que madura. La imagen superior muestra la transición entre el duramen y la albura, en donde la albura es de color más amarillento y el duramen es rojizo. La imagen inferior muestra la transición entre el duramen y la albura en otra madera, en dondela albura es blanquecina y el duramen marrón.</value>
+  </data>
+  <data name="Ch5S13c" xml:space="preserve">
+    <value>El color del duramen en un tronco recién talado puede ser bastante diferente al que adquire una vez que la madera se ha secado y procesado. Muchas maderas cambian de color con el tiempo y con la exposición a la luz (por ejemplo, en [Swietenia] y [Hymenaea]), incluso después de haber sido secadas y procesadas. Además, en el color de una madera o especie determinada, puede haber variabilidad biológica natural y significativa (como una amplia gama de colores, por ejemplo). Algunas especies presentan vetas de color esparcidas a lo largo de todo el duramen que pueden estár ausentes en muestras pequeñas. Por otra parte, las personas pueden apreciar los colores de manera diferente, y las palabras para describirlos, a menudo no significan exactamente lo mismo para cada persona. Por estas razones, la información presentada con respecto al color de la madera debe interpretarse cautelosamente.</value>
+  </data>
+  <data name="Ch5T14" xml:space="preserve">
+    <value>El brillo</value>
+  </data>
+  <data name="Ch5S14" xml:space="preserve">
+    <value>El brillo es una propiedad de algunas maderas que, como el color, puede ser difícil de definir y describir. El brillo se puede definir como la manera en que la luz se refleja de la superficie de un bloque de madera, dándole una apariencia lustrosa o sedosa. Es casi imposible capturar el brillo de la madera en fotografías y, además, la apariencia del brillo también depende de la forma de la madera. Por otra parte, aunque una madera pueda tener brillo, este puede no ser observable cuando la madera permanece aún en forma de tronco o después de haber sido aserrada. Los tablones lisos, cepillados o lijados, generalmente exhiben su brillo si provienen de especies que poseen ese carácter. Algunas de las maderas comunes que presentan brillo son: [Swietenia, Khaya, Carapa, Enterolobium] y [Cedrela]; mientras que entre las que no tienen brillo están: [Pinus, Bombacopsis, Brosimum, Quercus] y [Eucalyptus]. La mejor forma para aprender a identificar el brillo en la madera es observar muchos especímenes de especies con brillo y compararlos con las que no lo tienen.</value>
+  </data>
+  <data name="Ch5T15" xml:space="preserve">
+    <value>El olor</value>
+  </data>
+  <data name="Ch5S15" xml:space="preserve">
+    <value>El olor de la madera es otro carácter no anatómico que puede ser valioso, pero al mismo tiempo difícil de describir. Al igual que pasa con el color, las personas pueden percibir el olor de una madera de manera diferente y, además, puede haber una variabilidad significativa en la intensidad del olor. En términos generales, el olor no es un carácter fuerte, salvo muy pocas excepciones, y solo debe usarse al final de una identificación, una vez que todos los caracteres anatómicos hayan sido examinados y se hayan confrontado con las imágenes presentadas en las paginas de descripción de las especies (Capítulo 7).</value>
+  </data>
+  <data name="Ch5T16" xml:space="preserve">
+    <value>La densidad y la dureza</value>
+  </data>
+  <data name="Ch5S16" xml:space="preserve">
+    <value>La densidad y la dureza son propiedades físicas de la madera que están íntimamente relacionadas entre si. La densidad describe el peso o la masa de un espécimen con relación a su volumen y mientras que la dureza nos da información sobre que tan fácil o difícil es cortar o abollar la madera. La densidad aparente de un pedazo de madera se ve afectada por la cantidad de humedad acumulada en el espécimen; así, por ejemplo, la madera dejada bajo la lluvia absorberá agua y parecerá más densa que la madera de la misma especie que se haya secado adecuadamente. Por esta razón, la densidad de la madera se utiliza como carácter en su identificación, sólo cuando tiene característicamente una muy alta o muy baja densidad. La mayoría de las maderas tienen una densidad media o promedio, por lo que en tales especies la densidad no es un carácter de utilidad. Lo mismo ocurre con la dureza, así, si la madera es fácil de abollar con la uña se dice que la madera es suave, y si no, entonces se cataloga como dura. Debe recordarse que la dureza o la suavidad de la madera son propiedades físicas y no tienen nada que ver con las categorías de maderas duras o maderas blandas que se refieren al origen botánico de la madera y a los tipos de células que presentan (ver lo descrito en el Capítulo 2). En este manual se presentan algunas maderas duras que tienen baja densidad y son suaves; y otras que son maderas blandas y que tienen alta densidad y son duras. Por ejemplo, muchas de las especies de [Pinus] presentadas en este manual tienen maderas con alta densidad, aunque botánicamente se consideran dentro de la categoría de maderas blandas. Así mismo, la especie [Gmelina arborea] es una madera dura que es suave.</value>
+  </data>
+  <data name="Ch5T17" xml:space="preserve">
+    <value>La regularidad del grano</value>
+  </data>
+  <data name="Ch5S17" xml:space="preserve">
+    <value>La regularidad del grano se refiere a si las células del sistema axial de la madera se organizan de forma ondulada, se entrelazan o son rectas. Por lo general, las células del sistema axial se encuentran paralelas al eje central del tronco del árbol. El {grano ondulado} se produce cuando estas células no se desarrollan exactamente paralelas al eje central, sino que presentan ondulaciones graduales (de entre 1–2 cm) en su recorrido a lo largo del tronco del árbol. El {grano entrecruzado} se produce cuando estas células se desarrollan en forma inclinada con respecto al eje central y cambian de dirección periódicamente, desarrollándose hacia un lado por varios años y luego hacia otro lado por otros años, y así sucesivamente. Este patrón alterno de crecimiento en direcciones opuestas produce una madera que puede ser muy atractiva, especialmente en maderas con brillo, como en las especies del género [Khaya]. Al mismo tiempo, la madera con este tipo de patrón de crecimiento es difícil de preparar para su observación con lupa de mano, pues el ángulo del grano en una parte del espécimen puede ser frecuentemente muy diferente al ángulo en otra parte del mismo. En las maderas de {grano recto}, las celulas del sistema axial son rectas y corren verticalmente de arriba a abajo del tronco.</value>
+  </data>
+  <data name="Ch5T18" xml:space="preserve">
+    <value>La fluorescencia</value>
+  </data>
+  <data name="Ch5S18" xml:space="preserve">
+    <value>Un último carácter no anatómico es la fluorescencia. Si iluminamos una muestra de madera con una lámpara ultravioleta (UV), ya sea con una lámpara portátil o un modelo de laboratorio, algunas especies emiten fluorescencia. Es decir, la muestra de madera absorbe la luz UV, la cual es ligeramente violeta o invisible a nuestros ojos, y emite un color diferente, usualmente amarillo verdoso. Adicionalmente, algunas maderas poseen extractos que son fluorescentes solo cuando se disuelven en agua. En estos casos, para observar su fluorescencia, se pueden introducir algunas astillas de madera en un vial de vidrio con 5–10 ml de agua y luego éste se ilumina con luz UV. La fluorescencia del extracto acuoso toma generalmente un color azulado. La mayoría de las maderas carecen de fluorescencia, por lo que éste puede ser un carácter valioso para confirmar una identificación, una vez que la determinación inicial se haya realizado con base en los caracteres anatómicos de la madera.</value>
+  </data>
+  <data name="Ch5T19" xml:space="preserve">
+    <value>Resumen sobre los caracteres no anatómicos</value>
+  </data>
+  <data name="Ch5S19" xml:space="preserve">
+    <value>Todos los caracteres no anatómicos mencionados anteriormente pueden desempeñar un papel relevante en la identificación de las maderas, especialmente después de haber adquirido bastante práctica y experiencia. Debido a que estos aspectos no anatómicos son generalmente más debiles que los anatómicos, se tiende a usarlos secundariamente para confirmar las identificaciones (como se discutirá en las páginas de descripción de las especies, Capítulo 7). Finalmente, estas características harán parte automática del reconocimiento de patrones, en donde Usted ya no tenga que preguntarse, por ejemplo, ¿este espécimen tiene brillo?, sino que se dará cuenta automáticamente si esa madera tiene o no esa característica. Así, consecuentemente, los caracteres no anatómicos suelen ser algunos de los primeros caracteres que forman parte del aspecto artístico de la identificación de las maderas.</value>
+  </data>
+  <data name="Ch5T1" xml:space="preserve">
+    <value>Los caracteres anatómicos en la identificación de las maderas</value>
+  </data>
+  <data name="Ch5S1" xml:space="preserve">
+    <value>Este manual se centra en el uso de las características anatómicas para la identificación de especímenes de madera. Como ya nos hemos familiarizado con la biología básica de la madera (Capitulo 2), ahora vamos a examinar las células y estructuras macroscópicas que se utilizan como caracteres básicos en la identificación de las maderas. En este proceso evaluaremos la presencia o ausencia de los caracteres anatómicos en el espécimen en estudio, lo que requiere observación y cuestionamiento constantes: ¿Este carácter está presente o ausente en el espécimen, o es imposible saberlo? La diferencia entre la biología de la anatomía de la madera y la interpretación de esta anatomía como caracteres útiles para su identificación, es sutil pero importante. En el Capítulo 2, discutimos la anatomía para comprender de donde provienen las estructuras de la madera y que función desempeñan en el árbol. En esta sección vamos a definir estas estructuras como caracteres observables, con el objetivo de desarrollar una interpretación de los conceptos anatómicos como instrumentos para la identificación de las maderas.
+     Queremos manifestar que algunas de las imágenes presentadas en este manual no son perfectas; algunas de ellas muestran las marcas dejadas por la cuchilla que cortó la muestra o la lija que la pulió (lo que se indica en las imágenes con &lt;M&gt;), lo que se hizo intencionalmente. La experiencia nos ha demostrado que algunas veces, fotografías con gran calidad y limpieza visual pueden causar confusión, dado que la madera cortada con una cuchilla invariablemente lucirá imperfecto. Por ello, en algunas de las imágenes presentadas a lo largo de este manual se incluyen notas que señalan los defectos en la preparación de las muestras. A medida que se adquiera experiencia en la preparación y observación de especímenes de madera, se entrenará la mente para ignorar defectos causados por el corte de la cuchilla. Sin embargo, se debe considerar que en las fases iniciales del proceso de aprendizaje, las marcas dejadas por la cuchilla pueden simular aspectos anatómicos reales para el ojo no entrenado.</value>
+  </data>
+  <data name="Ch5Cap1" xml:space="preserve">
+    <value>Figura 2. Determinar si un espécimen es madera o simplemente otro material similar a la madera depende de las características anatómicas del material. A es madera, B y C no lo son. La presencia de radios (flechas) en A es la característica determinante. Obsérvese la ausencia de radios en B y C. Haces fibrovasculares se presentan tanto en el bambú (B) como en la palma de coco (C). Los haces fibrovasculares consisten de uno o varios vasos (círculos) y uno o más envolturas fibrosas (flechas).</value>
+  </data>
+  <data name="Ch5T2" xml:space="preserve">
+    <value>Las maderas blandas</value>
+  </data>
+  <data name="Ch5S2" xml:space="preserve">
+    <value>En el caso de las maderas blandas tratadas en este manual, sólo tres características anatómicas pueden ser observadas con una lupa de mano: la presencia o ausencia de canales resiníferos, las características de la transición dentro de los anillos de crecimiento y la presencia de parénquima axial. Estos caracteres se pueden observar en la superficie transversal, por lo que no es necesario obtener un corte de la superficie tangencial en un espécimen de madera blanda.</value>
+  </data>
+  <data name="Ch5T3" xml:space="preserve">
+    <value>Los canales resiníferos</value>
+  </data>
+  <data name="Ch5S3" xml:space="preserve">
+    <value>Los canales resiníferos son las estructuras que producen brea o resina y, entre las maderas blandas presentadas en este manual, solo se pueden encuentrar en [Pinus]. Cuando se está apenas aprendiendo a identificar las maderas, los canales resiníferos pueden confundirse fácilmente con los vasos de las maderas duras (Figura 3), pero hay dos formas sencillas de diferenciarlos. En primer lugar, cuando hay canales resiníferos, generalmente se encuentran en el leño tardío o en la zona entre el leño temprano y el leño tardío, mientras que los vasos de las maderas duras están en todas las partes de los anillos de crecimiento. En segundo lugar, incluso en las maderas blandas que tienen muchos canales resiníferos, hay muchísimos menos canales resiníferos que vasos en la mayoría de las maderas duras. Con algo de práctica, especialmente si se comparan al mismo tiempo una madera dura con una blanda, estas diferencias específicas no serán tan importantes; se podrá reconocer entre el patrón de una madera blanda (con o sin canales resiníferos) y de una madera dura, sin confundir los canales resiníferos con los vasos.</value>
+  </data>
+  <data name="Ch5T4" xml:space="preserve">
+    <value>Las transiciones en los anillos de crecimiento</value>
+  </data>
+  <data name="Ch5S4" xml:space="preserve">
+    <value>En los anillos de crecimiento de las maderas blandas, la transición de leño temprano a leño tardío puede ser abrupta, gradual, o no observarse (Figura 4A–C). En las maderas blandas la ausencia de transición entre los leños temprano y tardío es relativamente rara y, en general, solo se da en especies que carecen de anillos de crecimiento (Figura 4C). Una {transición gradual} de leño temprano a tardío, es aquella en la cual la pared celular de las traqueidas se vuelve ligeramente más gruesa en el leño tardío, sin que haya una demarcación clara que indique donde termina el leño temprano y donde comienza el tardío (Figura 4B). Esto contrasta con la {transición abrupta}, en la que hay una zona claramente visible donde el espesor de la pared celular de las traqueidas cambia de paredes delgadas, en las células del leño temprano, a paredes gruesas, en las células del leño tardío (Figura 4A). La mayoría de las maderas blandas tratadas en este manual poseen una transición gradual.</value>
+  </data>
+  <data name="Ch5Cap2" xml:space="preserve">
+    <value>Figura 4. Clasificación de los anillos de crecimiento en maderas blandas (A–C) y en maderas duras (D–F). (A) Transición abrupta de leño temprano a leño tardío dentro de un anillo de crecimiento; nótese como el leño temprano se ve de color más claro que el tardío y como el cambio de leño temprano a tardío se da en un sector claramente definido dentro del anillo de crecimiento. (B) Transición gradual de leño temprano a leño tardío, que resulta en un patrón más sutil; este es el tipo de transición más frecuente en las maderas blandas incluidas en este manual. (C) No hay transiciónes dentro de los anillo de crecimiento. (D) Las maderas duras con anillos de porosidad circular muestran un cambio abrupto en el diámetro de los vasos en el límite entre el leño temprano y el leño tardío. (E) Las maderas duras con anillos de porosidad semicircular muestran una reducción gradual en el diámetro de los vasos del leño temprano al leño tardío. (F) Las maderas duras con anillos de porosidad difusa no muestran cambios claros en el tamaño o disposición de los vasos del leño temprano al leño tardío y, algunas veces, carecen totalmente de anillos de crecimiento obvios; este es el tipo de anillo de crecimiento más frecuente en las maderas duras incluidas en este manual.</value>
+  </data>
+  <data name="Ch5T5" xml:space="preserve">
+    <value>Las maderas duras</value>
+  </data>
+  <data name="Ch5S5" xml:space="preserve">
+    <value>Como se mencionó en el Capítulo 2, la variabilidad anatómica en las maderas duras es mucho mayor que en las maderas blandas y, además, gran parte de esta variabilidad puede ser observada a través de una lupa de mano. La mayoría de los caracteres son observables en la superficie transversal, pero otros solo pueden verse a través de la superficie tangencial, por lo que para la mayoría de las identificaciones de maderas duras será necesario preparar las dos superficies, tranversal y tangencial.</value>
+  </data>
+  <data name="Ch5T6" xml:space="preserve">
+    <value>Los anillos de crecimiento</value>
+  </data>
+  <data name="Ch5S6" xml:space="preserve">
+    <value>Hay tres clases de anillos de crecimiento en las maderas duras, dependiendo de las transiciones en el tamaño relativo, el patrón de disposición y la abundancia de los vasos. Las tres categorías para considerar son las de porosidad circular, semicircular y difusa (Figura 4D–F).
+     En las maderas con {porosidad circular}, los vasos del leño temprano son claramente más grandes que los del leño tardío (normalmente de 3 a 10 veces el diámetro) y, por lo general, están más estrechamente apiñados. La transición entre los vasos más grandes del leño temprano y los más pequeños del leño tardío es muy clara (Figura 4D). Las maderas con porosidad circular no son frecuentes en las latitudes tropicales, excepto en especies que crecen a altitudes elevadas.
+     Las maderas con {porosidad semicircular} son parecidas a las de porosidad circular en que los vasos del leño temprano son grandes, pero los del leño tardío tienen la mitad del diámetro o menos. Sin embargo, a diferencia de las maderas con porosidad circular, en la transición del leño temprano al tardío se presenta una disminución gradual en el diámetro de los vasos (Figura 4E). Esto resulta en una distinción clara entre el leño tardío de un anillo de crecimiento y el leño temprano del siguiente, pero no existe distinción clara entre el leño temprano y el leño tardío del mismo anillo de crecimiento. Las maderas con porosidad semicircular son más comunes en las latitudes tropicales que las que tienen porosidad circular, pero aún así, son relativamente raras.
+     Las maderas con {porosidad difusa} son las más frecuentes en las regiones tropicales y no presentan diferencias notorias entre el diámetro de los vasos de los leños temprano y tardío (Figura 4F). Desde donde inicia un anillo de crecimiento hasta donde termina, los vasos están distribuidos más o menos uniformemente y son de tamaño similar; no obstante, en algunas maderas con porosidad difusa se puede presentar una ligera disminución en el diámetro de los vasos presentes en el leño tardío. Esta pequeña diferencia en el diámetro no debe confundirse con el patrón de porosidad semicircular, en el cual la diferencia en el diámetro es considerable.</value>
+  </data>
+  <data name="Ch5T7" xml:space="preserve">
+    <value>La disposición de los vasos</value>
+  </data>
+  <data name="Ch5S7" xml:space="preserve">
+    <value>La disposición de los vasos se usa para describir los patrones de disposición de los vasos dentro de un anillo de crecimiento, si los hay. Lo que es diferente al concepto de las categorias de los anillos de crecimiento. En la mayoría de las maderas los vasos tienen una disposición al azar y, generalmente, este patrón no se considera informativo y se asume como la condición predeterminada. El concepto de disposición de los vasos involucra dos aspectos diferentes, los que corresponden al número de vasos en contacto entre si y a su disposición a lo largo del anillo de crecimiento. 
+     Los {vasos solitarios} son aquellos que se presentan de forma individual y no están en contacto con otros (Figura 5A). La mayoría de las maderas tienen al menos algunos vasos solitarios, pero muy pocas tienen sólamente vasos solitarios. Por lo tanto, cuando este carácter está presente, es un carácter informativo. Cuando dos o más vasos están en contacto entre si y forman hileras que se extienden en dirección radial (paralelas a los radios), se denominan como {vasos múltiples} (Figura 5B). Generalmente consisten en la agrupación de dos a cuatro vasos, más de cuatro vasos es menos frecuente. Cuando varios vasos están en contacto a lo largo de sus superficies radial y tangencial y agrupados irregularmente, se conocen como {vasos en agrupación racemiforme}. Este tipo de agrupación de los vasos es menos frecuente que la de los vasos múltiples, por lo que la presencia de vasos en agrupación racemiforme es muy útil en la identificación de una madera.
+     Todos los vasos, ya sean solitarios, múltiples o racemiformes, pueden tener diferentes patrones de disposición dentro del anillo de crecimiento, los cuales reciben nombres especiales. El patrón conocido como de {vasos alineados radialmente}, se presenta cuando los vasos se encuentran organizados en líneas o filas radiales, a menudo alineadas entre los radios. Aunque este tipo de patrón puede encontrarse en maderas con vasos solitarios, múltiples o racemiformes, es más común en los dos primeros. Existe otro patrón relacionado con los vasos dispuestos en escalón, la {disposición radial-oblicua} (Figura 5C), esta es similar a una disposición radial, pero en la que los vasos en lugar de correr paralelos a los radios, forman un patrón en diagonal a los mismos. El último patrón de disposición se concoce como {disposición dendrítica de los vasos} (Figura 5D) y se caracteriza por formar grupos de vasos en forma de "V", en forma de llama, o en forma de árbol, los que suelen ser más estrechos hacia el lado de la médula (hacia el leño temprano) y ensancharse en dirección a la corteza (hacia el leño tardío).</value>
+  </data>
+  <data name="Ch5Cap3" xml:space="preserve">
+    <value>Figura 5. Patrones de organización de los vasos. (A) Vasos solitarios, no están en contacto con otros vasos y suelen ser redondeados. (B) Vasos múltiples, aparecen en grupos de dos o más vasos cuyas paredes celulares entran en contacto; los vasos individuales de un vaso múltiple a menudo se ven ligeramente aplanados en el sitio en donde entran en contacto. (C) Vasos en disposición radial-oblicua, pueden ser vasos solitarios, vasos múltiples o una combinación de los dos tipos; este tipo de patrón, que está formado por muchos vasos, debe ser observado en una área lo suficientemente amplia que permita reconocer la disposición de los vasos en relación a la dirección de los radios. (D) Vasos en disposición dendrítica, agrupación de vasos que suele ser más estrecha hacia el lado de la médula ensanchándose en dirección a la corteza; suele encontrarse en maderas que tienen vasos muy pequeños (la mayoría de los vasos mostrados en esta imagen son demasiado pequeños como para poder ser obsservados a través de una lupa de mano).</value>
+  </data>
+  <data name="Ch5S7c" xml:space="preserve">
+    <value>     Es importante notar que los vasos pueden presentar diferentes disposiciones dentro de la madera de una misma especie. Por ejemplo, las maderas de [Eucalyptus] y [Calophyllum] pueden presentar vasos solitarios y en disposición radial-oblicua, condición que ayuda a definir los patrones anatómicos de sus maderas.</value>
+  </data>
+  <data name="Ch5T8" xml:space="preserve">
+    <value>Los radios</value>
+  </data>
+  <data name="Ch5S8" xml:space="preserve">
+    <value>Tal como se mencionó en el Capítulo 2, los radios en las maderas duras pueden ser angostos, como en las maderas blandas, o bastante anchos, asi como numerosos o escasos (Figura 6).</value>
+  </data>
+  <data name="Ch5Cap4" xml:space="preserve">
+    <value>Figura 6. Diferencias en el ancho y el número de radios. La imagen de la izquierda muestra radios anchos y, comparativamente, menos numerosos; sin embargo, una observación cuidadosa mostrará que hay radios angostos entre los radios más anchos. Si se consideran solamente los radios anchos, esta madera tiene radios escasos. La imagen del centro muestra una madera con radios medianos y de abundancia media. La imagen de la derecha muestra una madera con radios angostos y numerosos.</value>
+  </data>
+  <data name="Ch5S8c" xml:space="preserve">
+    <value>Estos caracteres se observan mejor desde la superficie transversal, son parte importante en patrón anatómico de la madera y pueden ser críticos en la identificación de las maderas duras. Debido a que los conceptos de radios angostos, anchos, escasos o numerosos son fáciles de comprender al examinar fotografías o las superficies transversales en las maderas duras, no es necesario ahondar en explicaciones dentro de este texto.
+     En el Capítulo 2 se describió la superficie tangencial y en el Capítulo 4 el método para obtenerla, ahora aplicaremos estos conocimientos para determinar si una madera tiene radios estratificados o no. Cuando se observa una superficie tangencial, los radios aparecen como pequeñas líneas verticales, generalmente más oscuras que el fondo. Los radios más grandes son más fáciles de observar que los más pequeños, pero hasta los radios diminutos pueden verse a través de una lupa de mano, si la superficie tangencial se ha cortado limpiamente, la lupa de mano es usada correctamente y la luz cae sobre la superficie en un ángulo favorable. Si una madera presenta {radios no estratificados}, los radios se distribuyen aleatoriamente sobre la superficie tangencial y no se presenta un patrón evidente (Figura 7A). La mayoría de las maderas en la naturaleza tienen radios no estratificados. Si una madera tiene {radios estratificados}, los radios se alinean horizontalmente, así como las ventanas de un rascacielos situadas en el mismo piso, aunque en la madera los radios no estan alineados horizontalmente a la perfección, sino que formán líneas más o menos onduladas (Figura 7B–D). Las maderas con radios estratificados se pueden dividir en tres grandes grupos: las de {estratificación gruesa} (Figura 7B), las de {estratificación media} (Figura 7C), y las de {estratificación fina} (Figura 7D). Estos tres grupos se definen con base en el tamaño de los radios y el número de estratos por milimetro a lo largo del grano. En este manual, la mayoría de las maderas con radios estratificados presentan estratificación media.</value>
+  </data>
+  <data name="Ch5Cap5" xml:space="preserve">
+    <value>Figura 7. Radios estratificados y no estratificados; característica que solo puede observarse en la superficie tangencial. (A) Imagen e ilustración de una madera con radios no estratificados, en la cual los radios están dispersos a lo largo de la superficie tangencial sin ninguna disposición en filas horizontales obvia. (B–D) Imágenes e ilustraciones de maderas con radios estratificados, las cuales pueden separarse en maderas con estratificación gruesa (B), estratificación media (C) o estratificación fina (D). En muchas maderas los radios son tan pequeños que aún con una lupa de mano son difíciles de distinguir como entidades discretas, razón por la que a estos radios estratificados se les denomina en algunos textos como “marcas onduladas” o “rizaduras”. Estos son unos términos que describen el patrón de líneas horizontales onduladas formado por los radios estratificados y que se puede observar en la imagen de la madera con estratificación media (C). Nótese también en todas las imágenes las líneas verticales alargadas en la madera, las cuales corresponden a los vasos cortados longitudinalmente, como cuando se corta un tubo a lo largo.</value>
+  </data>
+  <data name="Ch5T9" xml:space="preserve">
+    <value>Los patrones del parénquima axial</value>
+  </data>
+  <data name="Ch5S9" xml:space="preserve">
+    <value>Los patrones del parénquima axial de las maderas duras, especialmente en las tropicales, son muy relevantes para la identificación de las maderas. Estos patrones se pueden dividir en tres grandes grupos teniendo en cuenta la posición y la apariencia del parénquima.
+     El primer tipo de parénquima axial se conoce como {parénquima marginal} (Figura 8, arriba), nombre que se se refiere a que este tipo de parénquima se presenta al comienzo o al final de cada anillo de crecimiento y, cuando está presente, ayuda a definir los anillos de crecimiento de la madera. Debido a que la mayoría de las maderas tropicales tienen porosidad difusa, si los anillos de crecimiento son claramente visibles, entonces se debe a que hay presencia de parénquima marginal. El parénquima marginal se observa como una línea sólida de células que se distribuyen uniformemente bordeando el anillo de crecimiento y, por lo general, no presenta una apariencia ondulada. Con algo de práctica, determinar correctamente la presencia del parénquima marginal será relativamente fácil.
+     Mientras que el parénquima marginal se puede definir como la frontera que delimita los anillos de crecimiento, los otros dos tipos de parénquima se presentan dentro de los anillos de crecimiento y se definen con base a su asociación, o no, con los vasos. Si el parénquima no está asociado con los vasos, se denomina como {parénquima apotraqueal} (Figura 8, centro), mientras que si está asociado con los vasos, se denomina como {parénquima paratraqueal} (Figura 8, abajo).</value>
+  </data>
+  <data name="Ch5Cap6" xml:space="preserve">
+    <value>Figura 8. Los tres tipos de parénquima axial presentes en las maderas duras: marginal, apotraqueal y paratraqueal. El parénquima marginal se presenta al comienzo o al final de un anillo de crecimiento, delimitándolos, y se muestra en las imágenes e ilustraciones superiores. Los parénquimas apotraqueal y paratraqueal se encuentran dentro de los anillos de crecimiento y difieren de acuerdo a cómo se asocien con los vasos. El parénquima apotraqueal no está asociado con los vasos y se muestra en las imágenes e ilustraciones del centro. El parénquima paratraqueal está estrechamente asociado con los vasos y se muestra en las imágenes e ilustraciones inferiores.</value>
+  </data>
+  <data name="Ch5S9c" xml:space="preserve">
+    <value>Inicialmente, reconocer la asociación de los vasos con el parénquima puede ser algo complejo, y, de hecho, concebir los significados de los patrones del parénquima apotraqueal y paratraqueal es uno de los aspectos más difíciles en el aprendizaje de los caracteres para la identificación de las maderas. En nuestra experiencia enseñando identificación de las maderas, hemos encontrado útil pedirle a los estudiantes que usen el nombre completo de cada tipo de parénquima cuando están aprendiendo estas características y que pasen a los nombres abreviados sólo cuando estén completamente familiarizados con la terminología de todos estos caracteres.
+     El parénquima apotraqueal es el que no está asociado con los vasos y se presenta en tres patrones básicos: difuso, difuso-agregado y en bandas (o bandeado). Estos tres patrones pueden ser considerados como parte de un continuo; en donde en un extremo está el parénquima apotraqueal difuso, en el medio el parénquima apotraqueal difuso-agregado y en el otro extremo el parénquima apotraqueal bandeado. El {parénquima apotraqueal difuso} se observa como pequeños puntos de células generalmente de color más claro, dispersas entre las fibras y que no tocan los vasos (Figura 9B). Este tipo de parénquima a menudo no es visible a través de la lupa de mano, razón por la cual sólo será utilizado como carácter en aquellas especies que lo muestren claramente. El {parénquima apotraqueal difuso-agregado} también se encuentra disperso entre las fibras, pero en lugar de presentar células solitarias está formado por pequeñas líneas tangenciales de 2–4 células, lo que le da la apariencia de líneas cortas y discontinuas de células que corren perpendicularmente a los radios, pero que no están asociadas con los vasos (Figura 9C). Estas líneas cortas de células agregadas normalmente no cruzan los radios, lo que contribuye a su apariencia fracturada. A diferencia del parénquima apotraqueal difuso-agregado, el {parénquima apotraqueal bandeado} está formado por líneas largas y onduladas de células que típicamente cruzan varios a muchos radios (Figura 9D). Dependiendo de la longitud de las bandas, puede parecer que están en contacto con los vasos, por lo que se puede afirmar que en este patrón, cuando el parénquima entra en contacto con los vasos, las bandas están siendo interrumpidas por los vasos, más no están asociadas con ellos. Cada banda individual puede tener tangencialmente desde varios milímetros de longitud ({bandas largas}), hasta menos de medio milímetro ({bandas cortas}). Radialmente, las bandas también pueden ser de una sóla célula de grosor ({bandas angostas}) o de muchas células de grosor ({bandas anchas}).</value>
+  </data>
+  <data name="Ch5Cap7" xml:space="preserve">
+    <value>Figura 9. Patrones del parénquima marginal y apotraqueal. (A) Parénquima marginal, en el que las bandas de parénquima son gruesas. (B) Parénquima apotraqueal difuso se aprecia como puntos pequeños dispersos aleatoriamente entre los radios. (C) Parénquima apotraqueal difuso-agregado se aprecia como líneas tangenciales cortas entre las fibras, que además no cruzan los radios. (D) Parénquima apotraqueal bandeado (o en bandas) forma líneas tangenciales alargadas entre las fibras; las bandas generalmente cruzan varios radios y a menudo son onduladas.</value>
+  </data>
+  <data name="Ch5S9c1" xml:space="preserve">
+    <value>     El {parénquima paratraqueal} siempre está asociado claramente con los vasos, tiene gran variedad de patrones y, al igual que en el parénquima apotraqueal, estos patrones pueden verse como partes de un continuo. En un extremo del espectro se encuentra el parénquima paratraqueal vasicéntrico, en el medio el parénquima paratraqueal aliforme, y en el otro extremo el parénquima paratraqueal confluente. El {parénquima paratraqueal vasicéntrico} se observa como un halo redondeado, o vaina, de parénquima alrededor del vaso; puede ser {angosto} o {ancho}, teniendo en cuenta la distancia que abarca desde el vaso (Figura 10A). El {parénquima paratraqueal aliforme} es como el vasicéntrico, pero con extensiones tangenciales, esto es, presenta extensiones desde el halo de parénquima que son perpendiculares a los radios. Estas extensiones pueden ser relativamente gruesas y cortas, lo que da lugar al patrón de {parénquima paratraqueal aliforme rómbico} (Figura 10B), o pueden ser alargadas y estrechas, lo que da lugar al patrón de {parénquima paratraqueal aliforme alado} (Figura 10C). Si las extensiones de parénquima paratraqueal aliforme se fusionan con las extensiones del parénquima paratraqueal aliforme de otro vaso adyacente, el patrón resultante se denomina como {parénquima paratraqueal confluente} (Figura 10D). El parénquima paratraqueal confluente puede conectar de dos vasos hasta cientos de ellos y el grosor radial del parénquima entre los vasos puede ser angosto o ancho.</value>
+  </data>
+  <data name="Ch5Cap8" xml:space="preserve">
+    <value>Figura 10. Patrones del parénquima paratraqueal. (A) Parénquima paratraqueal vasicéntrico se observa como una vaina uniforme, o halo, de parénquima alrededor de los vasos individuales o múltiples. (B) Parénquima paratraqueal aliforme rómbico es similar al parénquima vasicéntrico, pero el parénquima que rodea los vasos se extiende tangencialmente con proyecciones cortas y gruesas. (C) Parénquima paratraqueal aliforme alado es similar al parénquima aliforme rómbico pero presenta alas largas y angostas que se extienden tangencialmente. (D) Parénquima paratraqueal confluente se observa como una serie de vasos conectados por el parénquima paratraqueal aliforme rómbico o alado. Las bandas tangenciales de conexión del parénquima pueden ser angostas o anchas y pueden conectar desde dos a cientos de vasos. Compárese éste con el parénquima apotraqueal bandeado (Figura 8D) y nótense las diferencias en las asociaciones del parénquima con los vasos.</value>
+  </data>
+  <data name="Ch5T10" xml:space="preserve">
+    <value>Canales radiales en las maderas duras</value>
+  </data>
+  <data name="Ch5S10" xml:space="preserve">
+    <value>Los {canales radiales de resina} son estructuralmente similares a los canales resiníferos axiales de las maderas blandas, pero a diferencia de estos, se encuentran dispersos dentro de los radios. La forma más clara de apreciar estos canales radiales, es en la superficie tangencial, donde se pueden observar como puntos de color oscuro que generalmente parecen estirar o engrosar los radios en los que están presentes (Figura 11C–F).</value>
+  </data>
+  <data name="Ch5Cap9" xml:space="preserve">
+    <value>Figura 11. Las tílides y los canales radiales en las maderas duras. (A,B) Las tílides son excrecencias de las células del parénquima, de aspecto brillante, que obstruyen parcial o totalmente el lumen de los vasos del duramen. Nótese que en la parte superior de la imagen (A), hay una zona de albura donde los vasos están vacíos. En algunas especies con tílides, todos los vasos pueden llegar a estar completamente llenos de ellas. (B) En otras especies, los vasos pueden estar parcialmente llenos de tílides, o solo algunos de ellos presentarlas. (C–F) Los canales radiales son estructuras especiales embebidas en los radios y, generalmente, se observan en la superficie tangencial como puntos negros o marrón oscuro dentro de los radios expandidos de aquellas especies que los poseen (como se indica con las flechas); algunas veces, los canales radiales pueden ser muy difíciles de encontrar y observar con una lupa de mano (E).</value>
+  </data>
+  <data name="Ch5S10c" xml:space="preserve">
+    <value>A diferencia de la mayoría de los caracteres anatómicos incluidos en este manual, los canales radiales tienen una disposición bastante azarosa, por lo que si la clave o la descripción de una especie le pide buscarlos, se debe preparar una superficie tangencial relativamente grande y examinarla cuidadosamente; tenga en cuenta que puede haber uno o dos canales radiales por centímetro cuadrado de superficie tangencial (Figura 11C, E, F). Si solo se puede preparar una pequeña superficie tangencial, este carácter solo se debe considerar presente si se observa en la madera examinada; si no se observan, no se puede concluir con certeza que están ausentes.</value>
+  </data>
+  <data name="Ch5T11" xml:space="preserve">
+    <value>El ancho del anillo de crecimiento: ¿plantación o rodal natural?</value>
+  </data>
+  <data name="Ch5S11" xml:space="preserve">
+    <value>Un último carácter anatómico a considerar es el ancho aparente de los anillos de crecimiento (Figura 12). El ancho de los anillos de crecimiento no se utiliza para separar diferentes especies de madera, pero algunas veces puede ser usado como un indicador de si la madera que se esta examinando proviene de una plantación forestal o de rodales naturales. En términos generales, las especies cultivadas en plantaciones crecen mucho más rápidamente que la misma especie en condiciones naturales, lo que da lugar a anillos de crecimiento anormalmente amplios.</value>
+  </data>
+  <data name="Ch5Cap10" xml:space="preserve">
+    <value>Figura 12. Maderas de crecimiento lento (izquierda) y de crecimiento rápido (derecha). Hay cuatro anillos de crecimiento completos (indicados por la presencia del parénquima marginal) en la imagen de la izquierda. La imagen de la derecha tiene solo un anillo de crecimiento completo en el mismo espacio, y por lo tanto creció a aproximadamente cuatro veces la tasa de crecimiento de la madera de la derecha. Una tasa de crecimiento tan rápida indica probablemente que la madera proviene de una plantación, mientras que la tasa de crecimiento de la izquierda es más típica de un árbol de crecimiento natural.</value>
+  </data>
+  <data name="Ch5S11c" xml:space="preserve">
+    <value>Dos especies maderables comúnmente cultivadas en plantaciones son [Swietenia macrophylla] y [Tectona grandis], aunque solo [Swietenia] se encuentra naturalmente en nuestra región. En ambas especies, el material proveniente de plantaciones tiene típicamente menos anillos de crecimiento por centímetro; algunos árboles de plantaciones crecen tan rápidamente que se miden los centímetros por anillo de crecimiento, en lugar de los anillos de crecimiento por centímetro. Sin embargo, tenga en cuenta que la tasa de crecimiento no es una forma definitiva para determinar el origen de una madera. Por ejemplo, si se está examinando una carga de [Swietenia] con cuatro o cinco anillos de crecimiento por centímetro y el remitente manifiesta que el material proviene de una plantación, sería conveniente investigar más a fondo su declaración; tal tasa de crecimiento sería más típica de un material de origen natural y ese lote de madera podría haber sido cosechado ilegalmente.</value>
+  </data>
+  <data name="Chapter 6 Title" xml:space="preserve">
+    <value>Clave de identificación (pestaña de Clave)</value>
+  </data>
+  <data name="Ch6T0" xml:space="preserve">
+    <value>Como usar la clave</value>
+  </data>
+  <data name="Chapter 6 T" xml:space="preserve">
+    <value>L</value>
+  </data>
+  <data name="Ch6S0" xml:space="preserve">
+    <value>a clave está escrita para servir de guía en el proceso de identificación de las maderas, de la forma más eficiente y exacta posible. Está organizada en pares de afirmaciones contrapuestas, o dicotomías, en función de si se presenta o no determinado carácter macroscópico de la madera. Cada afirmación que se acepta estará basada en nuestra interpretación de los caracteres macroscópicos de la muestra desconocida y nos guiará a un nuevo par de afirmaciones. Cada vez que escojamos una de las dos alternativas y sigamos a la próxima dicotomía, estaremos más cerca a realizar una identificación. Eventualmente, la clave llegará a una(s) especie(s) y nos dirigiremos a la correspondiente página de descripción (Capítulo 7 - ^pestaña de Especies| en esta aplicación), la cual nos proporcionará información más detallada acerca de la madera de la(s) especie(s) resultante(s). La clave funciona en combinación con las descripciónes de las especies, puesto que en estas páginas se puede comparar el patrón general y los caracteres de la muestra desconocida, con las imágenes e información específica de la especie sugerida. Si la muestra en cuestión concuerda bien con la madera de la especie descrita, entonces es muy probable que la hayamos identificado exitosamente. Sin embargo, si la muestra desconocida no esta incluida en la clave, las imágenes e información de la descripción de la especie no concordarían y debemos concluir que la muestra no se pudo identificar. Esto pasará de vez en cuando, puesto que ninguna clave incluye todas las maderas.
+     Reiteramos entonces que, para realizar una identificación correcta, la clave debe ser usada junto con las páginas de descripción de especies. Sólo así este manual funcionará correctamente. Omitir deliberadamente el uso de las páginas de descripción de especies del Capítulo 7 (^pestaña de Especies| en esta aplicación) sería como viajar en un avión y no reclamar las maletas en el destino final; asumiríamos que las maletas llegaron con nosotros al aeropuerto, pero no lo sabríamos a ciencia cierta.</value>
+  </data>
+  <data name="Ch6T1" xml:space="preserve">
+    <value>La clave - ^pestaña de Clave|</value>
+  </data>
+  <data name="Ch6T1c" xml:space="preserve">
+    <value>Lista de caracteres</value>
+  </data>
+  <data name="Ch6S1" xml:space="preserve">
+    <value>Esta lista va a ser de mucha utilidad cuando se esté identificando una muestra de madera desconocida, puesto que nos guiará a través del proceso de observación de aspectos específicos relevantes en la identificación de maderas. Revisar esta lista cuando se confronta una muestra desconocida conduce a que se verifique la presencia de todos los caracteres posibles y que se evite pasar por alto un carácter importante. Con el tiempo, la práctica y la experiencia, esta lista será menos útil con patrones de madera que se reconocerán automáticamente, pero seguirá siendo de mucha ayuda con muestras difíciles, aún cuando se tengan años de práctica identificando las maderas.</value>
+  </data>
+  <data name="Chapter 7 Title" xml:space="preserve">
+    <value>Descripción de las especies (pestaña de Especies)</value>
+  </data>
+  <data name="Ch7T0" xml:space="preserve">
+    <value>Como usar las páginas de descripción de especies</value>
+  </data>
+  <data name="Chapter 7 T" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="Ch7S0" xml:space="preserve">
+    <value>stas páginas constituyen el paso final del proceso de identificación; seremos conducidos hasta ellas por la clave del Capítulo 6 (^pestaña de Clave| en esta aplicación). Las maderas abordadas en este manual están organizadas por especie o grupo de especies similares en el mismo género o familia, cada madera presentada en dos partes. La primera parte consta de imágenes de la especie, género, o grupo de maderas, junto con una descripción de la características importantes de la madera abordada. La segunda parte muestra imágenes de maderas similares o con las que puede confundirse, y resalta las características en que difiere de las maderas similares. El objetivo es determinar cuáles caracteres están presentes en la madera desconocida y usar está información para confirmar o negar la identificación.</value>
+  </data>
+  <data name="Chapter 6" xml:space="preserve">
+    <value>Capítulo 6 </value>
+  </data>
+  <data name="Chapter 7" xml:space="preserve">
+    <value>Capítulo 7 </value>
+  </data>
+  <data name="Chapter 6 Title Hyperlink" xml:space="preserve">
+    <value>Clave de identificación (^pestaña de Clave|)</value>
+  </data>
+  <data name="Chapter 7 Title Hyperlink" xml:space="preserve">
+    <value>Descripción de las especies (^pestaña de Especies|)</value>
+  </data>
+  <data name="Ch6S0iOS" xml:space="preserve">
+    <value>a clave está escrita para servir de guía en el proceso de identificación de las maderas, de la forma más eficiente y exacta posible. Está organizada en pares de afirmaciones contrapuestas, o dicotomías, en función de si se presenta o no determinado carácter macroscópico de la madera. Cada afirmación que se acepta estará basada en nuestra interpretación de los caracteres macroscópicos de la muestra desconocida y nos guiará a un nuevo par de afirmaciones. Cada vez que escojamos una de las dos alternativas y sigamos a la próxima dicotomía, estaremos más cerca a realizar una identificación. Eventualmente, la clave llegará a una(s) especie(s) y nos dirigiremos a la correspondiente página de descripción</value>
+  </data>
+  <data name="Ch6S0iOS1" xml:space="preserve">
+    <value>(Capítulo 7 - ^pestaña de Especies| en esta aplicación),</value>
+  </data>
+  <data name="Ch6S0iOS2" xml:space="preserve">
+    <value>la cual nos proporcionará información más detallada acerca de la madera de la(s) especie(s) resultante(s). La clave funciona en combinación con las descripciónes de las especies, puesto que en estas páginas se puede comparar el patrón general y los caracteres de la muestra desconocida, con las imágenes e información específica de la especie sugerida. Si la muestra en cuestión concuerda bien con la madera de la especie descrita, entonces es muy probable que la hayamos identificado exitosamente. Sin embargo, si la muestra desconocida no esta incluida en la clave, las imágenes e información de la descripción de la especie no concordarían y debemos concluir que la muestra no se pudo identificar. Esto pasará de vez en cuando, puesto que ninguna clave incluye todas las maderas.
+     Reiteramos entonces que, para realizar una identificación correcta, la clave debe ser usada junto con las páginas de descripción de especies. Sólo así este manual funcionará correctamente. Omitir deliberadamente el uso de las páginas de descripción de especies del Capítulo 7</value>
+  </data>
+  <data name="Ch6S0iOS3" xml:space="preserve">
+    <value>(^pestaña de Especies| en esta aplicación)</value>
+  </data>
+  <data name="Ch6S0iOS4" xml:space="preserve">
+    <value>sería como viajar en un avión y no reclamar las maletas en el destino final; asumiríamos que las maletas llegaron con nosotros al aeropuerto, pero no lo sabríamos a ciencia cierta.</value>
+  </data>
+  <data name="Ch7S0iOS" xml:space="preserve">
+    <value>stas páginas constituyen el paso final del proceso de identificación; seremos conducidos hasta ellas por la clave del Capítulo 6</value>
+  </data>
+  <data name="Ch7S0iOS1" xml:space="preserve">
+    <value>(^pestaña de Clave| en esta aplicación).</value>
+  </data>
+  <data name="Ch7S0iOS2" xml:space="preserve">
+    <value>Las maderas abordadas en este manual están organizadas por especie o grupo de especies similares en el mismo género o familia, cada madera presentada en dos partes. La primera parte consta de imágenes de la especie, género, o grupo de maderas, junto con una descripción de la características importantes de la madera abordada. La segunda parte muestra imágenes de maderas similares o con las que puede confundirse, y resalta las características en que difiere de las maderas similares. El objetivo es determinar cuáles caracteres están presentes en la madera desconocida y usar está información para confirmar o negar la identificación.</value>
+  </data>
+  <data name="Chapter 6 Title iOS" xml:space="preserve">
+    <value>Clave de identificación</value>
+  </data>
+  <data name="Chapter 6 Title iOS1" xml:space="preserve">
+    <value>(^pestaña de Clave|)</value>
+  </data>
+  <data name="Chapter 7 Title iOS" xml:space="preserve">
+    <value>Descripción de las especies</value>
+  </data>
+  <data name="Chapter 7 Title iOS1" xml:space="preserve">
+    <value>(^pestaña de Especies|)</value>
+  </data>
+</root>

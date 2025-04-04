@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="referenceFC" xml:space="preserve">
+    <value>Species</value>
+  </data>
+  <data name="idC" xml:space="preserve">
+    <value>Key</value>
+  </data>
+  <data name="learnFC" xml:space="preserve">
+    <value>Quiz</value>
+  </data>
+  <data name="studyFC" xml:space="preserve">
+    <value>Book</value>
+  </data>
+  <data name="Expert mode:" xml:space="preserve">
+    <value>Expert mode: </value>
+  </data>
+  <data name="Language:" xml:space="preserve">
+    <value>Language: </value>
+  </data>
+  <data name="Launch page:" xml:space="preserve">
+    <value>Launch page: </value>
+  </data>
+  <data name="Definition hyperlinks:" xml:space="preserve">
+    <value>Definition hyperlinks: </value>
+  </data>
+  <data name="Font size:" xml:space="preserve">
+    <value>Font size: </value>
+  </data>
+  <data name="settingsLC" xml:space="preserve">
+    <value>settings</value>
+  </data>
+  <data name="settingsFC" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>English</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="Study hyperlinks:" xml:space="preserve">
+    <value>Study hyperlinks: </value>
+  </data>
+  <data name="I.D. scroll animation:" xml:space="preserve">
+    <value>Key scroll animation: </value>
+    <comment>@MutedRule(PunctuationTail)</comment>
+  </data>
+  <data name="Colorblind mode:" xml:space="preserve">
+    <value>Colorblind mode: </value>
+  </data>
+  <data name="Initialization" xml:space="preserve">
+    <value>Initialization</value>
+  </data>
+  <data name="Loading assets" xml:space="preserve">
+    <value>Loading...</value>
+  </data>
+  <data name="Credits" xml:space="preserve">
+    <value>Credits</value>
+  </data>
+  <data name="Credits descriptionOG" xml:space="preserve">
+    <value>Authors:
+&lt;Alex C. Wiedenhoeft, Rafael Arévalo, Kyatt Spessert, Frank Owens, Adriana Costa,&gt; and &lt;Rubin Shmulsky&gt;</value>
+  </data>
+  <data name="Credits description contOG" xml:space="preserve">
+    <value>
+This app is a reimagination of the field manual "Identification of Central American, Mexican, and Caribbean Woods" by Drs. Rafael Arévalo and Alex Wiedenhoeft.
+
+Arévalo, Rafael; Wiedenhoeft, Alex C. 2022. [Identificación de las Maderas de Centroamérica, México y el Caribe—Identification of Central American, Mexican, and Caribbean Woods.] General Technical Report FPL-GTR-293. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 376 p. ^https://doi.org/10.2737/FPL-GTR-293|
+
+Image credits:
+Dominique Belcher (2020)
+Lencer (2007) “Vorlage Karibik/Mittelamerika, Blank Map Caribbean Sea,” ^https://commons.wikimedia.org/wiki/File:Caribbean_Sea_and_West_Indies.png|
+
+This material is based upon work that is supported by the National Institute of Food and Agriculture, U.S. Department of Agriculture, McIntire Stennis project under accession number 7004014.
+
+This publication is a contribution of the Forest and Wildlife Research Center, Mississippi State University.</value>
+  </data>
+  <data name="Credits description iOSOG" xml:space="preserve">
+    <value>
+This app is a reimagination of the field manual "Identification of Central American, Mexican, and Caribbean Woods" by Drs. Rafael Arévalo and Alex Wiedenhoeft.
+
+Arévalo, Rafael; Wiedenhoeft, Alex C. 2022. [Identificación de las Maderas de Centroamérica, México y el Caribe—Identification of Central American, Mexican, and Caribbean Woods.] General Technical Report FPL-GTR-293. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 376 p. </value>
+  </data>
+  <data name="Credits description iOS1OG" xml:space="preserve">
+    <value>^https://doi.org/10.2737/FPL-GTR-293|</value>
+  </data>
+  <data name="Credits description iOS2OG" xml:space="preserve">
+    <value>
+Image credits:
+Dominique Belcher (2020)
+Lencer (2007) “Vorlage Karibik/Mittelamerika, Blank Map Caribbean Sea,”</value>
+  </data>
+  <data name="Credits description iOS3OG" xml:space="preserve">
+    <value>^https://commons.wikimedia.org/wiki/File:Caribbean_Sea_and_West_Indies.png|</value>
+  </data>
+  <data name="Credits description iOS4OG" xml:space="preserve">
+    <value>
+This material is based upon work that is supported by the National Institute of Food and Agriculture, U.S. Department of Agriculture, McIntire Stennis project under accession number 7004014.
+
+This publication is a contribution of the Forest and Wildlife Research Center, Mississippi State University.</value>
+  </data>
+  <data name="Credits disclaimer" xml:space="preserve">
+    <value>The views and opinions expressed herein are strictly those of the authors. The contents of this app have not been reviewed or approved by Mississippi State University or the USDA Forest Service.</value>
+  </data>
+  <data name="Credits description" xml:space="preserve">
+    <value>Authors:
+&lt;Rafael Arévalo, Emmanuel Ebanyenle, Alberta Asi Ebeheakey, Kofi Abban Bonsu, Ophilious Lambog, Richard Soares, Alex C. Wiedenhoeft, Kyatt Spessert, Frank Owens, Adriana Costa,&gt; and &lt;Rubin Shmulsky&gt;</value>
+  </data>
+  <data name="Credits description cont" xml:space="preserve">
+    <value>
+This app is a reimagination of the manual "Field Identification Manual for Ghanaian Timbers" published by the USDA Forest Products Laboratory.
+
+Arevalo, Rafael; Ebanyenle, Emmanuel; Ebeheakey, Alberta Asi; Bonsu, Kofi Abban; Lambog, Ophilious; Soares, Richard; Wiedenhoeft, Alex C. 2020. [Field identification manual for Ghanaian timbers.] FPL Gen Tech. Rep. FPL-GTR-277. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 130 p. ^https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr277.pdf|
+
+Image credits:
+Dominique Belcher (2020)
+
+This material is based upon work that is supported by the National Institute of Food and Agriculture, U.S. Department of Agriculture, McIntire Stennis project under accession number 7004014.
+
+This publication is a contribution of the Forest and Wildlife Research Center, Mississippi State University.</value>
+  </data>
+  <data name="Credits description iOS" xml:space="preserve">
+    <value>
+This app is a reimagination of the manual "Field Identification Manual for Ghanaian Timbers" published by the USDA Forest Products Laboratory.
+
+Arevalo, Rafael; Ebanyenle, Emmanuel; Ebeheakey, Alberta Asi; Bonsu, Kofi Abban; Lambog, Ophilious; Soares, Richard; Wiedenhoeft, Alex C. 2020. [Field identification manual for Ghanaian timbers.] FPL Gen Tech. Rep. FPL-GTR-277. Madison, WI: U.S. Department of Agriculture, Forest Service, Forest Products Laboratory. 130 p.</value>
+  </data>
+  <data name="Credits description iOS1" xml:space="preserve">
+    <value>^https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr277.pdf|</value>
+  </data>
+  <data name="Credits description iOS2" xml:space="preserve">
+    <value>
+Image credits:
+Dominique Belcher (2020)
+
+This material is based upon work that is supported by the National Institute of Food and Agriculture, U.S. Department of Agriculture, McIntire Stennis project under accession number 7004014.
+
+This publication is a contribution of the Forest and Wildlife Research Center, Mississippi State University.</value>
+  </data>
+</root>

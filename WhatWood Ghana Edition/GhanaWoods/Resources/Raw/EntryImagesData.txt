@@ -1,0 +1,281 @@
+﻿1+  t+  g14n0i.jpg* g22n1i.jpg* g22n2i.jpg
+1+  t+  g9n1i.jpg* g59n1i.jpg* g66n1i.jpg
+
+2+  f+  14
+2+  f+  22
+
+3+  f+  66
+3+  t+  g51n1i.jpg* g55n2i.jpg* g63n1i.jpg
+
+4+  t+  p20n1i.jpg* p20n2i.jpg* p20n3i.jpg
+4+  t+  p20n0i.jpg
+
+5+  t+  g30n1i.jpg* g44n0i.jpg* g54n2i.jpg
+5+  t+  g36n2i.jpg* g65n0i.jpg* g69n1i.jpg
+
+6+  t+  g30n0i.jpg* g54n1i.jpg* g62n2i.jpg
+6+  t+  g10n0i.jpg* g10n1i.jpg* g44n2i.jpg
+
+7+  t+  g54n0i.jpg* g62n0i.jpg* g62n1i.jpg
+7+  f+  30
+
+8+  f+  62
+8+  f+  54
+
+9+  f+  44
+9+  f+  10
+
+10+  t+  g13n0i.jpg* g29n0i.jpg* g36n1i.jpg
+10+  t+  g37n2i.jpg* g69n2i.jpg* g72n2i.jpg
+
+11+  f+  13
+11+  t+  g29n0i.jpg* g29n1i.jpg* g36n1i.jpg
+
+12+  f+  29
+12+  f+  36
+
+13+  t+  g33n1i.jpg* p20n2i.jpg* p20n1i.jpg
+13+  f+  69
+
+14+  t+  g37n0i.jpg* g65n0i.jpg* g65n1i.jpg
+14+  t+  g33n0i.jpg* g49n2i.jpg* g72n2i.jpg
+
+15+  f+  37
+15+  f+  65
+
+16+  t+  g4n0i.jpg* g4n2i.jpg* g49n0i.jpg
+16+  t+  g33n0i.jpg* g64n0i.jpg* g72n0i.jpg
+
+17+  f+  49
+17+  f+  4
+
+18+  f+  33
+18+  t+  p20n0i.jpg
+
+19+  f+  72
+19+  f+  64
+
+20+  t+  g72n2i.jpg* g74n1i.jpg* g84n1i.jpg
+20+  t+  g15n0i.jpg* g57n0i.jpg* g82n0i.jpg
+
+21+  t+  g46n1i.jpg* g74n0i.jpg* g84n1i.jpg
+21+  t+  g25n2i.jpg* g35n1i.jpg* g46n2i.jpg
+
+22+  f+  74
+22+  t+  g46n0i.jpg* g84n0i.jpg* g84n2i.jpg
+
+23+  f+  84
+23+  f+  46
+
+24+  f+  16* 46
+24+  t+  g13n1i.jpg* g25n0i.jpg* g34n1i.jpg
+
+25+  f+  25
+25+  t+  g18n0i.jpg* g21n0i.jpg* g35n1i.jpg
+
+26+  t+  g21n1i.jpg* g75n2i.jpg* g77n2i.jpg
+26+  t+  g23n2i.jpg* g35n2i.jpg* g72n0i.jpg
+
+27+  t+  g13n0i.jpg* g18n1i.jpg* g77n0i.jpg
+27+  t+  g21n0i.jpg* g34n0i.jpg* g75n0i.jpg
+
+28+  f+  77
+28+  t+  g13n2i.jpg* g18n0i.jpg* g75n2i.jpg
+
+29+  f+  75+  96
+29+  t+  g13n1i.jpg* g18n1i.jpg* g18n2i.jpg
+
+30+  f+  18
+30+  f+  13
+
+31+  t+  g75n0i.jpg* g75n1i.jpg* g75n2i.jpg
+31+  t+  g21n2i.jpg* g34n0i.jpg* g34n1i.jpg
+
+32+  f+  75+  94
+32+  f+  75+  95
+
+33+  f+  21
+33+  f+  34
+
+34+  f+  72
+34+  t+  g23n0i.jpg* g23n1i.jpg* g35n0i.jpg
+
+35+  f+  35
+35+  f+  23
+
+36+  t+  g12n0i.jpg* g56n0i.jpg* g71n0i.jpg
+36+  t+  g47n2i.jpg* g67n0i.jpg* g85n0i.jpg
+
+37+  t+  g45n1i.jpg* g55n1i.jpg* g56n0i.jpg
+37+  t+  g12n2i.jpg* g46n2i.jpg* g71n1i.jpg
+
+38+  f+  56
+38+  t+  g45n2i.jpg* g48n0i.jpg* g55n0i.jpg
+
+39+  f+  48
+39+  t+  notp23n0i.jpg* notp23n1i.jpg* notp23n2i.jpg
+
+40+  f+  55
+40+  t+  g45n0i.jpg* g45n1i.jpg* g86n0i.jpg
+
+41+  f+  45
+41+  f+  86
+
+42+  t+  p23n0i.jpg* p23n1i.jpg* p23n2i.jpg
+42+  t+  notp23n0i.jpg* notp23n1i.jpg* notp23n2i.jpg
+
+43+  f+  9
+43+  f+  71
+
+44+  t+  g15n0i.jpg* g15n2i.jpg* g83n0i.jpg
+44+  t+  g12n0i.jpg* g12n1i.jpg* g46n0i.jpg
+
+45+  f+  15
+45+  f+  83
+
+46+  f+  46
+46+  f+  12
+
+47+  t+  g17n1i.jpg* g78n0i.jpg* g85n1i.jpg
+47+  t+  g36n2i.jpg* g79n2i.jpg* g80n0i.jpg
+
+48+  f+  85
+48+  t+  g17n0i.jpg* g17n1i.jpg* g78n1i.jpg
+
+49+  f+  17
+49+  f+  78
+
+50+  f+  36* 46
+50+  t+  g20n0i.jpg* g57n1i.jpg* g77n0i.jpg
+
+51+  t+  g61n0i.jpg* g68n0i.jpg* g76n0i.jpg
+51+  t+  g7n1i.jpg* g19n2i.jpg* g64n0i.jpg
+
+52+  t+  g38n2i.jpg* g52n0i.jpg* g82n2i.jpg
+52+  t+  g31n1i.jpg* g63n1i.jpg* g81n2i.jpg
+
+53+  t+  g26n0i.jpg* g43n2i.jpg* g76n1i.jpg
+53+  t+  g38n1i.jpg* g80n0i.jpg* g82n1i.jpg
+
+54+  f+  2* 26
+54+  t+  g43n1i.jpg* g58n1i.jpg* g76n0i.jpg
+
+55+  t+  g43n0i.jpg* g58n0i.jpg* g58n2i.jpg
+55+  f+  76
+
+56+  f+  43
+56+  f+  58
+
+57+  t+  g52n0i.jpg* g61n0i.jpg* g61n1i.jpg
+57+  t+  g38n0i.jpg* g77n2i.jpg* g82n0i.jpg
+
+58+  f+  52
+58+  f+  61
+
+59+  f+  82
+59+  t+  p20n0i.jpg
+
+60+  f+  77
+60+  t+  g38n1i.jpg* g73n0i.jpg* g80n0i.jpg
+
+61+  f+  73* 32
+61+  f+  38* 80
+
+62+  t+  g5n1i.jpg* g50n2i.jpg* g63n0i.jpg
+62+  t+  g31n0i.jpg* g68n1i.jpg* g81n0i.jpg
+
+63+  f+  63
+63+  t+  g5n0i.jpg* g42n2i.jpg* g50n1i.jpg
+
+64+  f+  50
+64+  t+  g5n1i.jpg* g5n2i.jpg* g42n1i.jpg
+
+65+  f+  42
+65+  f+  5
+
+66+  f+  31
+66+  t+  g20n0i.jpg* g53n2i.jpg* g81n2i.jpg
+
+67+  f+  81
+67+  t+  g20n1i.jpg* g53n0i.jpg* g68n0i.jpg
+
+68+  f+  53
+68+  f+  68* 20
+
+69+  t+  g4n2i.jpg* g28n1i.jpg* g57n1i.jpg
+69+  t+  g3n1i.jpg* g39n0i.jpg* g40n0i.jpg
+
+70+  t+  g28n2i.jpg* g41n0i.jpg* g41n2i.jpg
+70+  t+  g7n0i.jpg* g47n0i.jpg* g60n2i.jpg
+
+71+  f+  28
+71+  f+  41
+
+72+  t+  g47n2i.jpg* g57n0i.jpg* g60n1i.jpg
+72+  t+  g7n1i.jpg* g19n1i.jpg* g59n0i.jpg
+
+73+  f+  60
+73+  t+  g47n1i.jpg* g57n1i.jpg* g57n2i.jpg
+
+74+  f+  57
+74+  f+  47
+
+75+  f+  19
+75+  t+  g4n1i.jpg* g7n2i.jpg* g59n2i.jpg
+
+76+  f+  7
+76+  t+  g4n0i.jpg* g4n2i.jpg* g59n1i.jpg
+
+77+  f+  59
+77+  f+  4
+
+78+  f+  40
+78+  t+  g11n1i.jpg* g37n2i.jpg* g85n2i.jpg
+
+79+  t+  g11n0i.jpg* g24n2i.jpg* g67n0i.jpg
+79+  t+  g27n0i.jpg* g39n1i.jpg* g64n0i.jpg
+
+80+  f+  24
+80+  t+  g11n2i.jpg* g36n2i.jpg* g51n1i.jpg
+
+81+  t+  g36n0i.jpg* g36n1i.jpg* g51n0i.jpg
+81+  t+  g11n0i.jpg* g67n0i.jpg* g67n1i.jpg
+
+82+  f+  36
+82+  f+  51
+
+83+  f+  67
+83+  f+  11
+
+84+  t+  g8n1i.jpg* g79n0i.jpg* g85n0i.jpg
+84+  t+  g1n2i.jpg* g6n2i.jpg* g64n2i.jpg
+
+85+  t+  g79n0i.jpg* g79n1i.jpg* g79n2i.jpg
+85+  t+  g8n2i.jpg* g85n1i.jpg* g85n2i.jpg
+
+86+  f+  79+  101
+86+  f+  79+  100
+
+87+  f+  85
+87+  f+  8
+
+88+  t+  g6n0i.jpg* g87n1i.jpg* g87n2i.jpg
+88+  t+  g3n0i.jpg* g37n1i.jpg* g64n1i.jpg
+
+89+  f+  87
+89+  f+  6
+
+90+  t+  g1n1i.jpg* g39n2i.jpg* g64n0i.jpg
+90+  t+  g3n1i.jpg* g27n0i.jpg* g37n0i.jpg
+
+91+  t+  g1n0i.jpg* g39n0i.jpg* g39n1i.jpg
+91+  f+  64
+
+92+  f+  1
+92+  f+  39
+
+93+  t+  g3n2i.jpg* g27n1i.jpg* g27n2i.jpg
+93+  f+  37
+
+94+  f+  27
+94+  f+  3

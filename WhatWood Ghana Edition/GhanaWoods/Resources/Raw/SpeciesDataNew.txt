@@ -1,0 +1,110 @@
+﻿1+  [Afzelia africana]+  Papao+  Afzelia+  1+  0+  
+2+  [Aidia genipiflora]+  Kwasoro+   +  2+  0+  
+3+  [Albizia adianthifolia]+  Pampena+  Albizia+  3+  0+  
+4+  [Albizia ferruginea]+  Awiemfosamina+  Albizia+  3+  0+  
+5+  [Albizia zygia]+  Okoro+  Albizia+  3+  0+  
+6+  [Amphimas pterocarpoides]+  Yaya+  Amphimas; Lati+  4+  0+  
+7+  [Alstonia boonei]+  Sinduro+  Alstonia; Emien+  5+  0+  
+8+  [Anopyxis klaineana]+  Kokote+  Anopyxis+  6+  0+  
+9+  [Anthocleista nobilis]+  Bontodee+  Anthocleista+  7+  0+  
+10+  [Antiaris toxicaria]+  Kyenkyen+  Chenchen+  8+  0+  
+11+  [Antrocaryon micraster]+  Aprokuma+  Antrocaryon+  9+  0+  
+12+  [Baphia nitida]+  Aboloobaa+  Baphia+  10+  0+  
+13+  [Berlinia grandiflora]+  Kwatafompaboa-nini+  Berlinia+  11+  0+  
+14+  [Blighia sapida]+  Akye+  Blighia+  12+  0+  
+15+  [Bombax brevicuspe]+  Akata, Onyinakoben+  Bombax+  13+  0+  
+16+  [Bombax buonopozense]+  Akonkodie+  Bombax+  13+  0+  
+17+  [Borassus aethiopum]+  Mmakube+  Borassus+  14+  2+  
+18+  [Canarium schweinfurthii]+  Bediwonua+  African Canarium+  15+  0+  
+19+  [Carapa procera]+  Kwakuo-bese+  Carapa+  16+  0+  
+20+  [Cedrela odorata]+  Cedrela+  Cedrela+  17+  0+  
+21+  [Ceiba pentandra]+  Onyina+  Ceiba+  18+  0+  
+22+  [Celtis adolfi-friderici]+  Esakosua+  Celtis; Ohia+  19+  0+  
+23+  [Celtis mildbraedii]+  Esa-fufuo+  Celtis+  19+  0+  
+24+  [Celtis zenkeri]+  Esa-kokoo+  Celtis+  19+  0+  
+25+  [Chrysophyllum albidum]+  Akasaa+  Chrysophyllum+  20+  0+  
+26+  [Chrysophyllum perpulchrum]+  Atabene+  Chrysophyllum+  20+  0+  
+27+  [Chrysophyllum subnudum]+  Akasaa+  Chrysophyllum+  20+  0+  
+28+  [Cleistopholis patens]+  Ngo-ne-nkyene+  Cleistopholis+  21+  0+  
+29+  [Cocos nucifera]+  Kube+  Palm+  22+  2+  
+30+  [Cola gigantea]+  Watapuo; Dodowa+  Colawood; Watapuo+  23+  0+  
+31+  [Copaifera salikounda]+  Entedua+  Salikounda/Etimoe+  24+  0+  
+32+  [Cordia millenii]+  Tweneboa+  African Cordia+  25+  0+  
+33+  [Corynanthe pachyceras]+  Gawo/Pampenama+  Corynanthe+  26+  0+  
+34+  [Cylicodiscus gabunensis]+  Denya+  Denya+  27+  0+  
+35+  [Cynometra ananta]+  Ananta+  Cynometra+  28+  0+  
+36+  [Daniellia ogea]+  Hyedua+  Hyedua+  29+  0+  
+37+  [Daniellia oliveri]+  Senya+  Senya+  29+  0+  
+38+  [Dialium aubrevillei]+  Duabankye+  Eyoum+  30+  0+  
+39+  [Diospyros kamerunensis]+  Omenewa+  African Ebony+  31+  0+  
+40+  [Diospyros viridicans]+  Atwea+   +  31+  0+  
+41+  [Discoglypremna caloneura]+  Fetefre+   +  32+  0+  
+42+  [Distemonanthus benthamianus]+  Ayan; Bonsamdua+  Ayan+  33+  0+  
+43+  [Duguetia staudtii]+  Kumdwie+   +  34+  0+  
+44+  [Entada abyssinica]+  Chienchienga+   +  35+  0+  
+45+  [Entandrophragma angolense]+  Edinam+  Edinam+  36+  0+  
+46+  [Entandrophragma candollei]+  Penkwa+  Candolei; Kosipo+  36+  0+  
+47+  [Entandrophragma cylindricum]+  Penkwa+  Sapele+  36+  0+  
+48+  [Entandrophragma utile]+  Efoobrodedwo+  Utile; Sipo; Sapele+  36+  0+  
+49+  [Erythrophleum suaveolens]+  Potrodom+  Potrodom+  37+  0+  
+50+  [Funtumia elastica]+  Funtum+   +  38+  0+  
+51+  [Gilbertiodendron limba]+  Tetekon+  Limbali; Tetekon+  39+  0+  
+52+  [Gmelina arborea]+  Gmelina+  Gmelina+  40+  0+  
+53+  [Guarea cedrata]+  Kwabohoro+  Scented Guare+  41+  0+  
+54+  [Hevea brasiliensis]+  Rubber wood+  Rubber wood+  42+  0+  
+55+  [Holarrhena floribunda]+  Sese+  Holarrhena; Sese+  43+  0+  
+56+  [Holoptelea grandis]+  Nakwa+   +  44+  0+  
+57+  [Hymenocardia acida]+  Atibidua+  Atibidua+  45+  0+  
+58+  [Khaya anthotheca]+  Krumben+  African Mahogany+  46+  0+  
+59+  [Khaya ivorensis]+  Dubini+  African Mahogany+  46+  0+  
+60+  [Khaya senegalensis]+  Kuntunkuri+  Dry Zone African Mahogany+  46+  0+  
+61+  [Klainedoxa gabonensis]+  Kroma+  Klainedoxa+  47+  0+  
+62+  [Lannea welwitschii]+  Kumanini+  Lannea; Kumanini+  48+  0+  
+63+  [Lonchocarpus sericeus]+  Papea, Oto oto+   +  49+  0+  
+64+  [Lophira alata]+  Kaku+  Ekki+  50+  0+  
+65+  [Lovoa trichilioides]+  Dubinibiri+  African Walnut+  51+  0+  
+66+  [Mammea africana]+  Bompagya+  Bompagya+  52+  0+  
+67+  [Manilkara obovata]+  Berekankum+  Manilkara+  53+  0+  
+68+  [Mansonia altissima]+  Oprono+  Mansonia+  54+  0+  
+69+  [Margaritaria discoidea]+  Papea+   +  55+  0+  
+70+  [Memecylon lateriflorum]+  Otwese+   +  56+  0+  
+71+  [Milicia excelsa]+  Odum+  Iroko; Odum+  57+  0+  
+72+  [Milicia regia]+   +   +  57+  0+  
+73+  [Mitragyna stipulosa]+  Subaha+  Subaha; Abura+  58+  0+  
+74+  [Morinda lucida]+  Konkroma+   +  59+  0+  
+75+  [Morus mesozygia]+  Wonton+  Wonton+  60+  0+  
+76+  [Nauclea diderrichii]+  Kusia+  Kusia; Opepe+  61+  0+  
+77+  [Nesogordonia papaverifera]+  Danta+  Danta+  62+  0+  
+78+  [Parinari excelsa]+  Afam+   +  63+  0+  
+79+  [Parkia bicolor]+  Asoma+  Parkia+  64+  0+  
+80+  [Parkia clappertoniana] (Syn: [P. biglobosa])+  Sorono+   +  64+  0+  
+81+  [Pericopsis elata]+  Kokrodua+  Afromosia+  65+  0+  
+82+  [Pinus elliottii]+   +   +  66+  1+  
+83+  [Pinus palustris]+   +   +  66+  1+  
+84+  [Pinus radiata]+   +   +  66+  1+  
+85+  [Pinus taeda]+   +   +  66+  1+  
+86+  [Pinus caribaea]+   +   +  66+  1+  
+87+  [Piptadeniastrum africanum]+  Dahoma+  Dahoma+  67+  0+  
+88+  [Pouteria altissima]+  Asanfena+  Asanfena+  68+  0+  
+89+  [Pterocarpus erinaceus]+  Krayie+  Rosewood+  69+  0+  
+90+  [Pterygota macrocarpa]+  Koto+   +  70+  0+  
+91+  [Pycnanthus angolensis]+  Otie+  Otie+  71+  0+  
+92+  [Quassia gabonensis]+  Fotie; Hotrohotro+  Hotrohotro+  72+  0+  
+93+  [Ricinodendron heudelotii]+  Wama+  Ricinodendron+  73+  0+  
+94+  [Scottellia klaineana]+  Tia-butuo+   +  74+  0+  
+95+  [Sterculia oblonga]+  Ohaa+  Ohaa+  75+  0+  
+96+  [Sterculia rhinopetala]+  Wawabima+  Wawabima+  75+  0+  
+97+  [Sterculia tragacantha]+  Sofo+   +  75+  0+  
+98+  [Strombosia glaucescens] (Syn: [S. pustulata])+  Afena+  Afena+  76+  0+  
+99+  [Tarrietia utilis]+  Nyankom+  Niangon+  77+  0+  
+100+  [Tectona grandis]+  Teak+  Teak+  78+  0+  
+101+  [Terminalia ivorensis]+  Emeri+  Emeri+  79+  0+  
+102+  [Terminalia superba]+  Ofram+  Ofram+  79+  0+  
+103+  [Tetrorchidium didymostemon]+  Kyiriwiah+   +  80+  0+  
+104+  [Tieghemella heckelii]+  Baku; Makore+  Makore; Baku+  81+  0+  
+105+  [Triplochiton scleroxylon]+  Wawa+  Wawa+  82+  0+  
+106+  [Turraeanthus africana]+  Apapaye+  Avodire+  83+  0+  
+107+  [Vernonia doniana]+  Awudiifo-kete+   +  84+  0+  
+108+  [Vitex micrantha]+  Abisa+   +  85+  0+  
+109+  [Voacanga africana]+  Obondai; Ofuruma+   +  86+  0+  
+110+  [Zanthoxylum gilletii]+  Okuo+   +  87+  0+  

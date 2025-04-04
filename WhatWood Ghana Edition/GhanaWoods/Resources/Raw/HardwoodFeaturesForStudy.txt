@@ -1,0 +1,55 @@
+Growth Ring Boundaries
+1+  distinct growth ring boundaries
+2+  indistinct or absent growth ring boundaries
+
+Porosity
+3+  ring-porous wood
+4+  semi-ring-porous wood
+5+  diffuse-porous wood
+
+Vessel Arrangement
+6+  vessels in tangential bands
+7+  vessels in diagonal and/or radial pattern
+8+  vessels in dendritic pattern
+
+Vessel Groupings
+9+  vessels exclusively solitary (90% or more)
+10+  vessels in radial multiples of 4 or more common
+11+  vessel clusters common
+
+//Solitary Vessel Outline
+//12+  solitary vessel outline angular
+
+Tyloses and Deposits in vessels
+56+  tyloses common
+58+  gums and other desposits in heartwood vessels
+
+Ray Width
+96+  narrow rays
+97+  medium to narrow rays
+98+  wide rays
+99+  very wide rays
+
+Ray Abundance
+114+  few rays
+115+  average ray abundance
+116+  numerous rays
+
+Apotracheal Axial Parenchyma
+76+  apotracheal diffuse parenchyma
+77+  apotracheal diffuse-in-aggregate parenchyma
+
+Paratracheal Axial Parenchyma
+78+  scanty paratracheal parenchyma
+79+  paratracheal vasicentric parenchyma
+80+  paratracheal aliform parenchyma
+81+  paratracheal lozenge-aliform parenchyma
+82+  paratracheal winged-aliform parenchyma
+83+  paratracheal confluent parenchyma
+84+  unilateral paratracheal parenchyma
+
+Banded Parenchyma
+85+  parenchyma in wide bands
+86+  parenchyma in narrow bands or lines
+87+  parenchyma in reticulate bands
+89+  marginal parenchyma

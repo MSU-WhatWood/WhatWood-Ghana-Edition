@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+		Microsoft ResX Schema
+
+		Version 1.3
+
+		The primary goals of this format is to allow a simple XML format 
+		that is mostly human readable. The generation and parsing of the 
+		various data types are done through the TypeConverter classes 
+		associated with the data types.
+
+		Example:
+
+		... ado.net/XML headers & schema ...
+		<resheader name="resmimetype">text/microsoft-resx</resheader>
+		<resheader name="version">1.3</resheader>
+		<resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+		<resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+		<data name="Name1">this is my long string</data>
+		<data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+		<data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+			[base64 mime encoded serialized .NET Framework object]
+		</data>
+		<data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+			[base64 mime encoded string representing a byte array form of the .NET Framework object]
+		</data>
+
+		There are any number of "resheader" rows that contain simple 
+		name/value pairs.
+
+		Each data row contains a name, and value. The row also contains a 
+		type or mimetype. Type corresponds to a .NET class that support 
+		text/value conversion through the TypeConverter architecture. 
+		Classes that don't support this are serialized and stored with the 
+		mimetype set.
+
+		The mimetype is used for serialized objects, and tells the 
+		ResXResourceReader how to depersist the object. This is currently not 
+		extensible. For a given mimetype the value must be set accordingly:
+
+		Note - application/x-microsoft.net.object.binary.base64 is the format 
+		that the ResXResourceWriter will generate, however the reader can 
+		read any of the formats listed below.
+
+		mimetype: application/x-microsoft.net.object.binary.base64
+		value   : The object must be serialized with 
+			: System.Serialization.Formatters.Binary.BinaryFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.soap.base64
+		value   : The object must be serialized with 
+			: System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+			: and then encoded with base64 encoding.
+
+		mimetype: application/x-microsoft.net.object.bytearray.base64
+		value   : The object must be serialized into a byte array 
+			: using a System.ComponentModel.TypeConverter
+			: and then encoded with base64 encoding.
+	-->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.3500.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chapter 8 Title" xml:space="preserve">
+    <value>Additional information about wood identification</value>
+  </data>
+  <data name="Ch8 I" xml:space="preserve">
+    <value>I</value>
+  </data>
+  <data name="Ch8T1" xml:space="preserve">
+    <value>8.1 The limits of wood identification</value>
+  </data>
+  <data name="Ch8S1" xml:space="preserve">
+    <value>n using the key and the species description pages, we are sure you noticed that identification of an exact species is rarely possible. This is due in part to the nature of the tools we are using in this manual. A hand lens is a powerful tool for wood identification, but it is not the most powerful method for identification based on anatomical characteristics. The greatest power in wood identification comes with the use of light microscopy in a laboratory with a scientifically valid reference collection (more about reference collections subsequently). Even in such a setting and with a microscope, species-level identification is still not possible by wood anatomy in most cases.
+     This limit, and it is a profound one, is not a result of a lack of effort on the part of wood anatomy researchers but rather reflects a basic biological truth; species are defined by flowers, fruits, leaves, and other external characteristics. Internal characteristics, such as wood anatomy, often do not vary from one species to another in the same genus, and so species cannot be separated using them. At the time of this writing, there were a number of efforts around the world to use other scientific techniques to identify exact species of wood, and in some cases, to match a specific log, board, or wood product to a stump left behind in the field. Most of these methods depend on either DNA technology or sophisticated techniques in chemistry or spectroscopy. To date, none of these techniques have proved universally reliable, are still costly and time-consuming, and are considered experimental. If and when the day arrives that a technological solution is available to ensure species identification of wood, it is not likely to be equally available in all countries and regions and will probably involve laboratory rather than field analysis. This means that, crude as they may seem, a hand lens and a sharp utility knife are likely to be the tools of choice for field identification of wood for the foreseeable future. You now have a solid foundation in this skill and can expect your skills, if you keep them sharp with practice and careful observation, to be relevant and useful for at least the next decade and possibly much longer.</value>
+  </data>
+  <data name="Ch8T2" xml:space="preserve">
+    <value>8.2 The need for scientific forensic expertise to combat illegal logging</value>
+  </data>
+  <data name="Ch8S2" xml:space="preserve">
+    <value>Field identification of wood and wood products is the first step in the process of ensuring legal trade and wise use of forest resources, but it is not the only step. Within each country, there is a critical need for one or more scientific centers that specialize in the forensic identification of wood. That is, places that have the resources to provide identifications that meet scientific standards sufficient to be used as evidence in a trial. If stopping a shipment is the first and necessary part of the process, by itself it is not sufficient to enforce the law. To make full use of your new skills, you must work with the appropriate authorities and government agencies in your country to ensure that all evidence needed for a seizure or prosecution is collected and stored correctly. It has been our experience that people at all levels of law enforcement are ready and willing to help you learn the procedures necessary to preserve and maintain evidence for a prosecution. Only by seeing law enforcement through to its conclusion will laws protecting forest resources (or those governing tariffs and taxes) make their best contributions to your forests and your society.</value>
+  </data>
+  <data name="Ch8T3" xml:space="preserve">
+    <value>8.3 Building a reference wood collection</value>
+  </data>
+  <data name="Ch8S3" xml:space="preserve">
+    <value>Ultimately, scientific wood identification depends on a valid set of known specimens with which unknown specimens can be compared. Most of the specimens shown in this manual were taken directly from institutional wood collections or were compared with specimens in those collections and deemed to be valid specimens. In Ghana, the wood collection of record is maintained by CSIR-FORIG in Kumasi. The need for a large scientific collection at the national level does not mean that you should not have your own small reference collection, maybe with 20 or 50 or 100 specimens representing the woods you see most commonly. Indeed, such a tool is of great value for field wood identification because no one has ever taken a photo that can compete with the information and detail you can observe with your hand lens. If a picture is a worth 1,000 words, a wood specimen is worth 100,000. If there were any cost-effective way to do it, each copy of this manual would include a set of reference specimens for all the species included in the key. Doing such a thing would have made impossible this entire project, so it is incumbent on you to build your own reference collection. Do this patiently, and use the manual to identify each specimen you wish to add to the collection to ensure that you are adding only correctly identified woods. With your new skills, the proper tools, this manual, and a growing reference collection, you will be able to perform your duties more confidently and rapidly.</value>
+  </data>
+  <data name="Ch8T4" xml:space="preserve">
+    <value>8.4 Additional wood identification information</value>
+  </data>
+  <data name="Ch8S4" xml:space="preserve">
+    <value>Many wood identification references are available in addition to this manual. Many of them are written for professional wood anatomists with specific emphasis on the microscopic identification of wood. These resources, though parts will exceed your current knowledge, may nonetheless prove useful in your work. Other references will be more appropriate for your use as you develop your skills in wood identification. It is important to keep in mind that not all references are of the same quality; some references, even well-known ones, have significant flaws or errors. Subsequently, we list a small selection of resources, as well as some candid comments about the reliability of the information in each.</value>
+  </data>
+  <data name="Ch8R1t" xml:space="preserve">
+    <value>100 Tropical African Timber Trees</value>
+  </data>
+  <data name="Ch8R1r" xml:space="preserve">
+    <value>&lt;Oteng-Amoako, A.A.&gt; 2006. [100 Tropical African Timber Trees From Ghana: Tree Description and Wood Identification with Notes on Distribution, Ecology, Silviculture, Ethnobotany and Wood Uses]. Kumasi, Ghana: Forest Research Institute of Ghana.</value>
+  </data>
+  <data name="Ch8R1d" xml:space="preserve">
+    <value>This book compiles wood identification features of selected species in Ghana to assist in their identification. It also includes tree identification features; notes on ecology, silviculture, and ethnobotany; and uses of the timber species.</value>
+  </data>
+  <data name="Ch8R2t" xml:space="preserve">
+    <value>InsideWood</value>
+  </data>
+  <data name="Ch8R2r" xml:space="preserve">
+    <value>&lt;InsideWood.&gt; 2004 onwards. Published on the internet. North Carolina State University, Raleigh, NC. (^https://insidewood.lib.ncsu.edu/search?0|)</value>
+  </data>
+  <data name="Ch8R2d" xml:space="preserve">
+    <value>This is a tremendously useful resource for wood identification in the laboratory, with a distinct emphasis on light microscopic identification. It incorporates a (usually) complete anatomical characterization of each species in the database, it allows rapid searching, and many of the species it covers are illustrated with a variety of photographs. Despite the emphasis on microscopy, many of the species in the database have one or more images similar in magnification to those in this manual. InsideWood is being updated, improved, and maintained regularly as of this writing, so it continues to improve as a resource.</value>
+  </data>
+  <data name="Ch8R3t" xml:space="preserve">
+    <value>Hoadley’s books</value>
+  </data>
+  <data name="Ch8R3r" xml:space="preserve">
+    <value>&lt;Hoadley, R.B.&gt; 2000. [Understanding Wood: A Craftsman’s Guide to Wood Technology.] 2nd Ed. Newtown, CT: Taunton Press.
+&lt;Hoadley, R.B.&gt; 1990. [Identifying Wood: Accurate Results with Simple Tools.] Newtown, CT: Taunton Press.</value>
+  </data>
+  <data name="Ch8R3d" xml:space="preserve">
+    <value>These books provide basic information on the structure, properties, and identification of woods, with a greater emphasis on North American species. The information is clearly presented with high-quality illustrations but emphasizes microscopic rather than hand lens observation of wood for identification.</value>
+  </data>
+  <data name="Ch8R4t" xml:space="preserve">
+    <value>Textbook of Wood Technology</value>
+  </data>
+  <data name="Ch8R4r" xml:space="preserve">
+    <value>&lt;Panshin, A.J.; deZeeuw, C.&gt; 1980. [Textbook of Wood Technology]. 4th ed. New York: McGraw-Hill.</value>
+  </data>
+  <data name="Ch8R4d" xml:space="preserve">
+    <value>This is a famous but out-of-print college textbook for understanding many aspects of wood technology, including detailed information on wood identification of North American species. The identification keys in the book are of questionable consistency and reliability. Despite the comparative weakness of the keys themselves, the earlier chapters reviewing the scientific literature in wood technology are useful and relatively up-to-date as of the year of publication.</value>
+  </data>
+  <data name="abrupt transition" xml:space="preserve">
+    <value>abrupt transition</value>
+  </data>
+  <data name="aliform parenchyma" xml:space="preserve">
+    <value>aliform parenchyma</value>
+  </data>
+  <data name="apotracheal parenchyma" xml:space="preserve">
+    <value>apotracheal parenchyma</value>
+  </data>
+  <data name="axial system" xml:space="preserve">
+    <value>axial system</value>
+  </data>
+  <data name="banded parenchyma" xml:space="preserve">
+    <value>banded parenchyma</value>
+  </data>
+  <data name="cells" xml:space="preserve">
+    <value>cells</value>
+  </data>
+  <data name="clusters (vessel arrangement)" xml:space="preserve">
+    <value>clusters (vessel arrangement)</value>
+  </data>
+  <data name="color" xml:space="preserve">
+    <value>color</value>
+  </data>
+  <data name="confluent parenchyma" xml:space="preserve">
+    <value>confluent parenchyma</value>
+  </data>
+  <data name="dendritic (vessel arrangement)" xml:space="preserve">
+    <value>dendritic (vessel arrangement)</value>
+  </data>
+  <data name="density" xml:space="preserve">
+    <value>density</value>
+  </data>
+  <data name="diffuse (parenchyma)" xml:space="preserve">
+    <value>diffuse (parenchyma)</value>
+  </data>
+  <data name="diffuse-porous" xml:space="preserve">
+    <value>diffuse-porous</value>
+  </data>
+  <data name="diffuse-in-aggregates parenchyma" xml:space="preserve">
+    <value>diffuse-in-aggregates parenchyma</value>
+  </data>
+  <data name="earlywood" xml:space="preserve">
+    <value>earlywood</value>
+  </data>
+  <data name="echelon (vessel arrangement)" xml:space="preserve">
+    <value>echelon (vessel arrangement)</value>
+  </data>
+  <data name="fibers" xml:space="preserve">
+    <value>fibers</value>
+  </data>
+  <data name="fluorescence" xml:space="preserve">
+    <value>fluorescence</value>
+  </data>
+  <data name="genus" xml:space="preserve">
+    <value>genus</value>
+  </data>
+  <data name="gradual transition" xml:space="preserve">
+    <value>gradual transition</value>
+  </data>
+  <data name="growth rings" xml:space="preserve">
+    <value>growth rings</value>
+  </data>
+  <data name="hardness" xml:space="preserve">
+    <value>hardness</value>
+  </data>
+  <data name="hardwood" xml:space="preserve">
+    <value>hardwood</value>
+  </data>
+  <data name="heartwood" xml:space="preserve">
+    <value>heartwood</value>
+  </data>
+  <data name="key" xml:space="preserve">
+    <value>key</value>
+  </data>
+  <data name="latewood" xml:space="preserve">
+    <value>latewood</value>
+  </data>
+  <data name="lozenge aliform parenchyma" xml:space="preserve">
+    <value>lozenge aliform parenchyma</value>
+  </data>
+  <data name="luster" xml:space="preserve">
+    <value>luster</value>
+  </data>
+  <data name="marginal parenchyma" xml:space="preserve">
+    <value>marginal parenchyma</value>
+  </data>
+  <data name="multiples (vessel)" xml:space="preserve">
+    <value>multiples (vessel)</value>
+  </data>
+  <data name="odor" xml:space="preserve">
+    <value>odor</value>
+  </data>
+  <data name="paratracheal" xml:space="preserve">
+    <value>paratracheal</value>
+  </data>
+  <data name="parenchyma (axial)" xml:space="preserve">
+    <value>parenchyma (axial)</value>
+  </data>
+  <data name="parenchyma (cell type)" xml:space="preserve">
+    <value>parenchyma (cell type)</value>
+  </data>
+  <data name="pith" xml:space="preserve">
+    <value>pith</value>
+  </data>
+  <data name="pores (see vessels)" xml:space="preserve">
+    <value>pores (see vessels)</value>
+  </data>
+  <data name="radial canals" xml:space="preserve">
+    <value>radial canals</value>
+  </data>
+  <data name="radial plane of section" xml:space="preserve">
+    <value>radial plane of section</value>
+  </data>
+  <data name="radial system" xml:space="preserve">
+    <value>radial system</value>
+  </data>
+  <data name="radially aligned (vessel arrangement)" xml:space="preserve">
+    <value>radially aligned (vessel arrangement)</value>
+  </data>
+  <data name="rays" xml:space="preserve">
+    <value>rays</value>
+  </data>
+  <data name="resin canals" xml:space="preserve">
+    <value>resin canals</value>
+  </data>
+  <data name="ring porous" xml:space="preserve">
+    <value>ring porous</value>
+  </data>
+  <data name="ripple marks (see storied rays)" xml:space="preserve">
+    <value>ripple marks (see storied rays)</value>
+  </data>
+  <data name="sapwood" xml:space="preserve">
+    <value>sapwood</value>
+  </data>
+  <data name="semi-ring-porous" xml:space="preserve">
+    <value>semi-ring-porous</value>
+  </data>
+  <data name="softwood" xml:space="preserve">
+    <value>softwood</value>
+  </data>
+  <data name="solitary (vessels)" xml:space="preserve">
+    <value>solitary (vessels)</value>
+  </data>
+  <data name="specific epithet" xml:space="preserve">
+    <value>specific epithet</value>
+  </data>
+  <data name="storied rays" xml:space="preserve">
+    <value>storied rays</value>
+  </data>
+  <data name="systems (tissue)" xml:space="preserve">
+    <value>systems (tissue)</value>
+  </data>
+  <data name="tangential plane of section" xml:space="preserve">
+    <value>tangential plane of section</value>
+  </data>
+  <data name="tracheids" xml:space="preserve">
+    <value>tracheids</value>
+  </data>
+  <data name="transverse plane of section" xml:space="preserve">
+    <value>transverse plane of section</value>
+  </data>
+  <data name="tyloses" xml:space="preserve">
+    <value>tyloses</value>
+  </data>
+  <data name="vasicentric parenchyma" xml:space="preserve">
+    <value>vasicentric parenchyma</value>
+  </data>
+  <data name="vessel arrangement" xml:space="preserve">
+    <value>vessel arrangement</value>
+  </data>
+  <data name="vessels (or pores)" xml:space="preserve">
+    <value>vessels (or pores)</value>
+  </data>
+  <data name="winged aliform parenchyma" xml:space="preserve">
+    <value>winged aliform parenchyma</value>
+  </data>
+  <data name="Chapter" xml:space="preserve">
+    <value>Chapter</value>
+  </data>
+  <data name="Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Figure" xml:space="preserve">
+    <value>Figure</value>
+  </data>
+  <data name="Ch." xml:space="preserve">
+    <value>Ch.</value>
+  </data>
+  <data name="Fig." xml:space="preserve">
+    <value>Fig.</value>
+  </data>
+  <data name="Term" xml:space="preserve">
+    <value>Term</value>
+  </data>
+  <data name="Ch8R2riOS" xml:space="preserve">
+    <value>&lt;InsideWood.&gt; 2004 onwards. Published on the internet. North Carolina State University, Raleigh, NC.</value>
+  </data>
+  <data name="Ch8R2riOS1" xml:space="preserve">
+    <value>(^https://insidewood.lib.ncsu.edu/search?0|)</value>
+  </data>
+  <data name="Local Name" xml:space="preserve">
+    <value>Local Name</value>
+  </data>
+  <data name="Trade Names" xml:space="preserve">
+    <value>Trade Names</value>
+  </data>
+  <data name="Scientific Names" xml:space="preserve">
+    <value>Scientific Names</value>
+  </data>
+</root>
