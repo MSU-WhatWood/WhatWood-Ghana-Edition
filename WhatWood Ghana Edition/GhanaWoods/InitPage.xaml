@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GhanaWoods.InitPage"
+             x:Name="InitializationPage"
+             Shell.TabBarIsVisible="False"
+             BackgroundColor="#5D1725"
+             NavigationPage.HasBackButton="False">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior IsVisible="False" IsEnabled="False"/>
+    </Shell.BackButtonBehavior>
+
+    <Grid x:Name="aGrid" RowDefinitions="*, Auto, *" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" BackgroundColor="{DynamicResource Primary}">
+        <Image x:Name="fplImage" Source="fplshield.jpg" Aspect="AspectFit" Margin="100,10,100,10" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="True"/>
+        <Border x:Name="creditsFrame" Grid.Row="1" BackgroundColor="{StaticResource White}" Stroke="{StaticResource White}" VerticalOptions="Center" HorizontalOptions="Center" 
+               Margin="15" StrokeShape="RoundRectangle 10,10,10,10">
+            <Label x:Name="aLabel" FontSize="Title" TextColor="{DynamicResource Black}" VerticalOptions="Center" HorizontalOptions="Center" VerticalTextAlignment="Center" HorizontalTextAlignment="Center"/>
+        </Border>
+        <Image x:Name="msuImage" Source="msulogo_white.png" Aspect="AspectFit" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center" IsVisible="True">
+            <Image.Margin>
+                <OnPlatform x:TypeArguments="Thickness" Default="40,15,40,15">
+                    <On Platform="iOS" Value="40,15,40,15"/>
+                    <On Platform="Android" Value="40,15,40,15"/>
+                </OnPlatform>
+            </Image.Margin>
+        </Image>
+    </Grid>
+</ContentPage>

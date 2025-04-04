@@ -1,0 +1,1454 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net9.0-ios;net9.0-maccatalyst;net9.0-android</TargetFrameworks>
+    <!--<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net9.0-windows10.0.19041.0</TargetFrameworks>-->
+    <!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
+    <!-- <TargetFrameworks>$(TargetFrameworks);net9.0-tizen</TargetFrameworks> -->
+    <!-- Note for MacCatalyst:
+		The default runtime is maccatalyst-x64, except in Release config, in which case the default is maccatalyst-x64;maccatalyst-arm64.
+		When specifying both architectures, use the plural <RuntimeIdentifiers> instead of the singular <RuntimeIdentifier>.
+		The Mac App Store will NOT accept apps with ONLY maccatalyst-arm64 indicated;
+		either BOTH runtimes must be indicated or ONLY macatalyst-x64. -->
+    <!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
+    <OutputType>Exe</OutputType>
+    <RootNamespace>GhanaWoods</RootNamespace>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <!-- Display name -->
+    <ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+    <!-- App Identifier -->
+    <ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+    <!-- Versions -->
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <ApplicationVersion>10</ApplicationVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'">12.2</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'maccatalyst'">13.1</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+    
+    <TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+    <DefaultLanguage>en</DefaultLanguage>
+    <NeutralLanguage>en</NeutralLanguage>
+  
+    <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.19041.0</SupportedOSPlatformVersion>
+
+	<MauiEnableXamlCBindingWithSourceCompilation>true</MauiEnableXamlCBindingWithSourceCompilation>
+
+	<RuntimeIdentifiers Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">android-arm;android-arm64;android-x86;android-x64</RuntimeIdentifiers>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-ios|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <MtouchLink>SdkOnly</MtouchLink>
+    <ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+    <MtouchUseLlvm>False</MtouchUseLlvm>
+    <BuildIpa>False</BuildIpa>
+    <ApplicationVersion>10</ApplicationVersion>
+    <ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-maccatalyst|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+    <ApplicationVersion>10</ApplicationVersion>
+    <ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-android|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+    <ApplicationVersion>10</ApplicationVersion>
+    <ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-windows10.0.19041.0|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+	<ApplicationVersion>10</ApplicationVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-ios|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+    <MtouchUseLlvm>True</MtouchUseLlvm>
+    <EnableSGenConc>True</EnableSGenConc>
+    <BuildIpa>False</BuildIpa>
+    <ApplicationVersion>10</ApplicationVersion>
+    <ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-maccatalyst|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+    <ApplicationVersion>10</ApplicationVersion>
+    <ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-android|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+    <ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+    <ApplicationVersion>10</ApplicationVersion>
+    <AndroidLinkTool>r8</AndroidLinkTool>
+    <EnableLLVM>False</EnableLLVM>
+    <ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-windows10.0.19041.0|AnyCPU'">
+    <ApplicationDisplayVersion>1.0.2</ApplicationDisplayVersion>
+	  <ApplicationVersion>10</ApplicationVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="$(TargetFramework.Contains('-ios'))">
+    <UseInterpreter>True</UseInterpreter>
+  </PropertyGroup>
+  <!--<PropertyGroup>
+		<EnableCodeSigning>true</EnableCodeSigning>
+		<CodesignRequireProvisioningProfile>true</CodesignRequireProvisioningProfile>
+		<DisableCodesignVerification>true</DisableCodesignVerification>
+	</PropertyGroup>-->
+  <PropertyGroup Condition="'$(TargetFramework)'=='net9.0-ios'">
+    <CodesignKey>iPhone Distribution: Kyatt Spessert (8ML6Y2VWN9)</CodesignKey>
+    <CodesignProvision>Ghana Woods App Store Connect</CodesignProvision>
+    <ProvisioningType>manual</ProvisioningType>
+  </PropertyGroup>
+  <!--<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net9.0-android35.0|AnyCPU'">
+    <ApplicationDisplayVersion>0.3.1</ApplicationDisplayVersion>
+	<ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+	<ApplicationVersion>4</ApplicationVersion>
+	<ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net9.0-android35.0|AnyCPU'">
+	<ApplicationDisplayVersion>0.3.1</ApplicationDisplayVersion>
+	<ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+	<ApplicationVersion>4</ApplicationVersion>
+	<AndroidLinkTool>r8</AndroidLinkTool>
+	<EnableLLVM>False</EnableLLVM>
+	<ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+  </PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android34.0|AnyCPU'">
+		<ApplicationDisplayVersion>0.3.1</ApplicationDisplayVersion>
+		<ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+		<ApplicationVersion>4</ApplicationVersion>
+		<ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-android34.0|AnyCPU'">
+		<ApplicationDisplayVersion>0.3.1</ApplicationDisplayVersion>
+		<ApplicationId>com.MSUwoodID.ghanawoods</ApplicationId>
+		<ApplicationVersion>4</ApplicationVersion>
+		<AndroidLinkTool>r8</AndroidLinkTool>
+		<EnableLLVM>False</EnableLLVM>
+		<ApplicationTitle>WhatWood? Ghana Ed.</ApplicationTitle>
+	</PropertyGroup>-->
+  <ItemGroup>
+    <!-- App Icon -->
+    <!--<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />-->
+    <!--<MauiIcon Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" Include="Resources\AppIcon\appiconfgios.png"/>-->
+    <MauiIcon Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'ios'" Include="Resources\AppIcon\appiconios.svg" ForegroundFile="Resources\AppIcon\appiconfgios.png" Color="#324762" />
+    <!--<MauiIcon Include="Resources\AppIcon\appiconios.svg">
+		  <Color>#324762</Color>
+		  <ForegroundFile>Resources\AppIcon\appiconfg.png</ForegroundFile>
+		</MauiIcon>-->
+    <!--<MauiIcon Include="Resources\AppIcon\appiconfg.png" />-->
+    <MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.png" Color="#324762" />
+    <!-- Splash Screen -->
+    <!--<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />-->
+    <!--<MauiSplashScreen Include="Resources\Splash\splash.png" Color="#324762" BaseSize="256,256" />-->
+    <MauiSplashScreen Include="Resources\Splash\splash.png" Color="#5D1725" BaseSize="256,256" />
+    <!-- Images -->
+    <MauiImage Include="Resources\Images\*" />
+    <MauiImage Update="Resources\Images\dotnet_bot.png" Resize="True" BaseSize="300,185" />
+    <!-- Custom Fonts -->
+    <MauiFont Include="Resources\Fonts\*" />
+    <!-- Raw Assets (also remove the "Resources\Raw" prefix) -->
+    <MauiAsset Include="Resources\Raw\**" LogicalName="%(RecursiveDir)%(Filename)%(Extension)" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Resources\AppIcon\appiconfg.png" />
+    <None Remove="Resources\AppIcon\appiconfgios.png" />
+    <None Remove="Resources\AppIcon\appiconios.svg" />
+    <None Remove="Resources\Images\Icons\arrow_left.svg" />
+    <None Remove="Resources\Images\Icons\arrow_left_black.png" />
+    <None Remove="Resources\Images\Icons\arrow_left_old.png" />
+    <None Remove="Resources\Images\Icons\arrow_right.svg" />
+    <None Remove="Resources\Images\Icons\arrow_right_black.png" />
+    <None Remove="Resources\Images\Icons\big_check_blk.svg" />
+    <None Remove="Resources\Images\Icons\check_black.svg" />
+    <None Remove="Resources\Images\Icons\check_circle_black.svg" />
+    <None Remove="Resources\Images\Icons\circle.svg" />
+    <None Remove="Resources\Images\Icons\example_images_id.svg" />
+    <None Remove="Resources\Images\Icons\example_images_id_nofill.svg" />
+    <None Remove="Resources\Images\Icons\more_images_id.svg" />
+    <None Remove="Resources\Images\Icons\show_images_id.svg" />
+    <None Remove="Resources\Images\Icons\show_images_id_black.svg" />
+    <None Remove="Resources\Images\Icons\show_images_id_black_nofill.svg" />
+    <None Remove="Resources\Images\Icons\tab_id.svg" />
+    <None Remove="Resources\Images\Icons\tab_learn.svg" />
+    <None Remove="Resources\Images\Icons\tab_reference.svg" />
+    <None Remove="Resources\Images\Icons\tab_settings.svg" />
+    <None Remove="Resources\Images\Icons\tab_study.svg" />
+    <None Remove="Resources\Images\Icons\x_blk.svg" />
+    <None Remove="Resources\Images\Icons\zoom_images_id.svg" />
+    <None Remove="Resources\Images\Icons\zoom_in_images_id.svg" />
+    <None Remove="Resources\Images\Icons\zoom_out_images_id.svg" />
+  </ItemGroup>
+  <ItemGroup>
+    <MauiImage Include="Resources\Images\Icons\arrow_left.svg" />
+    <MauiImage Include="Resources\Images\Icons\arrow_left_black.png" />
+    <MauiImage Include="Resources\Images\Icons\arrow_left_old.png" />
+    <MauiImage Include="Resources\Images\Icons\arrow_right.svg" />
+    <MauiImage Include="Resources\Images\Icons\arrow_right_black.png" />
+    <MauiImage Include="Resources\Images\Icons\big_check_blk.svg" />
+    <MauiImage Include="Resources\Images\Icons\check_black.svg" />
+    <MauiImage Include="Resources\Images\Icons\check_circle_black.svg" />
+    <MauiImage Include="Resources\Images\Icons\circle.svg" />
+    <MauiImage Include="Resources\Images\Icons\example_images_id.svg" />
+    <MauiImage Include="Resources\Images\Icons\example_images_id_nofill.svg" />
+    <MauiImage Include="Resources\Images\Icons\more_images_id.svg" />
+    <MauiImage Include="Resources\Images\Icons\show_images_id.svg" />
+    <MauiImage Include="Resources\Images\Icons\show_images_id_black.svg" />
+    <MauiImage Include="Resources\Images\Icons\show_images_id_black_nofill.svg" />
+    <MauiImage Include="Resources\Images\Icons\tab_id.svg" />
+    <MauiImage Include="Resources\Images\Icons\tab_learn.svg" />
+    <MauiImage Include="Resources\Images\Icons\tab_reference.svg" />
+    <MauiImage Include="Resources\Images\Icons\tab_settings.svg" />
+    <MauiImage Include="Resources\Images\Icons\tab_study.svg" />
+    <MauiImage Include="Resources\Images\Icons\x_blk.svg" />
+    <MauiImage Include="Resources\Images\Icons\zoom_images_id.svg" />
+    <MauiImage Include="Resources\Images\Icons\zoom_in_images_id.svg" />
+    <MauiImage Include="Resources\Images\Icons\zoom_out_images_id.svg" />
+    <!--<MauiImage Include="Resources\Images\Species Groups\g100n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g100n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g100n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g100n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g100n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g101n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g101n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g101n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g101n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g101n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g101n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g102n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g102n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g102n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g102n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g102n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g102n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g103n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g103n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g103n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g103n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g103n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n6i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n7i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g104n8i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g105n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g105n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g105n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g105n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g105n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g106n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g106n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g106n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g106n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g106n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g107n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g107n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g107n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g107n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g107n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g108n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g109n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g109n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g109n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g109n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g109n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g10n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g10n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g10n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g10n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g110n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g110n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g110n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g110n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g110n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g110n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g111n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g111n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g111n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g111n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g111n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g111n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g111n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g112n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g112n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g112n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g112n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g112n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g112n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g113n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g113n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g113n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g113n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g113n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g113n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g114n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g114n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g114n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g114n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g114n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g114n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g114n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g115n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g115n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g115n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g115n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g115n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n10i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n11i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n12i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n13i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n14i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n15i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n16i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n17i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n6i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n7i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n8i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g116n9i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g117n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g117n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g117n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g117n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g117n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g118n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g118n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g118n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g118n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g118n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g118n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g118n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g119n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g119n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g119n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g119n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g119n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g11n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g11n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g11n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g11n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g11n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g11n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g120n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g120n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g120n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g120n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g120n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g120n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n10i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n11i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n12i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n13i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n14i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n6i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n7i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n8i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g121n9i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g122n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g122n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g122n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g122n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g122n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g122n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g123n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g123n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g123n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g123n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g123n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g123n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g124n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g124n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g124n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g124n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g124n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g124n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g124n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g125n4s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g126n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g126n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g126n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g126n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g126n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g126n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g126n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g127n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g127n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g127n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g127n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g127n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g128n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g129n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g129n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g129n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g129n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g129n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g129n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g12n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g12n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g12n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g12n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g12n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g12n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g12n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g130n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g130n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g130n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g130n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g130n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g130n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g131n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g131n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g131n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g131n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g131n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g131n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g131n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g132n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g132n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g132n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g132n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g132n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g132n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g133n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g133n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g133n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g133n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g133n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g134n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g134n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g134n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g134n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g134n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g134n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g135n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g135n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g135n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g135n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g135n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g135n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g136n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g136n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g136n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g136n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g136n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g137n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g137n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g137n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g137n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g137n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g137n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n6i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g138n7i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g139n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g139n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g139n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g139n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g139n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g139n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g13n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g13n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g13n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g13n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g14n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g14n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g14n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g14n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g14n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g14n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g15n4s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g16n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g16n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g16n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g16n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g16n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g16n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g17n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g17n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g17n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g17n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g17n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g17n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g17n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g18n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g18n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g18n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g18n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g18n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g18n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g18n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g19n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g19n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g19n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g19n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g19n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g19n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g19n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g1n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g1n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g1n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g1n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g1n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g20n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g20n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g20n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g20n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g20n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g20n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g20n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g21n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g21n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g21n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g21n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g21n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g21n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g22n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g23n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g23n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g23n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g23n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g23n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g24n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g24n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g24n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g24n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g24n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g25n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g25n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g25n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g25n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g25n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g26n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g26n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g26n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g26n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g26n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g26n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g26n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g27n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g27n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g27n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g27n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g27n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g28n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g28n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g28n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g28n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g28n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g29n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g29n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g29n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g29n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g29n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g29n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g2n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g2n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g2n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g2n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g2n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g2n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g30n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g30n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g30n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g30n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g30n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g30n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g31n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g31n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g31n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g31n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g31n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g32n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g32n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g32n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g32n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g32n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g33n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g33n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g33n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g33n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g33n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g34n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g34n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g34n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g34n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g34n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g34n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g34n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g35n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g35n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g35n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g35n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g35n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g36n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g36n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g36n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g36n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g36n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g36n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g37n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g38n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g39n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g39n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g39n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g39n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g39n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g39n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g39n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g3n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g40n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g40n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g40n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g40n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g40n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g40n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g41n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g42n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g42n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g42n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g42n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g42n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g42n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g42n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g43n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g43n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g43n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g43n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g43n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g43n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g43n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g44n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g44n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g44n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g44n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g44n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g44n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g44n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g45n4s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g46n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g47n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g47n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g47n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g47n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g47n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g48n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g48n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g48n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g48n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g48n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g48n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g48n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g49n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g49n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g49n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g49n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g49n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g49n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g4n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g50n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g50n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g50n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g50n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g50n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g51n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g51n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g51n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g51n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g51n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g51n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g51n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g52n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g52n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g52n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g52n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g52n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g52n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g52n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g53n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g53n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g53n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g53n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g53n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g53n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g54n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g55n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g56n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g56n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g56n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g56n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g56n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g56n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g57n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g57n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g57n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g57n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g57n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g57n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g58n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g58n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g58n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g58n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g58n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g59n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g59n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g59n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g59n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g59n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g59n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g5n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g5n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g5n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g5n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g5n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g60n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g60n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g60n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g60n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g60n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g60n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g61n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g61n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g61n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g61n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g61n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g61n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g62n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g62n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g62n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g62n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g63n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g63n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g63n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g63n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g63n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g63n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g63n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g64n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g64n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g64n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g64n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g64n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g64n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g65n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g65n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g65n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g65n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g65n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g65n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g66n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g66n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g66n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g66n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g66n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g66n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g66n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g67n4s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g68n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g68n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g68n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g68n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g68n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g68n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g68n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g69n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g69n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g69n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g69n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g69n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g69n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g69n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g6n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g6n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g6n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g6n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g6n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g70n4s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n10i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n11i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n4s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n5s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n6i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n6s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n7i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n7s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n8i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n8s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g71n9i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g72n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g72n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g72n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g72n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g72n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g73n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g73n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g73n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g73n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g73n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g73n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g74n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g74n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g74n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g74n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g74n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g75n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g75n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g75n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g75n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g75n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g75n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g75n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g76n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g76n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g76n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g76n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g76n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g76n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g77n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g77n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g77n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g77n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g77n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g77n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g78n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g78n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g78n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g78n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g78n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g78n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n10i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n11i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n12i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n13i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n14i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n6i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n7i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n8i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g79n9i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g7n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g7n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g7n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g7n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g7n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g7n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g80n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g80n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g80n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g80n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g80n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g80n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g81n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g81n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g81n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g81n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g81n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g82n5i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g83n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g83n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g83n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g83n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g83n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g83n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g84n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g85n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g85n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g85n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g85n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g85n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g86n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g86n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g86n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g86n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g86n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g87n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g87n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g87n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g87n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g87n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g88n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g89n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g89n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g89n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g89n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g89n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g8n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g8n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g8n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g8n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g8n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g90n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g90n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g90n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g90n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g90n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g91n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g91n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g91n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g91n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g91n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g92n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g92n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g92n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g92n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g92n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g93n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g93n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g93n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g93n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g93n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g94n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g94n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g94n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g94n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g94n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g95n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g95n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g95n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g95n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g95n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g96n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g96n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g96n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g96n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g96n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g96n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g97n4i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n3s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g98n4s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g99n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g99n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g99n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g99n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g99n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g9n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g9n0s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g9n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g9n1s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g9n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g9n2s.jpg" />
+	  <MauiImage Include="Resources\Images\Species Groups\g9n3s.jpg" />-->
+  </ItemGroup>
+  <ItemGroup>
+	  <!--<MauiImage Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'" Include="Resources\Images\Species Groups Compressed\*" AssetPack="myassets" />-->
+	  <MauiImage Include="Resources\Images\Species Groups\*" />
+	  <MauiImage Include="Resources\Images\Study Images\*" />
+  </ItemGroup>
+  <!--<ItemGroup>
+	  <MauiImage Include="Resources\Images\Study Images\ch1image0i.jpeg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch1image1i.jpeg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch2image1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch2image2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch2image3i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch2image4i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch2image5i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch2image6i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch3image1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch3image2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch3image3i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image3i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image4i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image5i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image6i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image7i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch4image8i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image10i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image11i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image12i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image3i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image4i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image5i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image6i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image7i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image8i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch5image9i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch6image1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\ch6image2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\notp46n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\notp46n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\notp46n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p36n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p36n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p36n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p37n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p37n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p41n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p41n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p41n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p41n3i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p46n0i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p46n1i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\p46n2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studyacknowledgements.png" />
+	  <MauiImage Include="Resources\Images\Study Images\studych1i.png" />
+	  <MauiImage Include="Resources\Images\Study Images\studych2i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studych3i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studych4i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studych5i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studych6i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studych7i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studych8i.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studyindex.jpg" />
+	  <MauiImage Include="Resources\Images\Study Images\studypreface.png" />
+	</ItemGroup>-->
+  <ItemGroup>
+    <PackageReference Include="CommunityToolkit.Maui" Version="11.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="9.0.40" />
+    <PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="9.0.40" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="9.0.2" />
+  </ItemGroup>
+  <!--<ItemGroup>
+	  <ProjectReference Include="..\CAMCWoodsNETLibrary\CAMCWoodsNETLibrary.csproj" />
+	</ItemGroup>-->
+  <!--<ItemGroup>
+	  <ProjectReference Include="..\CAMCWoodsNETLibrary\CAMCWoodsNETLibrary.csproj" />
+	</ItemGroup>-->
+  <!--<ItemGroup>
+		<ProjectReference Include="..\CAMCWoodsLibrary\CAMCWoodsLibrary.csproj" />
+	</ItemGroup>-->
+  <ItemGroup>
+    <Compile Update="IDMainPageOld.xaml.cs">
+      <DependentUpon>IDMainPageOld.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ImageZoomModalPage.xaml.cs">
+      <DependentUpon>ImageZoomModalPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ReferenceGroupPageNew.xaml.cs">
+      <DependentUpon>ReferenceGroupPageNew.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="ReferenceMainPageNew.xaml.cs">
+      <DependentUpon>ReferenceMainPageNew.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\IDTabMain.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>IDTabMain.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\LearnTabMain.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>LearnTabMain.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\ReferenceTabGroup.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ReferenceTabGroup.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\ReferenceTabMain.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ReferenceTabMain.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\StudyTab.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>StudyTab.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\SettingsTab.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>SettingsTab.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\StudyTab1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>StudyTab1.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Resources\Languages\StudyTab1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>StudyTab1.resx</DependentUpon>
+    </Compile>
+    <Compile Update="StudyBackground.xaml.cs">
+      <DependentUpon>StudyBackground.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter1.xaml.cs">
+      <DependentUpon>StudyChapter1.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyIndex.xaml.cs">
+      <DependentUpon>StudyIndex.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter8.xaml.cs">
+      <DependentUpon>StudyChapter8.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter5.xaml.cs">
+      <DependentUpon>StudyChapter5.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter7.xaml.cs">
+      <DependentUpon>StudyChapter7.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter6.xaml.cs">
+      <DependentUpon>StudyChapter6.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter4.xaml.cs">
+      <DependentUpon>StudyChapter4.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter3.xaml.cs">
+      <DependentUpon>StudyChapter3.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="StudyChapter2.xaml.cs">
+      <DependentUpon>StudyChapter2.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Resources\Languages\IDTabMain.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>IDTabMain.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Languages\LearnTabMain.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LearnTabMain.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Languages\ReferenceTabGroup.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReferenceTabGroup.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Languages\ReferenceTabMain.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ReferenceTabMain.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Languages\StudyTab.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StudyTab.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Languages\SettingsTab.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SettingsTab.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Languages\StudyTab1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StudyTab1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Resources\Languages\StudyTab1.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>StudyTab1.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <MauiFont Update="Resources\Fonts\OpenSans-Bold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </MauiFont>
+    <MauiFont Update="Resources\Fonts\OpenSans-BoldItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </MauiFont>
+    <MauiFont Update="Resources\Fonts\OpenSans-Italic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </MauiFont>
+    <MauiFont Update="Resources\Fonts\OpenSans-Regular.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </MauiFont>
+    <MauiFont Update="Resources\Fonts\OpenSans-Semibold.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </MauiFont>
+    <MauiFont Update="Resources\Fonts\OpenSans-SemiBoldItalic.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </MauiFont>
+  </ItemGroup>
+  <ItemGroup>
+    <MauiXaml Update="Credits.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="IDMainPageNew.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="IDMainPageOld.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="ImageZoomModalPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="ImageZoomPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="InitPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="LearnFeaturesPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="LearnMainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="ReferenceGroupPageNew.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="ReferenceMainPageNew.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Styles\CBColors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Styles\NewCBColors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Styles\NewColors.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Resources\Styles\NewStyles.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="Settings.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyBackground.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter1.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyIndex.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter8.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter5.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter7.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter6.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter4.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter3.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyChapter2.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+    <MauiXaml Update="StudyMainPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </MauiXaml>
+  </ItemGroup>
+  <!--<ItemGroup>
+		<MauiImage Update="Resources\Images\Species Groups\*" AssetPack="myassets"/>
+		<MauiImage Update="Resources\Images\Study Images\*" AssetPack="myassets"/>
+	</ItemGroup>-->
+</Project>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GhanaWoods.StudyMainPage"
+             Title="StudyMainPage">
+    
+    <ScrollView x:Name="SV" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" HorizontalOptions="FillAndExpand" 
+                BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+        <Grid x:Name="aGrid" Padding="10,10,10,10" RowSpacing="10" HorizontalOptions="FillAndExpand" 
+              BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--<Border x:Name="frameP" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="0" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUGreyishTan}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameIP" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="imageP" Source="studypreface.png" Aspect="AspectFit">
+                            <Image.Margin>
+                                <OnPlatform x:TypeArguments="Thickness" Default="-25">
+                                    <On Platform="Android" Value="-25"/>
+                                    <On Platform="iOS" Value="-25"/>
+                                </OnPlatform>
+                            </Image.Margin>
+                        </Image>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="P" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="labelP" Grid.Row="0" Grid.Column="1" FontFamily="OpenSansBold" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>-->
+
+            <Border x:Name="frameA" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="1" Margin="0,-10,0,20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUGreyishTan}" Stroke="Black"> <!--BackgroundColor="#7a9463"-->
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameIA" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="imageA" Source="studyacknowledgements.png" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="B" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="labelA" Grid.Row="0" Grid.Column="1" FontFamily="OpenSansBold" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frame1" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="2" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black"> <!--BackgroundColor="#639465"-->
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI1" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image1" Source="studych1i.png" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="1" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label1" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frame2" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="3" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUBabyBlue}" Stroke="Black"> <!--BackgroundColor="#63947e"-->
+                <Grid x:Name="grid2" RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI2" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image2" Source="studych2i.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="2" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label2" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frame3" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="4" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI3" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image3" Source="studych3i.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="3" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label3" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frame4" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="5" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI4" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image4" Source="studych4i.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="4" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label4" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frame5" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="6" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUBabyBlue}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI5" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image5" Source="studych5i.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="5" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label5" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+            
+            <Border x:Name="frame6" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="7" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI6" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image6" Source="studych6i.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+               Text="6" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label6" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frame7" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="8" Margin="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI7" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image7" Source="studych7i.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+               Text="7" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label7" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frame8" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="9" Margin="0,0,0,20" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameI8" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="image8" Source="studych8i.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="8" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="label8" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameI" StrokeShape="RoundRectangle 10,10,10,10" Grid.Column="0" Grid.Row="10" Margin="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUGreyishTan}" Stroke="Black">
+                <Grid RowDefinitions="*" ColumnDefinitions="*, 5*" Padding="0,5,0,5" ColumnSpacing="10" VerticalOptions="Center">
+                    <Border x:Name="frameII" StrokeShape="Ellipse 50,50" Margin="0,0,0,0" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" >
+                        <Image x:Name="imageI" Source="studyindex.jpg" Aspect="AspectFit" Margin="-25"/>
+                    </Border>
+                    <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                           Text="I" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+                    <Label x:Name="labelI" Grid.Row="0" Grid.Column="1" FontFamily="OpenSansBold" VerticalOptions="Center" VerticalTextAlignment="Center" Margin="5,0,0,0"/>
+                </Grid>
+            </Border>
+        </Grid>
+    </ScrollView>
+</ContentPage>

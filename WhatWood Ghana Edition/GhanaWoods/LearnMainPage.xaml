@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:res="clr-namespace:GhanaWoods.Resources.Languages"
+             x:Class="GhanaWoods.LearnMainPage"
+             Title="">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="tbItem" Text="{x:Static res:LearnTabMain.Features}" Order="Primary" Clicked="ToolbarItem_Clicked"/>
+    </ContentPage.ToolbarItems>
+    
+    <Grid x:Name="GR" Padding="0" RowSpacing="0" ColumnSpacing="0" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" 
+      BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+        <Grid.RowDefinitions>
+            <RowDefinition x:Name="KeyRD" Height="*"/>
+            <RowDefinition x:Name="ImgRD" Height="Auto"/>
+            <RowDefinition x:Name="spaceRD" Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Label x:Name="QuestionLabel" Margin="10,30,10,30" Grid.Row="0" Grid.Column="0" VerticalOptions="CenterAndExpand" VerticalTextAlignment="Center" 
+               HorizontalOptions="Fill" HorizontalTextAlignment="Center" TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"/>
+
+        <Grid x:Name="iGRID" Padding="0" Margin="0,0,0,0" Grid.Row="1" RowSpacing="0" ColumnSpacing="0" HorizontalOptions="FillAndExpand" VerticalOptions="Fill"
+              BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBGold}, Dark={DynamicResource TriadicRedDarkBGold}}">
+            <Grid.RowDefinitions>
+                <RowDefinition x:Name="iGRIDrd0" Height="*"/>
+                <RowDefinition x:Name="iGRIDrd1" Height="*"/>
+                <RowDefinition x:Name="iGRIDrd2" Height="44"/>
+                <RowDefinition x:Name="iGRIDrd3" Height="0"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="2"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--<Frame Margin="0" Padding="0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{StaticResource MSUGreyishTan}" BorderColor="Black" CornerRadius="0" />-->
+            <Border Margin="0" Padding="0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" BackgroundColor="{StaticResource MSUGreyishTan}" Stroke="Black" StrokeShape="RoundRectangle 0,0,0,0"/>
+            <Label x:Name="ImageLabel0" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Margin="3" HorizontalTextAlignment="Center" HorizontalOptions="Center"
+                   VerticalOptions="Center" VerticalTextAlignment="Center" />
+            <!--<Frame Margin="0" Padding="0" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{StaticResource MSUGreyishTan}" BorderColor="Black" CornerRadius="0" />-->
+            <Border Margin="0" Padding="0" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" BackgroundColor="{StaticResource MSUGreyishTan}" Stroke="Black" StrokeShape="RoundRectangle 0,0,0,0"/>
+            <Label x:Name="ImageLabel1" Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" Margin="3" HorizontalTextAlignment="Center" HorizontalOptions="Center"
+                   VerticalOptions="Center" VerticalTextAlignment="Center" />
+
+            <Image x:Name="Image0" Margin="0" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="1" Aspect="AspectFit"/>
+            <BoxView Grid.RowSpan="3" Grid.Row="0" Grid.Column="1" BackgroundColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill"/>
+            <Image x:Name="Image1" Margin="0" Grid.Row="1" Grid.Column="2" Grid.ColumnSpan="1" Aspect="AspectFit"/>
+
+
+            <Grid x:Name="iGrHeading" Padding="0" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="3" RowSpacing="0"
+                  RowDefinitions="44" ColumnDefinitions="*,*,*,*">
+                
+                <ImageButton x:Name="arrowLeft0" Grid.Column="0" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                BorderColor="Black" BorderWidth="2" Source="arrow_left_black.png" CornerRadius="0" Aspect="AspectFit"
+                HeightRequest="40" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="OnArrowLeft0Clicked"/>
+
+                <ImageButton x:Name="arrowRight0" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                BorderColor="Black" BorderWidth="2" Source="arrow_right_black.png" CornerRadius="0" Aspect="AspectFit"
+                HeightRequest="40" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="OnArrowRight0Clicked"/>
+
+                <ImageButton x:Name="arrowLeft1" Grid.Column="2" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                BorderColor="Black" BorderWidth="2" CornerRadius="0" Source="arrow_left_black.png" Aspect="AspectFit"
+                HeightRequest="40" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="OnArrowLeft1Clicked"/>
+
+                <ImageButton x:Name="arrowRight1" Grid.Column="3" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                BorderColor="Black" BorderWidth="2" Source="arrow_right_black.png" CornerRadius="0" Aspect="AspectFit"
+                HeightRequest="40" HorizontalOptions="Fill" VerticalOptions="Center" Clicked="OnArrowRight1Clicked"/>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="chooseGRID" Padding="0, 0, 0, 50" Margin="0,0,0,0" RowSpacing="0" RowDefinitions="110, 2" ColumnSpacing="0" ColumnDefinitions="*, 2,*" 
+              Grid.Row="2" Grid.Column="0" VerticalOptions="StartAndExpand" HorizontalOptions="Fill" 
+              BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+            
+            <Button x:Name="chooseSpecies0" Grid.Column="0" Grid.Row="0" BackgroundColor="{StaticResource MSUGold}"
+            BorderColor="Black" BorderWidth="2.5" CornerRadius="15" Text="Select" Clicked="OnButtonClicked"
+            Margin="30,20,30,20" HeightRequest="70" HorizontalOptions="Fill" VerticalOptions="Center"/>
+            
+            <BoxView Grid.Row="0" Grid.Column="1" BackgroundColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill"/>
+
+            <Button x:Name="chooseSpecies1" Grid.Column="2" Grid.Row="0" BackgroundColor="{StaticResource MSUGold}"
+            BorderColor="Black" BorderWidth="2.5" CornerRadius="15" Text="Select" Clicked="OnButtonClicked1"
+            Margin="30,20,30,20" HeightRequest="70" HorizontalOptions="Fill" VerticalOptions="Center"/>
+            
+            <BoxView Grid.Row="1" Grid.ColumnSpan="3" Grid.Column="0" BackgroundColor="Black" HorizontalOptions="Fill" VerticalOptions="Fill"/>
+        </Grid>
+
+    </Grid>
+</ContentPage>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:res="clr-namespace:GhanaWoods.Resources.Languages"
+             x:Class="GhanaWoods.ReferenceMainPageNew"
+             x:Name="ReferenceMainPageNewName"
+             Title="Reference Page">
+
+    <Grid x:Name="GR" RowDefinitions="Auto,*" RowSpacing="0" ColumnDefinitions="*" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand"
+          BackgroundColor="{AppThemeBinding Light={StaticResource TriadicRedLightBG}, Dark={StaticResource TriadicRedDarkBG}}">
+        
+
+        <Border x:Name="frameS2" StrokeShape="RoundRectangle 0,0,0,0" Grid.Row="0" Grid.Column="0" Margin="-10, -10, -10, -10" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+               BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}" 
+               Stroke="Transparent">
+            <SearchBar x:Name="SB" Margin="10,0,10,0"  Placeholder="{x:Static res:ReferenceTabMain.Search}" TextChanged="OnTextChanged" SearchButtonPressed="SB_SearchButtonPressed"
+                       BackgroundColor="{AppThemeBinding Light={StaticResource White}, Dark={StaticResource OffBlack}}" 
+                       TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}"
+                       CancelButtonColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}">
+                <SearchBar.Margin>
+                    <OnPlatform x:TypeArguments="Thickness" Default="10, 0, 10, 0">
+                    </OnPlatform>
+                </SearchBar.Margin>
+            </SearchBar>
+            <Border.Padding>
+                <OnPlatform x:TypeArguments="Thickness" Default="0,10,0,10">
+                    <On Platform="iOS" Value="0,10,0,0"/>
+                </OnPlatform>
+            </Border.Padding>
+        </Border>
+
+
+        <ScrollView x:Name="SV" Grid.Row="1" Grid.Column="0" Padding="0,0,0,0" HorizontalOptions="FillAndExpand" VerticalScrollBarVisibility="Always">
+            
+            <VerticalStackLayout x:Name="aVSL" HorizontalOptions="FillAndExpand" Padding="0, 5, 0, 10"/>
+            
+            <ScrollView.Margin>
+                <OnPlatform x:TypeArguments="Thickness" Default="0,10,0,0">
+                    <On Platform="Android" Value="0,10,0,0"/>
+                    <On Platform="iOS" Value="0,10,0,0"/>
+                </OnPlatform>
+            </ScrollView.Margin>
+        </ScrollView>
+    </Grid>
+</ContentPage>

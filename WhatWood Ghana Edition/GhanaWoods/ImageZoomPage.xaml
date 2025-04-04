@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:res="clr-namespace:GhanaWoods.Resources.Languages"
+             xmlns:local="clr-namespace:GhanaWoods.Resources.Helpers;assembly=GhanaWoods"
+             x:Class="GhanaWoods.ImageZoomPage"
+             Title="Zoom"
+             x:Name="ImageZoomPageName">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand, Source={x:Reference ImageZoomPageName}}" IconOverride="arrow_left.png"/>
+    </Shell.BackButtonBehavior>
+
+    <Grid x:Name="aGrid" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="#BF000000">
+        <local:PinchAndPanContainer>
+            <Grid VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" RowDefinitions="Auto, Auto, Auto" BackgroundColor="#BF000000">
+                <Image x:Name="Image0" Grid.Row="1" Grid.Column="0" Margin="0" Aspect="AspectFit"/>
+            </Grid>
+            <!--<Image x:Name="Image0" HorizontalOptions="Center" VerticalOptions="Center" Margin="0" Aspect="AspectFit"/>-->
+        </local:PinchAndPanContainer>
+    </Grid>
+</ContentPage>

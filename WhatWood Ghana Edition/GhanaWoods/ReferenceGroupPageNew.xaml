@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GhanaWoods.ReferenceGroupPageNew"
+             x:Name="ReferenceGroupPageNewName"
+             Title="ReferenceGroupPageNew">
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand, Source={x:Reference ReferenceGroupPageNewName}}" IconOverride="arrow_left.png"/>
+    </Shell.BackButtonBehavior>
+
+    <ScrollView x:Name="SV" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" HorizontalOptions="FillAndExpand" 
+                BackgroundColor="{AppThemeBinding Light={StaticResource TriadicRedLightBG}, Dark={StaticResource TriadicRedDarkBG}}">
+        <Grid x:Name="aGrid" Padding="10,10,10,10" RowSpacing="5" HorizontalOptions="FillAndExpand" 
+      BackgroundColor="{AppThemeBinding Light={StaticResource TriadicRedLightBG}, Dark={StaticResource TriadicRedDarkBG}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!--<Frame x:Name="frameS2" CornerRadius="0" Grid.Row="1" Grid.Column="0" Margin="-10,-15,-10,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                    BackgroundColor="{StaticResource White}" BorderColor="Transparent" Padding="10,10,10,10">
+                <Grid RowDefinitions="Auto, Auto" Padding="0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="label0" Grid.Row="0" Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                        HorizontalOptions="End" HorizontalTextAlignment="End"/>
+                    <Label x:Name="label1" Grid.Row="1" Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                        HorizontalOptions="Start" HorizontalTextAlignment="Start"/>
+                </Grid>
+            </Frame>-->
+
+            <Border x:Name="frameS2" StrokeShape="RoundRectangle 0,0,0,0" Grid.Row="1" Grid.Column="0" Margin="-10,-15,-10,0" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                   BackgroundColor="{StaticResource White}" Stroke="Transparent" Padding="10,10,10,10">
+                <Grid RowDefinitions="Auto, Auto" Padding="0" RowSpacing="5" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="label0" Grid.Row="0" Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                           HorizontalOptions="End" HorizontalTextAlignment="End"/>
+                    <Label x:Name="label1" Grid.Row="1" Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                           HorizontalOptions="Start" HorizontalTextAlignment="Start"/>
+                </Grid>
+            </Border>
+
+            <Grid x:Name="grid2" Padding="-5,5,-5,10" RowSpacing="0" ColumnSpacing="5" Grid.Row="2" Grid.Column="0" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="grid2rd0" Height="Auto"/>
+                    <RowDefinition x:Name="grid2rd1" Height="Auto"/>
+                    <RowDefinition x:Name="grid2rd2" Height="0"/>
+                    <RowDefinition x:Name="grid2rd3" Height="0"/>
+                    <RowDefinition x:Name="grid2rd4" Height="0"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="images0Label0" Grid.Row="0" Grid.Column="0" Margin="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images0Label1" Grid.Row="0" Grid.Column="1" Margin="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images0Label2" Grid.Row="0" Grid.Column="2" Margin="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images0Label3" Grid.Row="2" Grid.Column="0" Margin="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images0Label4" Grid.Row="2" Grid.Column="1" Margin="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images0Label5" Grid.Row="2" Grid.Column="2" Margin="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+
+                <Image x:Name="images0Image0" Margin="0" Grid.Row="1" Grid.Column="0" Aspect="AspectFit"/>
+                <Image x:Name="images0Image1" Margin="0" Grid.Row="1" Grid.Column="1" Aspect="AspectFit"/>
+                <Image x:Name="images0Image2" Margin="0" Grid.Row="1" Grid.Column="2" Aspect="AspectFit"/>
+                <Image x:Name="images0Image3" Margin="0" Grid.Row="3" Grid.Column="0" Aspect="AspectFit"/>
+                <Image x:Name="images0Image4" Margin="0" Grid.Row="3" Grid.Column="1" Aspect="AspectFit"/>
+                <Image x:Name="images0Image5" Margin="0" Grid.Row="3" Grid.Column="2" Aspect="AspectFit"/>
+
+                <Grid x:Name="images0NavGrid" Grid.Row="4" Grid.ColumnSpan="3" Grid.Column="0" RowDefinitions="50" ColumnDefinitions="*, *" Padding="5" IsVisible="False">
+                    <ImageButton x:Name="images0LeftNav" Grid.Column="0" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                                 BorderColor="Black" BorderWidth="2" Source="arrow_left_black.png" CornerRadius="0" Aspect="AspectFit"
+                                 HeightRequest="50" HorizontalOptions="End" VerticalOptions="Center" WidthRequest="100" Clicked="OnImages0LeftNavClicked"/>
+                    <ImageButton x:Name="images0RightNav" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                                 BorderColor="Black" BorderWidth="2" Source="arrow_right_black.png" CornerRadius="0" Aspect="AspectFit"
+                                 HeightRequest="50" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" Clicked="OnImages0RightNavClicked"/>
+                </Grid>
+            </Grid>
+
+            <Label x:Name="label3" Grid.Row="3" Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                   HorizontalOptions="Start" HorizontalTextAlignment="Start" FontFamily="OpenSansBold"/>
+
+            <Grid x:Name="grid4" Padding="0" RowSpacing="0" Grid.Row="4" Grid.Column="0" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="grid4rd0" Height="Auto"/>
+                    <RowDefinition x:Name="grid4rd1" Height="Auto"/>
+                    <RowDefinition x:Name="grid4rd2" Height="Auto"/>
+                    <RowDefinition x:Name="grid4rd3" Height="Auto"/>
+                    <RowDefinition x:Name="grid4rd4" Height="Auto"/>
+                    <RowDefinition x:Name="grid4rd5" Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="30"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="dotTransverse" Grid.Row="0" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
+                       HorizontalOptions="Start" VerticalOptions="Start"/>
+                <Label x:Name="labelTransverse" Grid.Row="0" Grid.Column="1" HorizontalOptions="Start" HorizontalTextAlignment="Start"
+                       FontFamily="OpenSansBold"/>
+                <Label x:Name="labelTransverseDesc" Grid.Row="1" Grid.Column="1" HorizontalOptions="Start" HorizontalTextAlignment="Start"
+                       VerticalOptions="Center" VerticalTextAlignment="Center"/>
+
+                <Label x:Name="dotTangential" Grid.Row="2" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
+                       HorizontalOptions="Start" VerticalOptions="Start"/>
+                <Label x:Name="labelTangential" Grid.Row="2" Grid.Column="1" HorizontalOptions="Start" HorizontalTextAlignment="Start"
+                       FontFamily="OpenSansBold"/>
+                <Label x:Name="labelTangentialDesc" Grid.Row="3" Grid.Column="1" Padding="0,0,0,5" HorizontalOptions="Start" HorizontalTextAlignment="Start"/>
+
+                <Label x:Name="dotOther" Grid.Row="4" Grid.Column="0" HorizontalTextAlignment="Start" VerticalTextAlignment="Center"
+                       HorizontalOptions="Start" VerticalOptions="Start"/>
+                <Label x:Name="labelOther" Grid.Row="4" Grid.Column="1" HorizontalOptions="Start" HorizontalTextAlignment="Start"
+                       FontFamily="OpenSansBold"/>
+                <Label x:Name="labelOtherDesc" Grid.Row="5" Grid.Column="1" Padding="0,0,0,5" HorizontalOptions="Start" HorizontalTextAlignment="Start"/>
+            </Grid>
+
+
+            <Label x:Name="label5" Grid.Row="5" Grid.Column="0" Padding="0,10,0,0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                   HorizontalOptions="Start" HorizontalTextAlignment="Start" FontFamily="OpenSansBold"/>
+            <Label x:Name="label6" Grid.Row="6" Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                   HorizontalOptions="Start" HorizontalTextAlignment="Start"/>
+
+            <Label x:Name="label7" Grid.Row="7" Grid.Column="0" Padding="0,10,0,0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                   HorizontalOptions="Start" HorizontalTextAlignment="Start" FontFamily="OpenSansBold"/>
+            <Label x:Name="label8" Grid.Row="8" Grid.Column="0" VerticalOptions="Start" VerticalTextAlignment="Start"
+                   HorizontalOptions="Start" HorizontalTextAlignment="Start" Margin="0,0,0,10"/>
+
+            <!--<Grid x:Name="grid9" Padding="-5,10,-5,10" RowSpacing="0" ColumnSpacing="5" Grid.Row="9" Grid.Column="0" HorizontalOptions="FillAndExpand">
+                <Grid.RowDefinitions>
+                    <RowDefinition x:Name="grid9rd0" Height="Auto"/>
+                    <RowDefinition x:Name="grid9rd1" Height="Auto"/>
+                    <RowDefinition x:Name="grid9rd2" Height="0"/>
+                    <RowDefinition x:Name="grid9rd3" Height="0"/>
+                    <RowDefinition x:Name="grid9rd4" Height="0"/>
+                    <RowDefinition x:Name="grid9rd5" Height="0"/>
+                    <RowDefinition x:Name="grid9rd6" Height="0"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Label x:Name="images1Label0" Grid.Row="0" Grid.Column="0" Padding="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images1Label1" Grid.Row="0" Grid.Column="1" Padding="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images1Label2" Grid.Row="2" Grid.Column="0" Padding="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images1Label3" Grid.Row="2" Grid.Column="1" Padding="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images1Label4" Grid.Row="4" Grid.Column="0" Padding="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+                <Label x:Name="images1Label5" Grid.Row="4" Grid.Column="1" Padding="5,0,5,0" VerticalTextAlignment="End" HorizontalOptions="Center" HorizontalTextAlignment="Center"/>
+
+                <Image x:Name="images1Image0" Margin="0" Grid.Row="1" Grid.Column="0" Aspect="AspectFit"/>
+                <Image x:Name="images1Image1" Margin="0" Grid.Row="1" Grid.Column="1" Aspect="AspectFit"/>
+                <Image x:Name="images1Image2" Margin="0" Grid.Row="3" Grid.Column="0" Aspect="AspectFit"/>
+                <Image x:Name="images1Image3" Margin="0" Grid.Row="3" Grid.Column="1" Aspect="AspectFit"/>
+                <Image x:Name="images1Image4" Margin="0" Grid.Row="5" Grid.Column="0" Aspect="AspectFit"/>
+                <Image x:Name="images1Image5" Margin="0" Grid.Row="5" Grid.Column="1" Aspect="AspectFit"/>
+
+                <Grid x:Name="images1NavGrid" Grid.Row="6" Grid.ColumnSpan="2" Grid.Column="0" RowDefinitions="50" ColumnDefinitions="*, *" Padding="5" IsVisible="False">
+                    <ImageButton x:Name="images1LeftNav" Grid.Column="0" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                                 BorderColor="Black" BorderWidth="2" Source="arrow_left_black.png" CornerRadius="0" Aspect="AspectFit"
+                                 HeightRequest="50" HorizontalOptions="End" VerticalOptions="Center" WidthRequest="100" Clicked="OnImages1LeftNavClicked"/>
+                    <ImageButton x:Name="images1RightNav" Grid.Column="1" Grid.Row="0" BackgroundColor="{StaticResource MSUYellow}"
+                                 BorderColor="Black" BorderWidth="2" Source="arrow_right_black.png" CornerRadius="0" Aspect="AspectFit"
+                                 HeightRequest="50" HorizontalOptions="Start" VerticalOptions="Center" WidthRequest="100" Clicked="OnImages1RightNavClicked"/>
+                </Grid>
+            </Grid>-->
+
+            <Editor x:Name="editor10" Grid.Row="9" Grid.Column="0" FontFamily="OpenSansRegular" HeightRequest="200"
+                    HorizontalTextAlignment="Start" VerticalTextAlignment="Start" HorizontalOptions="FillAndExpand" VerticalOptions="Start"
+                    TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource Black}}"/>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

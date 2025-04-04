@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="GhanaWoods.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GhanaWoods"
+    xmlns:res="clr-namespace:GhanaWoods.Resources.Languages"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.TabBarIsVisible="True"
+    Shell.PresentationMode="NotAnimated"
+    x:DataType="local:AppShell"
+    x:Name="ThisAppShell"
+    Title="GhanaWoods">
+
+    <TabBar>
+
+        <Tab Title="{x:Static res:SettingsTab.studyFC}" Icon="tab_study.png">
+            <ShellContent Title="{x:Static res:SettingsTab.studyFC}"
+            ContentTemplate="{DataTemplate local:StudyMainPage}"
+            Route="Study" />
+        </Tab>
+
+        <Tab Title="{x:Static res:SettingsTab.learnFC}" Icon="tab_learn.png">
+            <ShellContent Title="{x:Static res:SettingsTab.learnFC}"
+            ContentTemplate="{DataTemplate local:LearnMainPage}"
+            Route="Learn" />
+        </Tab>
+
+        <Tab Title="{x:Static res:SettingsTab.idC}" Icon="tab_id.png">
+            <ShellContent Title="{x:Static res:SettingsTab.idC}"
+            ContentTemplate="{DataTemplate local:IDMainPageNew}"
+            Route="ID" />
+        </Tab>
+
+        <Tab Title="{x:Static res:SettingsTab.referenceFC}" Icon="tab_reference.png">
+            <ShellContent Title="{x:Static res:SettingsTab.referenceFC}"
+            ContentTemplate="{DataTemplate local:ReferenceMainPageNew}"
+            Route="Reference" />
+        </Tab>
+
+        <Tab Title="{x:Static res:SettingsTab.settingsFC}" Icon="tab_settings.png">
+            <ShellContent Title="{x:Static res:SettingsTab.settingsFC}"
+            ContentTemplate="{DataTemplate local:Settings}"
+            Route="Settings" />
+        </Tab>
+
+    </TabBar>
+
+</Shell>

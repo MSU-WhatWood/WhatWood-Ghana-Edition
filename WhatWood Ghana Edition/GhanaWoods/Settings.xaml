@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="GhanaWoods.Settings"
+             x:Name="Settingsname"
+             Title="">
+
+    <ScrollView x:Name="SV" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" HorizontalOptions="FillAndExpand" 
+            BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+
+        <Grid x:Name="aGrid" Padding="20,10,20,20" RowSpacing="10" ColumnSpacing="20" HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition x:Name="CD0" Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            
+            <Border StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.RowSpan="7" Grid.Column="0" Grid.Row="0" Margin="-10,0,-10,-10" 
+       HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{DynamicResource PrimaryDark}" Stroke="{DynamicResource PrimaryDark}"/>
+
+            <Label x:Name="settingsLabel" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="0" HorizontalOptions="Center" Margin="0,30,0,15"
+                       HorizontalTextAlignment="Center" VerticalOptions="Center" FontFamily="OpenSansBold"/>
+
+            <Label x:Name="fsizeLabel" FontSize="{Binding FSize, Source={x:Reference Settingsname}}" Grid.Column="0" Grid.Row="1" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Slider x:Name="fsizeSlider" Grid.Column="1" Grid.Row="1" HorizontalOptions="Fill" VerticalOptions="Center" Maximum="24" Minimum="8" Margin="0,25,0,25" ValueChanged="OnSliderValueChanged"/>
+            
+            <Label x:Name="scrollLabel" FontSize="{Binding FSize, Source={x:Reference Settingsname}}" Grid.Column="0" Grid.Row="2" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <CheckBox x:Name="scrollCheckBox" Grid.Column="1" Grid.Row="2" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,15,0,15" CheckedChanged="OnCheckBoxCheckedChanged1"/>
+            
+            <Label x:Name="colorLabel" FontSize="{Binding FSize, Source={x:Reference Settingsname}}" Grid.Column="0" Grid.Row="3" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <CheckBox x:Name="colorCheckBox" Grid.Column="1" Grid.Row="3" HorizontalOptions="Center" VerticalOptions="Center" Margin="0,15,0,15" CheckedChanged="OnColorCheckBoxCheckedChanged"/>
+            
+            <Label x:Name="launchLabel" FontSize="{Binding FSize, Source={x:Reference Settingsname}}" Grid.Column="0" Grid.Row="4" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Picker x:Name="launchPicker" Grid.Column="1" Grid.Row="4" HorizontalOptions="Fill" VerticalOptions="Center" Margin="0,15,0,15" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" SelectedIndexChanged="OnPickerSelectedIndexChanged"/>
+            
+            <!--<Label x:Name="languageLabel" FontSize="{Binding FSize, Source={x:Reference Settingsname}}" Grid.Column="0" Grid.Row="5" HorizontalOptions="Start" VerticalOptions="Center"/>
+            <Picker x:Name="languagePicker" Grid.Column="1" Grid.Row="5" HorizontalOptions="Fill" VerticalOptions="Center" Margin="0,15,0,20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" SelectedIndexChanged="OnLanguagePickerSelectedIndexChanged"/>-->
+
+            <Button x:Name="btnCredits" FontSize="{Binding FSize, Source={x:Reference Settingsname}}" Grid.Row="6" Grid.ColumnSpan="2" Grid.Column="0" IsVisible="True" TextColor="White"
+                    BackgroundColor="SaddleBrown" HeightRequest="60" VerticalOptions="Center" HorizontalOptions="Center" WidthRequest="130" Clicked="OnCreditsButtonClicked"/>
+        </Grid>
+    </ScrollView>
+</ContentPage>

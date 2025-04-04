@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GhanaWoods.StudyChapter8"
+             x:Name="StudyChapter8Name"
+             Title="">
+    
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand, Source={x:Reference StudyChapter8Name}}" IconOverride="arrow_left.png"/>
+    </Shell.BackButtonBehavior>
+
+    <ScrollView x:Name="SV" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" HorizontalOptions="FillAndExpand" Scrolled="OnScrollViewScrolled" 
+                BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+        <Grid x:Name="aGrid" Padding="10,10,10,30" RowSpacing="10" HorizontalOptions="FillAndExpand" 
+              BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="0"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border x:Name="frameT" StrokeShape="Ellipse 50,50" Margin="5" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center">
+                <Image x:Name="imageT" Source="studych8i.jpg" Aspect="AspectFit" Margin="-25"/>
+            </Border>
+            <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                   Text="8" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+            <Label x:Name="labelT" Grid.Row="0" Grid.Column="1" Margin="10,10,10,10" VerticalOptions="Center" VerticalTextAlignment="Center" 
+                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" FontFamily="OpenSansSemibold"/>
+
+            <Border x:Name="frameS0" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="1" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Border x:Name="frameS1" StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="2" Grid.ColumnSpan="2" Grid.Column="0" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS1" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Border x:Name="frameS2" StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="3" Grid.ColumnSpan="2" Grid.Column="0" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS2" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Border x:Name="frameS3" StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="0" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS3" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <!--<Border x:Name="frameS4" StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="5" Grid.ColumnSpan="2" Grid.Column="0" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS4" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>-->
+
+            <Border x:Name="frameR1" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="6" Margin="0, -10, 0, 0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid x:Name="iosGrid" RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT1" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <!--<Label x:Name="labelT1c" Grid.Row="1" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>-->
+                    <Label x:Name="labelD1" Grid.Row="2" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameR2" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="7" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid x:Name="iosGrid1" RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT2" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelT2c" Grid.Row="1" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelD2" Grid.Row="2" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameR3" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="8" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid x:Name="iosGrid2" RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT3" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <!--<Label x:Name="labelT3c" Grid.Row="1" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>-->
+                    <Label x:Name="labelD3" Grid.Row="2" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameR4" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="9" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT4" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelD4" Grid.Row="1" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <!--<Border x:Name="frameR5" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="10" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT5" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelD5" Grid.Row="1" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameR6" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="11" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT6" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelD6" Grid.Row="1" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameR7" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="12" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="Auto, Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT7" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelD7" Grid.Row="1" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelT7r" Grid.Row="2" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameR8" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="13" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT8" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelD8" Grid.Row="1" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameR9" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="14" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Grid RowDefinitions="Auto, Auto" ColumnDefinitions="*" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Label x:Name="labelT9" Grid.Row="0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+                    <Label x:Name="labelD9" Grid.Row="1" Margin="20,0,2,0" FontFamily="OpenSansRegular"/>
+                </Grid>
+            </Border>
+
+            <Border x:Name="frameS5" StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="15" Grid.ColumnSpan="2" Grid.Column="0" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS5" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>-->
+        </Grid>
+    </ScrollView>
+</ContentPage>

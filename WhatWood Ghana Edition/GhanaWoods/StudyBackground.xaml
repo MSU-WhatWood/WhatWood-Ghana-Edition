@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GhanaWoods.StudyBackground"
+             x:Name="StudyBackgroundName"
+             Title="">
+    
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand, Source={x:Reference StudyBackgroundName}}" IconOverride="arrow_left.png"/>
+    </Shell.BackButtonBehavior>
+
+    <ScrollView x:Name="SV" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" HorizontalOptions="FillAndExpand" Scrolled="OnScrollViewScrolled" 
+                BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+        <Grid x:Name="aGrid" Padding="10,10,10,30" RowSpacing="10" HorizontalOptions="FillAndExpand" 
+              BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+            
+            <!--<Border x:Name="frameT" StrokeShape="Ellipse 50,50" Margin="5" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center" IsClippedToBounds="True">-->
+            <Border x:Name="frameT" StrokeShape="Ellipse 50,50" Margin="5" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center">
+                <Image x:Name="imageT" Source="studyacknowledgements.png" Aspect="AspectFit" Margin="-25"/>
+            </Border>            
+            <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                   Text="B" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+            <Label x:Name="labelT" Grid.Row="0" Grid.Column="1" Margin="10,10,10,10" VerticalOptions="Center" VerticalTextAlignment="Center" 
+                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" FontFamily="OpenSansSemibold"/>
+
+            <Border x:Name="frameS0" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="1" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Border x:Name="frameS1" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="2" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS1" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Border x:Name="frameS2" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="3" Margin="0" 
+                    HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS2" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Border x:Name="frameS3" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="4" Margin="0" 
+                    HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS3" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+        </Grid>
+    </ScrollView>
+</ContentPage>

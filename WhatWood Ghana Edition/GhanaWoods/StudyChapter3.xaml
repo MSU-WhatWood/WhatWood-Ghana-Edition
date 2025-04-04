@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GhanaWoods.StudyChapter3"
+             x:Name="StudyChapter3Name"
+             Title="">
+    
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior Command="{Binding BackCommand, Source={x:Reference StudyChapter3Name}}" IconOverride="arrow_left.png"/>
+    </Shell.BackButtonBehavior>
+
+    <ScrollView x:Name="SV" VerticalScrollBarVisibility="Never" HorizontalScrollBarVisibility="Never" HorizontalOptions="FillAndExpand" Scrolled="OnScrollViewScrolled" 
+                BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+        <Grid x:Name="aGrid" Padding="10,10,10,30" RowSpacing="10" HorizontalOptions="FillAndExpand" 
+              BackgroundColor="{AppThemeBinding Light={DynamicResource TriadicRedLightBG}, Dark={DynamicResource TriadicRedDarkBG}}">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="5*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border x:Name="frameT" StrokeShape="Ellipse 50,50" Margin="5" Grid.Row="0" Grid.Column="0" HorizontalOptions="Fill" VerticalOptions="Center">
+                <Image x:Name="imageT" Source="studych3i.jpg" Aspect="AspectFit" Margin="-25"/>
+            </Border>
+            <Label Grid.Row="0" Grid.Column="0" VerticalOptions="Center" VerticalTextAlignment="Center" HorizontalOptions="Center" HorizontalTextAlignment="Center"
+                   Text="3" TextColor="White" FontSize="Large" FontFamily="OpenSansBold"/>
+            <Label x:Name="labelT" Grid.Row="0" Grid.Column="1" Margin="10,10,10,10" VerticalOptions="Center" VerticalTextAlignment="Center" 
+                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" FontFamily="OpenSansSemibold"/>
+
+            <Border x:Name="frameS0" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="1" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS0" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Image x:Name="image1" Source="ch3image1i.jpg" Margin="50,10,50,0"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Label x:Name="caption1" Margin="10,0,10,10" Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="2" 
+                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" FontFamily="OpenSansRegular"/>
+
+            <Border x:Name="frameS1" StrokeShape="RoundRectangle 10,10,10,10" Grid.ColumnSpan="2" Grid.Column="0" Grid.Row="4" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS1" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>
+
+            <Image x:Name="image2" Source="ch3image2i.jpg" Margin="0,10,0,0"  Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Label x:Name="caption2" Margin="10,0,10,10" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" 
+                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" FontFamily="OpenSansRegular"/>
+
+            <Border x:Name="frameS2" StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="7" Grid.ColumnSpan="2" Grid.Column="0" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS2" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>               
+            </Border>
+
+            <Image x:Name="image3" Source="ch3image3i.jpg" Margin="0,10,0,0"  Grid.Row="8" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <Label x:Name="caption3" Margin="10,0,10,10" Grid.Row="9" Grid.Column="0" Grid.ColumnSpan="2" 
+                   TextColor="{AppThemeBinding Light={StaticResource Black}, Dark={StaticResource White}}" FontFamily="OpenSansRegular"/>
+
+            <Border x:Name="frameS3" StrokeShape="RoundRectangle 10,10,10,10" Grid.Row="10" Grid.ColumnSpan="2" Grid.Column="0" Margin="0" 
+                   HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" BackgroundColor="{StaticResource MSUTan}" Stroke="Black">
+                <Label x:Name="labelS3" Margin="5,0,2,0" FontFamily="OpenSansRegular"/>
+            </Border>            
+        </Grid>
+    </ScrollView>
+</ContentPage>
